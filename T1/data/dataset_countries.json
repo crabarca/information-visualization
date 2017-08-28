@@ -1,0 +1,5736 @@
+{
+  "Africa": [
+    {
+      "altSpellings": [
+        "AO",
+        "República de Angola",
+        "ʁɛpublika de an'ɡɔla"
+      ],
+      "area": 1246700,
+      "hdi": "0.533",
+      "demonym": "Angolan",
+      "gini": "36.6",
+      "latlng": [
+        -12.5,
+        18.5
+      ],
+      "capital": "Luanda",
+      "languages": {
+        "por": "Portuguese"
+      },
+      "currency": [
+        "AOA"
+      ],
+      "name": {
+        "native": {
+          "por": {
+            "common": "Angola",
+            "official": "República de Angola"
+          }
+        },
+        "common": "Angola",
+        "official": "Republic of Angola"
+      },
+      "landlocked": false,
+      "subregion": "Middle Africa"
+    },
+    {
+      "altSpellings": [
+        "BI",
+        "Republic of Burundi",
+        "Republika y'Uburundi",
+        "République du Burundi"
+      ],
+      "area": 27834,
+      "hdi": "0.404",
+      "demonym": "Burundian",
+      "gini": "30.6",
+      "latlng": [
+        -3.5,
+        30
+      ],
+      "capital": "Bujumbura",
+      "languages": {
+        "fra": "French",
+        "run": "Kirundi"
+      },
+      "currency": [
+        "BIF"
+      ],
+      "name": {
+        "native": {
+          "fra": {
+            "common": "Burundi",
+            "official": "République du Burundi"
+          },
+          "run": {
+            "common": "Uburundi",
+            "official": "Republika y'Uburundi "
+          }
+        },
+        "common": "Burundi",
+        "official": "Republic of Burundi"
+      },
+      "landlocked": true,
+      "subregion": "Eastern Africa"
+    },
+    {
+      "altSpellings": [
+        "BJ",
+        "Republic of Benin",
+        "République du Bénin"
+      ],
+      "area": 112622,
+      "hdi": "0.485",
+      "demonym": "Beninese",
+      "gini": "37.1",
+      "latlng": [
+        9.5,
+        2.25
+      ],
+      "capital": "Porto-Novo",
+      "languages": {
+        "fra": "French"
+      },
+      "currency": [
+        "XOF"
+      ],
+      "name": {
+        "native": {
+          "fra": {
+            "common": "Bénin",
+            "official": "République du Bénin"
+          }
+        },
+        "common": "Benin",
+        "official": "Republic of Benin"
+      },
+      "landlocked": false,
+      "subregion": "Western Africa"
+    },
+    {
+      "altSpellings": [
+        "BF"
+      ],
+      "area": 272967,
+      "hdi": "0.402",
+      "demonym": "Burkinabe",
+      "gini": "33.3",
+      "latlng": [
+        13,
+        -2
+      ],
+      "capital": "Ouagadougou",
+      "languages": {
+        "fra": "French"
+      },
+      "currency": [
+        "XOF"
+      ],
+      "name": {
+        "native": {
+          "fra": {
+            "common": "Burkina Faso",
+            "official": "République du Burkina"
+          }
+        },
+        "common": "Burkina Faso",
+        "official": "Burkina Faso"
+      },
+      "landlocked": true,
+      "subregion": "Western Africa"
+    },
+    {
+      "altSpellings": [
+        "BW",
+        "Republic of Botswana",
+        "Lefatshe la Botswana"
+      ],
+      "area": 582000,
+      "hdi": "0.698",
+      "demonym": "Motswana",
+      "gini": "36.2",
+      "latlng": [
+        -22,
+        24
+      ],
+      "capital": "Gaborone",
+      "languages": {
+        "tsn": "Tswana",
+        "eng": "English"
+      },
+      "currency": [
+        "BWP"
+      ],
+      "name": {
+        "native": {
+          "tsn": {
+            "common": "Botswana",
+            "official": "Lefatshe la Botswana"
+          },
+          "eng": {
+            "common": "Botswana",
+            "official": "Republic of Botswana"
+          }
+        },
+        "common": "Botswana",
+        "official": "Republic of Botswana"
+      },
+      "landlocked": true,
+      "subregion": "Southern Africa"
+    },
+    {
+      "altSpellings": [
+        "CF",
+        "Central African Republic",
+        "République centrafricaine"
+      ],
+      "area": 622984,
+      "hdi": "0.352",
+      "demonym": "Central African",
+      "gini": "43.1",
+      "latlng": [
+        7,
+        21
+      ],
+      "capital": "Bangui",
+      "languages": {
+        "sag": "Sango",
+        "fra": "French"
+      },
+      "currency": [
+        "XAF"
+      ],
+      "name": {
+        "native": {
+          "sag": {
+            "common": "Bêafrîka",
+            "official": "Ködörösêse tî Bêafrîka"
+          },
+          "fra": {
+            "common": "République centrafricaine",
+            "official": "République centrafricaine"
+          }
+        },
+        "common": "Central African Republic",
+        "official": "Central African Republic"
+      },
+      "landlocked": true,
+      "subregion": "Middle Africa"
+    },
+    {
+      "altSpellings": [
+        "CM",
+        "Republic of Cameroon",
+        "République du Cameroun"
+      ],
+      "area": 475442,
+      "hdi": "0.518",
+      "demonym": "Cameroonian",
+      "gini": "32.4",
+      "latlng": [
+        6,
+        12
+      ],
+      "capital": "Yaoundé",
+      "languages": {
+        "fra": "French",
+        "eng": "English"
+      },
+      "currency": [
+        "XAF"
+      ],
+      "name": {
+        "native": {
+          "fra": {
+            "common": "Cameroun",
+            "official": "République du Cameroun"
+          },
+          "eng": {
+            "common": "Cameroon",
+            "official": "Republic of Cameroon"
+          }
+        },
+        "common": "Cameroon",
+        "official": "Republic of Cameroon"
+      },
+      "landlocked": false,
+      "subregion": "Middle Africa"
+    },
+    {
+      "altSpellings": [
+        "KM",
+        "Union of the Comoros",
+        "Union des Comores",
+        "Udzima wa Komori",
+        "al-Ittiḥād al-Qumurī"
+      ],
+      "area": 1862,
+      "hdi": "0.498",
+      "demonym": "Comoran",
+      "gini": "44.8",
+      "latlng": [
+        -12.16666666,
+        44.25
+      ],
+      "capital": "Moroni",
+      "languages": {
+        "ara": "Arabic",
+        "zdj": "Comorian",
+        "fra": "French"
+      },
+      "currency": [
+        "KMF"
+      ],
+      "name": {
+        "native": {
+          "ara": {
+            "common": "القمر‎",
+            "official": "الاتحاد القمري"
+          },
+          "zdj": {
+            "common": "Komori",
+            "official": "Udzima wa Komori"
+          },
+          "fra": {
+            "common": "Comores",
+            "official": "Union des Comores"
+          }
+        },
+        "common": "Comoros",
+        "official": "Union of the Comoros"
+      },
+      "landlocked": false,
+      "subregion": "Eastern Africa"
+    },
+    {
+      "altSpellings": [
+        "DJ",
+        "Jabuuti",
+        "Gabuuti",
+        "Republic of Djibouti",
+        "République de Djibouti",
+        "Gabuutih Ummuuno",
+        "Jamhuuriyadda Jabuuti"
+      ],
+      "area": 23200,
+      "hdi": "0.473",
+      "demonym": "Djibouti",
+      "gini": "33.7",
+      "latlng": [
+        11.5,
+        43
+      ],
+      "capital": "Djibouti",
+      "languages": {
+        "ara": "Arabic",
+        "fra": "French"
+      },
+      "currency": [
+        "DJF"
+      ],
+      "name": {
+        "native": {
+          "ara": {
+            "common": "جيبوتي‎",
+            "official": "جمهورية جيبوتي"
+          },
+          "fra": {
+            "common": "Djibouti",
+            "official": "République de Djibouti"
+          }
+        },
+        "common": "Djibouti",
+        "official": "Republic of Djibouti"
+      },
+      "landlocked": false,
+      "subregion": "Eastern Africa"
+    },
+    {
+      "altSpellings": [
+        "EG",
+        "Arab Republic of Egypt"
+      ],
+      "area": 1002450,
+      "hdi": "0.691",
+      "demonym": "Egyptian",
+      "gini": "28.3",
+      "latlng": [
+        27,
+        30
+      ],
+      "capital": "Cairo",
+      "languages": {
+        "ara": "Arabic"
+      },
+      "currency": [
+        "EGP"
+      ],
+      "name": {
+        "native": {
+          "ara": {
+            "common": "مصر",
+            "official": "جمهورية مصر العربية"
+          }
+        },
+        "common": "Egypt",
+        "official": "Arab Republic of Egypt"
+      },
+      "landlocked": false,
+      "subregion": "Northern Africa"
+    },
+    {
+      "altSpellings": [
+        "ET",
+        "ʾĪtyōṗṗyā",
+        "Federal Democratic Republic of Ethiopia",
+        "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ"
+      ],
+      "area": 1104300,
+      "hdi": "0.448",
+      "demonym": "Ethiopian",
+      "gini": "25.5",
+      "latlng": [
+        8,
+        38
+      ],
+      "capital": "Addis Ababa",
+      "languages": {
+        "amh": "Amharic"
+      },
+      "currency": [
+        "ETB"
+      ],
+      "name": {
+        "native": {
+          "amh": {
+            "common": "ኢትዮጵያ",
+            "official": "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ"
+          }
+        },
+        "common": "Ethiopia",
+        "official": "Federal Democratic Republic of Ethiopia"
+      },
+      "landlocked": true,
+      "subregion": "Eastern Africa"
+    },
+    {
+      "altSpellings": [
+        "GA",
+        "Gabonese Republic",
+        "République Gabonaise"
+      ],
+      "area": 267668,
+      "hdi": "0.697",
+      "demonym": "Gabonese",
+      "gini": "23.8",
+      "latlng": [
+        -1,
+        11.75
+      ],
+      "capital": "Libreville",
+      "languages": {
+        "fra": "French"
+      },
+      "currency": [
+        "XAF"
+      ],
+      "name": {
+        "native": {
+          "fra": {
+            "common": "Gabon",
+            "official": "République gabonaise"
+          }
+        },
+        "common": "Gabon",
+        "official": "Gabonese Republic"
+      },
+      "landlocked": false,
+      "subregion": "Middle Africa"
+    },
+    {
+      "altSpellings": [
+        "GH"
+      ],
+      "area": 238533,
+      "hdi": "0.579",
+      "demonym": "Ghanaian",
+      "gini": "32.5",
+      "latlng": [
+        8,
+        -2
+      ],
+      "capital": "Accra",
+      "languages": {
+        "eng": "English"
+      },
+      "currency": [
+        "GHS"
+      ],
+      "name": {
+        "native": {
+          "eng": {
+            "common": "Ghana",
+            "official": "Republic of Ghana"
+          }
+        },
+        "common": "Ghana",
+        "official": "Republic of Ghana"
+      },
+      "landlocked": false,
+      "subregion": "Western Africa"
+    },
+    {
+      "altSpellings": [
+        "GN",
+        "Republic of Guinea",
+        "République de Guinée"
+      ],
+      "area": 245857,
+      "hdi": "0.592",
+      "demonym": "Guinean",
+      "gini": "39.1",
+      "latlng": [
+        11,
+        -10
+      ],
+      "capital": "Conakry",
+      "languages": {
+        "fra": "French"
+      },
+      "currency": [
+        "GNF"
+      ],
+      "name": {
+        "native": {
+          "fra": {
+            "common": "Guinée",
+            "official": "République de Guinée"
+          }
+        },
+        "common": "Guinea",
+        "official": "Republic of Guinea"
+      },
+      "landlocked": false,
+      "subregion": "Western Africa"
+    },
+    {
+      "altSpellings": [
+        "GN",
+        "Republic of Guinea",
+        "République de Guinée"
+      ],
+      "area": 245857,
+      "hdi": "0.592",
+      "demonym": "Guinean",
+      "gini": "39.1",
+      "latlng": [
+        11,
+        -10
+      ],
+      "capital": "Conakry",
+      "languages": {
+        "fra": "French"
+      },
+      "currency": [
+        "GNF"
+      ],
+      "name": {
+        "native": {
+          "fra": {
+            "common": "Guinée",
+            "official": "République de Guinée"
+          }
+        },
+        "common": "Guinea",
+        "official": "Republic of Guinea"
+      },
+      "landlocked": false,
+      "subregion": "Western Africa"
+    },
+    {
+      "altSpellings": [
+        "GM",
+        "Republic of the Gambia"
+      ],
+      "area": 10689,
+      "hdi": "0.452",
+      "demonym": "Gambian",
+      "gini": "38.8",
+      "latlng": [
+        13.46666666,
+        -16.56666666
+      ],
+      "capital": "Banjul",
+      "languages": {
+        "eng": "English"
+      },
+      "currency": [
+        "GMD"
+      ],
+      "name": {
+        "native": {
+          "eng": {
+            "common": "Gambia",
+            "official": "Republic of the Gambia"
+          }
+        },
+        "common": "Gambia",
+        "official": "Republic of the Gambia"
+      },
+      "landlocked": false,
+      "subregion": "Western Africa"
+    },
+    {
+      "altSpellings": [
+        "GW",
+        "Republic of Guinea-Bissau",
+        "República da Guiné-Bissau"
+      ],
+      "area": 36125,
+      "hdi": "0.424",
+      "demonym": "Guinea-Bissauan",
+      "gini": "39.1",
+      "latlng": [
+        12,
+        -15
+      ],
+      "capital": "Bissau",
+      "languages": {
+        "por": "Portuguese"
+      },
+      "currency": [
+        "XOF"
+      ],
+      "name": {
+        "native": {
+          "por": {
+            "common": "Guiné-Bissau",
+            "official": "República da Guiné-Bissau"
+          }
+        },
+        "common": "Guinea-Bissau",
+        "official": "Republic of Guinea-Bissau"
+      },
+      "landlocked": false,
+      "subregion": "Western Africa"
+    },
+    {
+      "altSpellings": [
+        "KE",
+        "Republic of Kenya",
+        "Jamhuri ya Kenya"
+      ],
+      "area": 580367,
+      "hdi": "0.555",
+      "demonym": "Kenyan",
+      "gini": "29.4",
+      "latlng": [
+        1,
+        38
+      ],
+      "capital": "Nairobi",
+      "languages": {
+        "eng": "English",
+        "swa": "Swahili"
+      },
+      "currency": [
+        "KES"
+      ],
+      "name": {
+        "native": {
+          "eng": {
+            "common": "Kenya",
+            "official": "Republic of Kenya"
+          },
+          "swa": {
+            "common": "Kenya",
+            "official": "Republic of Kenya"
+          }
+        },
+        "common": "Kenya",
+        "official": "Republic of Kenya"
+      },
+      "landlocked": false,
+      "subregion": "Eastern Africa"
+    },
+    {
+      "altSpellings": [
+        "LR",
+        "Republic of Liberia"
+      ],
+      "area": 111369,
+      "hdi": "0.427",
+      "demonym": "Liberian",
+      "gini": "32.9",
+      "latlng": [
+        6.5,
+        -9.5
+      ],
+      "capital": "Monrovia",
+      "languages": {
+        "eng": "English"
+      },
+      "currency": [
+        "LRD"
+      ],
+      "name": {
+        "native": {
+          "eng": {
+            "common": "Liberia",
+            "official": "Republic of Liberia"
+          }
+        },
+        "common": "Liberia",
+        "official": "Republic of Liberia"
+      },
+      "landlocked": false,
+      "subregion": "Western Africa"
+    },
+    {
+      "altSpellings": [
+        "LS",
+        "Kingdom of Lesotho",
+        "Muso oa Lesotho"
+      ],
+      "area": 30355,
+      "hdi": "0.497",
+      "demonym": "Mosotho",
+      "gini": "34.9",
+      "latlng": [
+        -29.5,
+        28.5
+      ],
+      "capital": "Maseru",
+      "languages": {
+        "sot": "Sotho",
+        "eng": "English"
+      },
+      "currency": [
+        "LSL",
+        "ZAR"
+      ],
+      "name": {
+        "native": {
+          "sot": {
+            "common": "Lesotho",
+            "official": "Kingdom of Lesotho"
+          },
+          "eng": {
+            "common": "Lesotho",
+            "official": "Kingdom of Lesotho"
+          }
+        },
+        "common": "Lesotho",
+        "official": "Kingdom of Lesotho"
+      },
+      "landlocked": true,
+      "subregion": "Southern Africa"
+    },
+    {
+      "altSpellings": [
+        "MA",
+        "Kingdom of Morocco",
+        "Al-Mamlakah al-Maġribiyah"
+      ],
+      "area": 446550,
+      "hdi": "0.647",
+      "demonym": "Moroccan",
+      "gini": "28.3",
+      "latlng": [
+        32,
+        -5
+      ],
+      "capital": "Rabat",
+      "languages": {
+        "ara": "Arabic",
+        "ber": "Berber"
+      },
+      "currency": [
+        "MAD"
+      ],
+      "name": {
+        "native": {
+          "ara": {
+            "common": "المغرب",
+            "official": "المملكة المغربية"
+          },
+          "ber": {
+            "common": "ⵍⵎⴰⵖⵔⵉⴱ",
+            "official": "ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ"
+          }
+        },
+        "common": "Morocco",
+        "official": "Kingdom of Morocco"
+      },
+      "landlocked": false,
+      "subregion": "Northern Africa"
+    },
+    {
+      "altSpellings": [
+        "MG",
+        "Republic of Madagascar",
+        "Repoblikan'i Madagasikara",
+        "République de Madagascar"
+      ],
+      "area": 587041,
+      "hdi": "0.512",
+      "demonym": "Malagasy",
+      "gini": "26.8",
+      "latlng": [
+        -20,
+        47
+      ],
+      "capital": "Antananarivo",
+      "languages": {
+        "fra": "French",
+        "mlg": "Malagasy"
+      },
+      "currency": [
+        "MGA"
+      ],
+      "name": {
+        "native": {
+          "fra": {
+            "common": "Madagascar",
+            "official": "République de Madagascar"
+          },
+          "mlg": {
+            "common": "Madagasikara",
+            "official": "Repoblikan'i Madagasikara"
+          }
+        },
+        "common": "Madagascar",
+        "official": "Republic of Madagascar"
+      },
+      "landlocked": false,
+      "subregion": "Eastern Africa"
+    },
+    {
+      "altSpellings": [
+        "ML",
+        "Republic of Mali",
+        "République du Mali"
+      ],
+      "area": 1240192,
+      "hdi": "0.442",
+      "demonym": "Malian",
+      "gini": "32.7",
+      "latlng": [
+        17,
+        -4
+      ],
+      "capital": "Bamako",
+      "languages": {
+        "fra": "French"
+      },
+      "currency": [
+        "XOF"
+      ],
+      "name": {
+        "native": {
+          "fra": {
+            "common": "Mali",
+            "official": "République du Mali"
+          }
+        },
+        "common": "Mali",
+        "official": "Republic of Mali"
+      },
+      "landlocked": true,
+      "subregion": "Western Africa"
+    },
+    {
+      "altSpellings": [
+        "MZ",
+        "Republic of Mozambique",
+        "República de Moçambique"
+      ],
+      "area": 801590,
+      "hdi": "0.418",
+      "demonym": "Mozambican",
+      "gini": "32.9",
+      "latlng": [
+        -18.25,
+        35
+      ],
+      "capital": "Maputo",
+      "languages": {
+        "por": "Portuguese"
+      },
+      "currency": [
+        "MZN"
+      ],
+      "name": {
+        "native": {
+          "por": {
+            "common": "Moçambique",
+            "official": "República de Moçambique"
+          }
+        },
+        "common": "Mozambique",
+        "official": "Republic of Mozambique"
+      },
+      "landlocked": false,
+      "subregion": "Eastern Africa"
+    },
+    {
+      "altSpellings": [
+        "MR",
+        "Islamic Republic of Mauritania",
+        "al-Jumhūriyyah al-ʾIslāmiyyah al-Mūrītāniyyah"
+      ],
+      "area": 1030700,
+      "hdi": "0.513",
+      "demonym": "Mauritanian",
+      "gini": "31.9",
+      "latlng": [
+        20,
+        -12
+      ],
+      "capital": "Nouakchott",
+      "languages": {
+        "ara": "Arabic"
+      },
+      "currency": [
+        "MRO"
+      ],
+      "name": {
+        "native": {
+          "ara": {
+            "common": "موريتانيا",
+            "official": "الجمهورية الإسلامية الموريتانية"
+          }
+        },
+        "common": "Mauritania",
+        "official": "Islamic Republic of Mauritania"
+      },
+      "landlocked": false,
+      "subregion": "Western Africa"
+    },
+    {
+      "altSpellings": [
+        "MU",
+        "Republic of Mauritius",
+        "République de Maurice"
+      ],
+      "area": 2040,
+      "hdi": "0.781",
+      "demonym": "Mauritian",
+      "gini": "14.3",
+      "latlng": [
+        -20.28333333,
+        57.55
+      ],
+      "capital": "Port Louis",
+      "languages": {
+        "fra": "French",
+        "eng": "English",
+        "mfe": "Mauritian Creole"
+      },
+      "currency": [
+        "MUR"
+      ],
+      "name": {
+        "native": {
+          "fra": {
+            "common": "Maurice",
+            "official": "République de Maurice"
+          },
+          "eng": {
+            "common": "Mauritius",
+            "official": "Republic of Mauritius"
+          },
+          "mfe": {
+            "common": "Moris",
+            "official": "Republik Moris"
+          }
+        },
+        "common": "Mauritius",
+        "official": "Republic of Mauritius"
+      },
+      "landlocked": false,
+      "subregion": "Eastern Africa"
+    },
+    {
+      "altSpellings": [
+        "MW",
+        "Republic of Malawi"
+      ],
+      "area": 118484,
+      "hdi": "0.476",
+      "demonym": "Malawian",
+      "gini": "31.2",
+      "latlng": [
+        -13.5,
+        34
+      ],
+      "capital": "Lilongwe",
+      "languages": {
+        "eng": "English",
+        "nya": "Chewa"
+      },
+      "currency": [
+        "MWK"
+      ],
+      "name": {
+        "native": {
+          "eng": {
+            "common": "Malawi",
+            "official": "Republic of Malawi"
+          },
+          "nya": {
+            "common": "Malaŵi",
+            "official": "Chalo cha Malawi, Dziko la Malaŵi"
+          }
+        },
+        "common": "Malawi",
+        "official": "Republic of Malawi"
+      },
+      "landlocked": true,
+      "subregion": "Eastern Africa"
+    },
+    {
+      "altSpellings": [
+        "NA",
+        "Namibië",
+        "Republic of Namibia"
+      ],
+      "area": 825615,
+      "hdi": "0.64",
+      "demonym": "Namibian",
+      "gini": "33.4",
+      "latlng": [
+        -22,
+        17
+      ],
+      "capital": "Windhoek",
+      "languages": {
+        "ndo": "Ndonga",
+        "loz": "Lozi",
+        "deu": "German",
+        "kwn": "Kwangali",
+        "her": "Herero",
+        "tsn": "Tswana",
+        "hgm": "Khoekhoe",
+        "afr": "Afrikaans",
+        "eng": "English"
+      },
+      "currency": [
+        "NAD",
+        "ZAR"
+      ],
+      "name": {
+        "native": {
+          "ndo": {
+            "common": "Namibia",
+            "official": "Republic of Namibia"
+          },
+          "loz": {
+            "common": "Namibia",
+            "official": "Republic of Namibia"
+          },
+          "deu": {
+            "common": "Namibia",
+            "official": "Republik Namibia"
+          },
+          "kwn": {
+            "common": "Namibia",
+            "official": "Republic of Namibia"
+          },
+          "her": {
+            "common": "Namibia",
+            "official": "Republic of Namibia"
+          },
+          "tsn": {
+            "common": "Namibia",
+            "official": "Lefatshe la Namibia"
+          },
+          "hgm": {
+            "common": "Namibia",
+            "official": "Republic of Namibia"
+          },
+          "afr": {
+            "common": "Namibië",
+            "official": "Republiek van Namibië"
+          },
+          "eng": {
+            "common": "Namibia",
+            "official": "Republic of Namibia"
+          }
+        },
+        "common": "Namibia",
+        "official": "Republic of Namibia"
+      },
+      "landlocked": false,
+      "subregion": "Southern Africa"
+    },
+    {
+      "altSpellings": [
+        "NE",
+        "Nijar"
+      ],
+      "area": 1267000,
+      "hdi": "0.353",
+      "demonym": "Nigerien",
+      "gini": "37.5",
+      "latlng": [
+        16,
+        8
+      ],
+      "capital": "Niamey",
+      "languages": {
+        "fra": "French"
+      },
+      "currency": [
+        "XOF"
+      ],
+      "name": {
+        "native": {
+          "fra": {
+            "common": "Niger",
+            "official": "République du Niger"
+          }
+        },
+        "common": "Niger",
+        "official": "Republic of Niger"
+      },
+      "landlocked": true,
+      "subregion": "Western Africa"
+    },
+    {
+      "altSpellings": [
+        "NE",
+        "Nijar"
+      ],
+      "area": 1267000,
+      "hdi": "0.353",
+      "demonym": "Nigerien",
+      "gini": "37.5",
+      "latlng": [
+        16,
+        8
+      ],
+      "capital": "Niamey",
+      "languages": {
+        "fra": "French"
+      },
+      "currency": [
+        "XOF"
+      ],
+      "name": {
+        "native": {
+          "fra": {
+            "common": "Niger",
+            "official": "République du Niger"
+          }
+        },
+        "common": "Niger",
+        "official": "Republic of Niger"
+      },
+      "landlocked": true,
+      "subregion": "Western Africa"
+    },
+    {
+      "altSpellings": [
+        "NG",
+        "Nijeriya",
+        "Naíjíríà",
+        "Federal Republic of Nigeria"
+      ],
+      "area": 923768,
+      "hdi": "0.527",
+      "demonym": "Nigerian",
+      "gini": "37.5",
+      "latlng": [
+        10,
+        8
+      ],
+      "capital": "Abuja",
+      "languages": {
+        "eng": "English"
+      },
+      "currency": [
+        "NGN"
+      ],
+      "name": {
+        "native": {
+          "eng": {
+            "common": "Nigeria",
+            "official": "Federal Republic of Nigeria"
+          }
+        },
+        "common": "Nigeria",
+        "official": "Federal Republic of Nigeria"
+      },
+      "landlocked": false,
+      "subregion": "Western Africa"
+    },
+    {
+      "altSpellings": [
+        "RW",
+        "Republic of Rwanda",
+        "Repubulika y'u Rwanda",
+        "République du Rwanda"
+      ],
+      "area": 26338,
+      "hdi": "0.498",
+      "demonym": "Rwandan",
+      "gini": "31.8",
+      "latlng": [
+        -2,
+        30
+      ],
+      "capital": "Kigali",
+      "languages": {
+        "kin": "Kinyarwanda",
+        "fra": "French",
+        "eng": "English"
+      },
+      "currency": [
+        "RWF"
+      ],
+      "name": {
+        "native": {
+          "kin": {
+            "common": "Rwanda",
+            "official": "Repubulika y'u Rwanda"
+          },
+          "fra": {
+            "common": "Rwanda",
+            "official": "République rwandaise"
+          },
+          "eng": {
+            "common": "Rwanda",
+            "official": "Republic of Rwanda"
+          }
+        },
+        "common": "Rwanda",
+        "official": "Republic of Rwanda"
+      },
+      "landlocked": true,
+      "subregion": "Eastern Africa"
+    },
+    {
+      "altSpellings": [
+        "SN",
+        "Republic of Senegal",
+        "République du Sénégal"
+      ],
+      "area": 196722,
+      "hdi": "0.494",
+      "demonym": "Senegalese",
+      "gini": "32.5",
+      "latlng": [
+        14,
+        -14
+      ],
+      "capital": "Dakar",
+      "languages": {
+        "fra": "French"
+      },
+      "currency": [
+        "XOF"
+      ],
+      "name": {
+        "native": {
+          "fra": {
+            "common": "Sénégal",
+            "official": "République du Sénégal"
+          }
+        },
+        "common": "Senegal",
+        "official": "Republic of Senegal"
+      },
+      "landlocked": false,
+      "subregion": "Western Africa"
+    },
+    {
+      "altSpellings": [
+        "SL",
+        "Republic of Sierra Leone"
+      ],
+      "area": 71740,
+      "hdi": "0.42",
+      "demonym": "Sierra Leonean",
+      "gini": "36.6",
+      "latlng": [
+        8.5,
+        -11.5
+      ],
+      "capital": "Freetown",
+      "languages": {
+        "eng": "English"
+      },
+      "currency": [
+        "SLL"
+      ],
+      "name": {
+        "native": {
+          "eng": {
+            "common": "Sierra Leone",
+            "official": "Republic of Sierra Leone"
+          }
+        },
+        "common": "Sierra Leone",
+        "official": "Republic of Sierra Leone"
+      },
+      "landlocked": false,
+      "subregion": "Western Africa"
+    },
+    {
+      "altSpellings": [
+        "SZ",
+        "weSwatini",
+        "Swatini",
+        "Ngwane",
+        "Kingdom of Swaziland",
+        "Umbuso waseSwatini"
+      ],
+      "area": 17364,
+      "hdi": "0.541",
+      "demonym": "Swazi",
+      "gini": "33.1",
+      "latlng": [
+        -26.5,
+        31.5
+      ],
+      "capital": "Lobamba",
+      "languages": {
+        "ssw": "Swazi",
+        "eng": "English"
+      },
+      "currency": [
+        "SZL"
+      ],
+      "name": {
+        "native": {
+          "ssw": {
+            "common": "Swaziland",
+            "official": "Kingdom of Swaziland"
+          },
+          "eng": {
+            "common": "Swaziland",
+            "official": "Kingdom of Swaziland"
+          }
+        },
+        "common": "Swaziland",
+        "official": "Kingdom of Swaziland"
+      },
+      "landlocked": true,
+      "subregion": "Southern Africa"
+    },
+    {
+      "altSpellings": [
+        "TD",
+        "Tchad",
+        "Republic of Chad",
+        "République du Tchad"
+      ],
+      "area": 1284000,
+      "hdi": "0.396",
+      "demonym": "Chadian",
+      "gini": "39.6",
+      "latlng": [
+        15,
+        19
+      ],
+      "capital": "N'Djamena",
+      "languages": {
+        "ara": "Arabic",
+        "fra": "French"
+      },
+      "currency": [
+        "XAF"
+      ],
+      "name": {
+        "native": {
+          "ara": {
+            "common": "تشاد‎",
+            "official": "جمهورية تشاد"
+          },
+          "fra": {
+            "common": "Tchad",
+            "official": "République du Tchad"
+          }
+        },
+        "common": "Chad",
+        "official": "Republic of Chad"
+      },
+      "landlocked": true,
+      "subregion": "Middle Africa"
+    },
+    {
+      "altSpellings": [
+        "TG",
+        "Togolese",
+        "Togolese Republic",
+        "République Togolaise"
+      ],
+      "area": 56785,
+      "hdi": "0.487",
+      "demonym": "Togolese",
+      "gini": "31.6",
+      "latlng": [
+        8,
+        1.16666666
+      ],
+      "capital": "Lomé",
+      "languages": {
+        "fra": "French"
+      },
+      "currency": [
+        "XOF"
+      ],
+      "name": {
+        "native": {
+          "fra": {
+            "common": "Togo",
+            "official": "République togolaise"
+          }
+        },
+        "common": "Togo",
+        "official": "Togolese Republic"
+      },
+      "landlocked": false,
+      "subregion": "Western Africa"
+    },
+    {
+      "altSpellings": [
+        "TN",
+        "Republic of Tunisia",
+        "al-Jumhūriyyah at-Tūnisiyyah"
+      ],
+      "area": 163610,
+      "hdi": "0.725",
+      "demonym": "Tunisian",
+      "gini": "21.9",
+      "latlng": [
+        34,
+        9
+      ],
+      "capital": "Tunis",
+      "languages": {
+        "ara": "Arabic"
+      },
+      "currency": [
+        "TND"
+      ],
+      "name": {
+        "native": {
+          "ara": {
+            "common": "تونس",
+            "official": "الجمهورية التونسية"
+          }
+        },
+        "common": "Tunisia",
+        "official": "Tunisian Republic"
+      },
+      "landlocked": false,
+      "subregion": "Northern Africa"
+    },
+    {
+      "altSpellings": [
+        "TZ",
+        "Tanzania, United Republic of",
+        "United Republic of Tanzania",
+        "Jamhuri ya Muungano wa Tanzania"
+      ],
+      "area": 945087,
+      "hdi": "0.531",
+      "demonym": "Tanzanian",
+      "gini": "25.4",
+      "latlng": [
+        -6,
+        35
+      ],
+      "capital": "Dodoma",
+      "languages": {
+        "eng": "English",
+        "swa": "Swahili"
+      },
+      "currency": [
+        "TZS"
+      ],
+      "name": {
+        "native": {
+          "eng": {
+            "common": "Tanzania",
+            "official": "United Republic of Tanzania"
+          },
+          "swa": {
+            "common": "Tanzania",
+            "official": "Jamhuri ya Muungano wa Tanzania"
+          }
+        },
+        "common": "Tanzania",
+        "official": "United Republic of Tanzania"
+      },
+      "landlocked": false,
+      "subregion": "Eastern Africa"
+    },
+    {
+      "altSpellings": [
+        "UG",
+        "Republic of Uganda",
+        "Jamhuri ya Uganda"
+      ],
+      "area": 241550,
+      "hdi": "0.493",
+      "demonym": "Ugandan",
+      "gini": "30.8",
+      "latlng": [
+        1,
+        32
+      ],
+      "capital": "Kampala",
+      "languages": {
+        "eng": "English",
+        "swa": "Swahili"
+      },
+      "currency": [
+        "UGX"
+      ],
+      "name": {
+        "native": {
+          "eng": {
+            "common": "Uganda",
+            "official": "Republic of Uganda"
+          },
+          "swa": {
+            "common": "Uganda",
+            "official": "Republic of Uganda"
+          }
+        },
+        "common": "Uganda",
+        "official": "Republic of Uganda"
+      },
+      "landlocked": true,
+      "subregion": "Eastern Africa"
+    },
+    {
+      "altSpellings": [
+        "ZA",
+        "RSA",
+        "Suid-Afrika",
+        "Republic of South Africa"
+      ],
+      "area": 1221037,
+      "hdi": "0.666",
+      "demonym": "South African",
+      "gini": "32",
+      "latlng": [
+        -29,
+        24
+      ],
+      "capital": "Pretoria",
+      "languages": {
+        "tso": "Tsonga",
+        "ssw": "Swazi",
+        "xho": "Xhosa",
+        "nso": "Northern Sotho",
+        "sot": "Southern Sotho",
+        "nbl": "Southern Ndebele",
+        "zul": "Zulu",
+        "afr": "Afrikaans",
+        "ven": "Venda",
+        "eng": "English",
+        "tsn": "Tswana"
+      },
+      "currency": [
+        "ZAR"
+      ],
+      "name": {
+        "native": {
+          "tso": {
+            "common": "Afrika Dzonga",
+            "official": "Riphabliki ra Afrika Dzonga"
+          },
+          "ssw": {
+            "common": "Ningizimu Afrika",
+            "official": "IRiphabhulikhi yeNingizimu Afrika"
+          },
+          "xho": {
+            "common": "Mzantsi Afrika",
+            "official": "IRiphabliki yaseMzantsi Afrika"
+          },
+          "nso": {
+            "common": "Afrika-Borwa",
+            "official": "Rephaboliki ya Afrika-Borwa "
+          },
+          "sot": {
+            "common": "Afrika Borwa",
+            "official": "Rephaboliki ya Afrika Borwa"
+          },
+          "nbl": {
+            "common": "Sewula Afrika",
+            "official": "IRiphabliki yeSewula Afrika"
+          },
+          "zul": {
+            "common": "Ningizimu Afrika",
+            "official": "IRiphabliki yaseNingizimu Afrika"
+          },
+          "afr": {
+            "common": "South Africa",
+            "official": "Republiek van Suid-Afrika"
+          },
+          "ven": {
+            "common": "Afurika Tshipembe",
+            "official": "Riphabuḽiki ya Afurika Tshipembe"
+          },
+          "eng": {
+            "common": "South Africa",
+            "official": "Republic of South Africa"
+          },
+          "tsn": {
+            "common": "Aforika Borwa",
+            "official": "Rephaboliki ya Aforika Borwa"
+          }
+        },
+        "common": "South Africa",
+        "official": "Republic of South Africa"
+      },
+      "landlocked": false,
+      "subregion": "Southern Africa"
+    },
+    {
+      "altSpellings": [
+        "ZM",
+        "Republic of Zambia"
+      ],
+      "area": 752612,
+      "hdi": "0.579",
+      "demonym": "Zambian",
+      "gini": "34.7",
+      "latlng": [
+        -15,
+        30
+      ],
+      "capital": "Lusaka",
+      "languages": {
+        "eng": "English"
+      },
+      "currency": [
+        "ZMW"
+      ],
+      "name": {
+        "native": {
+          "eng": {
+            "common": "Zambia",
+            "official": "Republic of Zambia"
+          }
+        },
+        "common": "Zambia",
+        "official": "Republic of Zambia"
+      },
+      "landlocked": true,
+      "subregion": "Eastern Africa"
+    },
+    {
+      "altSpellings": [
+        "ZW",
+        "Republic of Zimbabwe"
+      ],
+      "area": 390757,
+      "hdi": "0.516",
+      "demonym": "Zimbabwean",
+      "gini": "28.1",
+      "latlng": [
+        -20,
+        30
+      ],
+      "capital": "Harare",
+      "languages": {
+        "khi": "Khoisan",
+        "nde": "Northern Ndebele",
+        "xho": "Xhosa",
+        "nya": "Chewa",
+        "sot": "Sotho",
+        "tsn": "Tswana",
+        "ndc": "Ndau",
+        "tso": "Tsonga",
+        "bwg": "Chibarwe",
+        "ven": "Venda",
+        "zib": "Zimbabwean Sign Language",
+        "toi": "Tonga",
+        "sna": "Shona",
+        "eng": "English",
+        "kck": "Kalanga"
+      },
+      "currency": [
+        "ZWL"
+      ],
+      "name": {
+        "native": {
+          "khi": {
+            "common": "Zimbabwe",
+            "official": "Republic of Zimbabwe"
+          },
+          "nde": {
+            "common": "Zimbabwe",
+            "official": "Republic of Zimbabwe"
+          },
+          "xho": {
+            "common": "Zimbabwe",
+            "official": "Republic of Zimbabwe"
+          },
+          "nya": {
+            "common": "Zimbabwe",
+            "official": "Republic of Zimbabwe"
+          },
+          "sot": {
+            "common": "Zimbabwe",
+            "official": "Republic of Zimbabwe"
+          },
+          "tsn": {
+            "common": "Zimbabwe",
+            "official": "Republic of Zimbabwe"
+          },
+          "ndc": {
+            "common": "Zimbabwe",
+            "official": "Republic of Zimbabwe"
+          },
+          "tso": {
+            "common": "Zimbabwe",
+            "official": "Republic of Zimbabwe"
+          },
+          "bwg": {
+            "common": "Zimbabwe",
+            "official": "Republic of Zimbabwe"
+          },
+          "ven": {
+            "common": "Zimbabwe",
+            "official": "Republic of Zimbabwe"
+          },
+          "zib": {
+            "common": "Zimbabwe",
+            "official": "Republic of Zimbabwe"
+          },
+          "toi": {
+            "common": "Zimbabwe",
+            "official": "Republic of Zimbabwe"
+          },
+          "sna": {
+            "common": "Zimbabwe",
+            "official": "Republic of Zimbabwe"
+          },
+          "eng": {
+            "common": "Zimbabwe",
+            "official": "Republic of Zimbabwe"
+          },
+          "kck": {
+            "common": "Zimbabwe",
+            "official": "Republic of Zimbabwe"
+          }
+        },
+        "common": "Zimbabwe",
+        "official": "Republic of Zimbabwe"
+      },
+      "landlocked": true,
+      "subregion": "Eastern Africa"
+    }
+  ],
+  "Asia": [
+    {
+      "altSpellings": [
+        "AF",
+        "Afġānistān"
+      ],
+      "area": 652230,
+      "hdi": "0.479",
+      "demonym": "Afghan",
+      "gini": "30.4",
+      "latlng": [
+        33,
+        65
+      ],
+      "capital": "Kabul",
+      "languages": {
+        "tuk": "Turkmen",
+        "prs": "Dari",
+        "pus": "Pashto"
+      },
+      "currency": [
+        "AFN"
+      ],
+      "name": {
+        "native": {
+          "tuk": {
+            "common": "Owganystan",
+            "official": "Owganystan Yslam Respublikasy"
+          },
+          "prs": {
+            "common": "افغانستان",
+            "official": "جمهوری اسلامی افغانستان"
+          },
+          "pus": {
+            "common": "افغانستان",
+            "official": "د افغانستان اسلامي جمهوریت"
+          }
+        },
+        "common": "Afghanistan",
+        "official": "Islamic Republic of Afghanistan"
+      },
+      "landlocked": true,
+      "subregion": "Southern Asia"
+    },
+    {
+      "altSpellings": [
+        "AM",
+        "Hayastan",
+        "Republic of Armenia",
+        "Հայաստանի Հանրապետություն"
+      ],
+      "area": 29743,
+      "hdi": "0.743",
+      "demonym": "Armenian",
+      "gini": "9.2",
+      "latlng": [
+        40,
+        45
+      ],
+      "capital": "Yerevan",
+      "languages": {
+        "hye": "Armenian",
+        "rus": "Russian"
+      },
+      "currency": [
+        "AMD"
+      ],
+      "name": {
+        "native": {
+          "hye": {
+            "common": "Հայաստան",
+            "official": "Հայաստանի Հանրապետություն"
+          },
+          "rus": {
+            "common": "Армения",
+            "official": "Республика Армения"
+          }
+        },
+        "common": "Armenia",
+        "official": "Republic of Armenia"
+      },
+      "landlocked": true,
+      "subregion": "Western Asia"
+    },
+    {
+      "altSpellings": [
+        "AZ",
+        "Republic of Azerbaijan",
+        "Azərbaycan Respublikası"
+      ],
+      "area": 86600,
+      "hdi": "0.759",
+      "demonym": "Azerbaijani",
+      "gini": "12.9",
+      "latlng": [
+        40.5,
+        47.5
+      ],
+      "capital": "Baku",
+      "languages": {
+        "aze": "Azerbaijani",
+        "rus": "Russian"
+      },
+      "currency": [
+        "AZN"
+      ],
+      "name": {
+        "native": {
+          "aze": {
+            "common": "Azərbaycan",
+            "official": "Azərbaycan Respublikası"
+          },
+          "rus": {
+            "common": "Азербайджан",
+            "official": "Азербайджанская Республика"
+          }
+        },
+        "common": "Azerbaijan",
+        "official": "Republic of Azerbaijan"
+      },
+      "landlocked": true,
+      "subregion": "Western Asia"
+    },
+    {
+      "altSpellings": [
+        "BD",
+        "People's Republic of Bangladesh",
+        "Gônôprôjatôntri Bangladesh"
+      ],
+      "area": 147570,
+      "hdi": "0.579",
+      "demonym": "Bangladeshi",
+      "gini": "28.5",
+      "latlng": [
+        24,
+        90
+      ],
+      "capital": "Dhaka",
+      "languages": {
+        "ben": "Bengali"
+      },
+      "currency": [
+        "BDT"
+      ],
+      "name": {
+        "native": {
+          "ben": {
+            "common": "বাংলাদেশ",
+            "official": "বাংলাদেশ গণপ্রজাতন্ত্রী"
+          }
+        },
+        "common": "Bangladesh",
+        "official": "People's Republic of Bangladesh"
+      },
+      "landlocked": false,
+      "subregion": "Southern Asia"
+    },
+    {
+      "altSpellings": [
+        "BT",
+        "Kingdom of Bhutan"
+      ],
+      "area": 38394,
+      "hdi": "0.607",
+      "demonym": "Bhutanese",
+      "gini": "28.4",
+      "latlng": [
+        27.5,
+        90.5
+      ],
+      "capital": "Thimphu",
+      "languages": {
+        "dzo": "Dzongkha"
+      },
+      "currency": [
+        "BTN",
+        "INR"
+      ],
+      "name": {
+        "native": {
+          "dzo": {
+            "common": "འབྲུག་ཡུལ་",
+            "official": "འབྲུག་རྒྱལ་ཁབ་"
+          }
+        },
+        "common": "Bhutan",
+        "official": "Kingdom of Bhutan"
+      },
+      "landlocked": true,
+      "subregion": "Southern Asia"
+    },
+    {
+      "altSpellings": [
+        "CN",
+        "Zhōngguó",
+        "Zhongguo",
+        "Zhonghua",
+        "People's Republic of China",
+        "中华人民共和国",
+        "Zhōnghuá Rénmín Gònghéguó"
+      ],
+      "area": 9706961,
+      "hdi": "0.738",
+      "demonym": "Chinese",
+      "gini": "22.1",
+      "latlng": [
+        35,
+        105
+      ],
+      "capital": "Beijing",
+      "languages": {
+        "zho": "Chinese"
+      },
+      "currency": [
+        "CNY"
+      ],
+      "name": {
+        "native": {
+          "zho": {
+            "common": "中国",
+            "official": "中华人民共和国"
+          }
+        },
+        "common": "China",
+        "official": "People's Republic of China"
+      },
+      "landlocked": false,
+      "subregion": "Eastern Asia"
+    },
+    {
+      "altSpellings": [
+        "GE",
+        "Sakartvelo"
+      ],
+      "area": 69700,
+      "hdi": "0.769",
+      "demonym": "Georgian",
+      "gini": "12.2",
+      "latlng": [
+        42,
+        43.5
+      ],
+      "capital": "Tbilisi",
+      "languages": {
+        "kat": "Georgian"
+      },
+      "currency": [
+        "GEL"
+      ],
+      "name": {
+        "native": {
+          "kat": {
+            "common": "საქართველო",
+            "official": "საქართველო"
+          }
+        },
+        "common": "Georgia",
+        "official": "Georgia"
+      },
+      "landlocked": false,
+      "subregion": "Western Asia"
+    },
+    {
+      "altSpellings": [
+        "ID",
+        "Republic of Indonesia",
+        "Republik Indonesia"
+      ],
+      "area": 1904569,
+      "hdi": "0.689",
+      "demonym": "Indonesian",
+      "gini": "18.2",
+      "latlng": [
+        -5,
+        120
+      ],
+      "capital": "Jakarta",
+      "languages": {
+        "ind": "Indonesian"
+      },
+      "currency": [
+        "IDR"
+      ],
+      "name": {
+        "native": {
+          "ind": {
+            "common": "Indonesia",
+            "official": "Republik Indonesia"
+          }
+        },
+        "common": "Indonesia",
+        "official": "Republic of Indonesia"
+      },
+      "landlocked": false,
+      "subregion": "South-Eastern Asia"
+    },
+    {
+      "altSpellings": [
+        "IN",
+        "Bhārat",
+        "Republic of India",
+        "Bharat Ganrajya",
+        "இந்தியா"
+      ],
+      "area": 3287590,
+      "hdi": "0.624",
+      "demonym": "Indian",
+      "gini": "26.5",
+      "latlng": [
+        20,
+        77
+      ],
+      "capital": "New Delhi",
+      "languages": {
+        "tam": "Tamil",
+        "hin": "Hindi",
+        "eng": "English"
+      },
+      "currency": [
+        "INR"
+      ],
+      "name": {
+        "native": {
+          "tam": {
+            "common": "இந்தியா",
+            "official": "இந்தியக் குடியரசு"
+          },
+          "hin": {
+            "common": "भारत",
+            "official": "भारत गणराज्य"
+          },
+          "eng": {
+            "common": "India",
+            "official": "Republic of India"
+          }
+        },
+        "common": "India",
+        "official": "Republic of India"
+      },
+      "landlocked": false,
+      "subregion": "Southern Asia"
+    },
+    {
+      "altSpellings": [
+        "IR",
+        "Islamic Republic of Iran",
+        "Iran, Islamic Republic of",
+        "Jomhuri-ye Eslāmi-ye Irān"
+      ],
+      "area": 1648195,
+      "hdi": "0.774",
+      "demonym": "Iranian",
+      "gini": "31.5",
+      "latlng": [
+        32,
+        53
+      ],
+      "capital": "Tehran",
+      "languages": {
+        "fas": "Persian"
+      },
+      "currency": [
+        "IRR"
+      ],
+      "name": {
+        "native": {
+          "fas": {
+            "common": "ایران",
+            "official": "جمهوری اسلامی ایران"
+          }
+        },
+        "common": "Iran",
+        "official": "Islamic Republic of Iran"
+      },
+      "landlocked": false,
+      "subregion": "Southern Asia"
+    },
+    {
+      "altSpellings": [
+        "IQ",
+        "Republic of Iraq",
+        "Jumhūriyyat al-‘Irāq"
+      ],
+      "area": 438317,
+      "hdi": "0.649",
+      "demonym": "Iraqi",
+      "gini": "22",
+      "latlng": [
+        33,
+        44
+      ],
+      "capital": "Baghdad",
+      "languages": {
+        "ara": "Arabic",
+        "ckb": "Sorani",
+        "arc": "Aramaic"
+      },
+      "currency": [
+        "IQD"
+      ],
+      "name": {
+        "native": {
+          "ara": {
+            "common": "العراق",
+            "official": "جمهورية العراق"
+          },
+          "ckb": {
+            "common": "کۆماری",
+            "official": "کۆماری عێراق"
+          },
+          "arc": {
+            "common": "ܩܘܼܛܢܵܐ",
+            "official": "ܩܘܼܛܢܵܐ ܐܝܼܪܲܩ"
+          }
+        },
+        "common": "Iraq",
+        "official": "Republic of Iraq"
+      },
+      "landlocked": false,
+      "subregion": "Western Asia"
+    },
+    {
+      "altSpellings": [
+        "IL",
+        "State of Israel",
+        "Medīnat Yisrā'el"
+      ],
+      "area": 20770,
+      "hdi": "0.899",
+      "demonym": "Israeli",
+      "gini": "12.9",
+      "latlng": [
+        31.47,
+        35.13
+      ],
+      "capital": "Jerusalem",
+      "languages": {
+        "ara": "Arabic",
+        "heb": "Hebrew"
+      },
+      "currency": [
+        "ILS"
+      ],
+      "name": {
+        "native": {
+          "ara": {
+            "common": "إسرائيل",
+            "official": "دولة إسرائيل"
+          },
+          "heb": {
+            "common": "ישראל",
+            "official": "מדינת ישראל"
+          }
+        },
+        "common": "Israel",
+        "official": "State of Israel"
+      },
+      "landlocked": false,
+      "subregion": "Western Asia"
+    },
+    {
+      "altSpellings": [
+        "JO",
+        "Hashemite Kingdom of Jordan",
+        "al-Mamlakah al-Urdunīyah al-Hāshimīyah"
+      ],
+      "area": 89342,
+      "hdi": "0.742",
+      "demonym": "Jordanian",
+      "gini": "16.4",
+      "latlng": [
+        31,
+        36
+      ],
+      "capital": "Amman",
+      "languages": {
+        "ara": "Arabic"
+      },
+      "currency": [
+        "JOD"
+      ],
+      "name": {
+        "native": {
+          "ara": {
+            "common": "الأردن",
+            "official": "المملكة الأردنية الهاشمية"
+          }
+        },
+        "common": "Jordan",
+        "official": "Hashemite Kingdom of Jordan"
+      },
+      "landlocked": false,
+      "subregion": "Western Asia"
+    },
+    {
+      "altSpellings": [
+        "JP",
+        "Nippon",
+        "Nihon"
+      ],
+      "area": 377930,
+      "hdi": "0.903",
+      "demonym": "Japanese",
+      "gini": "12.2",
+      "latlng": [
+        36,
+        138
+      ],
+      "capital": "Tokyo",
+      "languages": {
+        "jpn": "Japanese"
+      },
+      "currency": [
+        "JPY"
+      ],
+      "name": {
+        "native": {
+          "jpn": {
+            "common": "日本",
+            "official": "日本"
+          }
+        },
+        "common": "Japan",
+        "official": "Japan"
+      },
+      "landlocked": false,
+      "subregion": "Eastern Asia"
+    },
+    {
+      "altSpellings": [
+        "KZ",
+        "Qazaqstan",
+        "Казахстан",
+        "Republic of Kazakhstan",
+        "Қазақстан Республикасы",
+        "Qazaqstan Respublïkası",
+        "Республика Казахстан",
+        "Respublika Kazakhstan"
+      ],
+      "area": 2724900,
+      "hdi": "0.794",
+      "demonym": "Kazakhstani",
+      "gini": "10.1",
+      "latlng": [
+        48,
+        68
+      ],
+      "capital": "Astana",
+      "languages": {
+        "kaz": "Kazakh",
+        "rus": "Russian"
+      },
+      "currency": [
+        "KZT"
+      ],
+      "name": {
+        "native": {
+          "kaz": {
+            "common": "Қазақстан",
+            "official": "Қазақстан Республикасы"
+          },
+          "rus": {
+            "common": "Казахстан",
+            "official": "Республика Казахстан"
+          }
+        },
+        "common": "Kazakhstan",
+        "official": "Republic of Kazakhstan"
+      },
+      "landlocked": true,
+      "subregion": "Central Asia"
+    },
+    {
+      "altSpellings": [
+        "KG",
+        "Киргизия",
+        "Kyrgyz Republic",
+        "Кыргыз Республикасы",
+        "Kyrgyz Respublikasy"
+      ],
+      "area": 199951,
+      "hdi": "0.664",
+      "demonym": "Kirghiz",
+      "gini": "12.1",
+      "latlng": [
+        41,
+        75
+      ],
+      "capital": "Bishkek",
+      "languages": {
+        "kir": "Kyrgyz",
+        "rus": "Russian"
+      },
+      "currency": [
+        "KGS"
+      ],
+      "name": {
+        "native": {
+          "kir": {
+            "common": "Кыргызстан",
+            "official": "Кыргыз Республикасы"
+          },
+          "rus": {
+            "common": "Киргизия",
+            "official": "Кыргызская Республика"
+          }
+        },
+        "common": "Kyrgyzstan",
+        "official": "Kyrgyz Republic"
+      },
+      "landlocked": true,
+      "subregion": "Central Asia"
+    },
+    {
+      "altSpellings": [
+        "KH",
+        "Kingdom of Cambodia"
+      ],
+      "area": 181035,
+      "hdi": "0.563",
+      "demonym": "Cambodian",
+      "gini": "22.4",
+      "latlng": [
+        13,
+        105
+      ],
+      "capital": "Phnom Penh",
+      "languages": {
+        "khm": "Khmer"
+      },
+      "currency": [
+        "KHR"
+      ],
+      "name": {
+        "native": {
+          "khm": {
+            "common": "Kâmpŭchéa",
+            "official": "ព្រះរាជាណាចក្រកម្ពុជា"
+          }
+        },
+        "common": "Cambodia",
+        "official": "Kingdom of Cambodia"
+      },
+      "landlocked": false,
+      "subregion": "South-Eastern Asia"
+    },
+    {
+      "altSpellings": [
+        "LB",
+        "Lebanese Republic",
+        "Al-Jumhūrīyah Al-Libnānīyah"
+      ],
+      "area": 10452,
+      "hdi": "0.763",
+      "demonym": "Lebanese",
+      "gini": "20.4",
+      "latlng": [
+        33.83333333,
+        35.83333333
+      ],
+      "capital": "Beirut",
+      "languages": {
+        "ara": "Arabic",
+        "fra": "French"
+      },
+      "currency": [
+        "LBP"
+      ],
+      "name": {
+        "native": {
+          "ara": {
+            "common": "لبنان",
+            "official": "الجمهورية اللبنانية"
+          },
+          "fra": {
+            "common": "Liban",
+            "official": "République libanaise"
+          }
+        },
+        "common": "Lebanon",
+        "official": "Lebanese Republic"
+      },
+      "landlocked": false,
+      "subregion": "Western Asia"
+    },
+    {
+      "altSpellings": [
+        "LK",
+        "ilaṅkai",
+        "Democratic Socialist Republic of Sri Lanka"
+      ],
+      "area": 65610,
+      "hdi": "0.766",
+      "demonym": "Sri Lankan",
+      "gini": "11.5",
+      "latlng": [
+        7,
+        81
+      ],
+      "capital": "Colombo",
+      "languages": {
+        "tam": "Tamil",
+        "sin": "Sinhala"
+      },
+      "currency": [
+        "LKR"
+      ],
+      "name": {
+        "native": {
+          "tam": {
+            "common": "இலங்கை",
+            "official": "இலங்கை சனநாயக சோசலிசக் குடியரசு"
+          },
+          "sin": {
+            "common": "ශ්‍රී ලංකාව",
+            "official": "ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය"
+          }
+        },
+        "common": "Sri Lanka",
+        "official": "Democratic Socialist Republic of Sri Lanka"
+      },
+      "landlocked": false,
+      "subregion": "Southern Asia"
+    },
+    {
+      "altSpellings": [
+        "MV",
+        "Maldive Islands",
+        "Republic of the Maldives",
+        "Dhivehi Raajjeyge Jumhooriyya"
+      ],
+      "area": 300,
+      "hdi": "0.701",
+      "demonym": "Maldivan",
+      "gini": "23.4",
+      "latlng": [
+        3.25,
+        73
+      ],
+      "capital": "Malé",
+      "languages": {
+        "div": "Maldivian"
+      },
+      "currency": [
+        "MVR"
+      ],
+      "name": {
+        "native": {
+          "div": {
+            "common": "ދިވެހިރާއްޖޭގެ",
+            "official": "ދިވެހިރާއްޖޭގެ ޖުމްހޫރިއްޔާ"
+          }
+        },
+        "common": "Maldives",
+        "official": "Republic of the Maldives"
+      },
+      "landlocked": false,
+      "subregion": "Southern Asia"
+    },
+    {
+      "altSpellings": [
+        "MN"
+      ],
+      "area": 1564110,
+      "hdi": "0.735",
+      "demonym": "Mongolian",
+      "gini": "12.9",
+      "latlng": [
+        46,
+        105
+      ],
+      "capital": "Ulan Bator",
+      "languages": {
+        "mon": "Mongolian"
+      },
+      "currency": [
+        "MNT"
+      ],
+      "name": {
+        "native": {
+          "mon": {
+            "common": "Монгол улс",
+            "official": "Монгол улс"
+          }
+        },
+        "common": "Mongolia",
+        "official": "Mongolia"
+      },
+      "landlocked": true,
+      "subregion": "Eastern Asia"
+    },
+    {
+      "altSpellings": [
+        "NP",
+        "Federal Democratic Republic of Nepal",
+        "Loktāntrik Ganatantra Nepāl"
+      ],
+      "area": 147181,
+      "hdi": "0.558",
+      "demonym": "Nepalese",
+      "gini": "25.8",
+      "latlng": [
+        28,
+        84
+      ],
+      "capital": "Kathmandu",
+      "languages": {
+        "nep": "Nepali"
+      },
+      "currency": [
+        "NPR"
+      ],
+      "name": {
+        "native": {
+          "nep": {
+            "common": "नेपाल",
+            "official": "नेपाल संघीय लोकतान्त्रिक गणतन्त्र"
+          }
+        },
+        "common": "Nepal",
+        "official": "Federal Democratic Republic of Nepal"
+      },
+      "landlocked": true,
+      "subregion": "Southern Asia"
+    },
+    {
+      "altSpellings": [
+        "PK",
+        "Pākistān",
+        "Islamic Republic of Pakistan",
+        "Islāmī Jumhūriya'eh Pākistān"
+      ],
+      "area": 881912,
+      "hdi": "0.55",
+      "demonym": "Pakistani",
+      "gini": "29.6",
+      "latlng": [
+        30,
+        70
+      ],
+      "capital": "Islamabad",
+      "languages": {
+        "eng": "English",
+        "urd": "Urdu"
+      },
+      "currency": [
+        "PKR"
+      ],
+      "name": {
+        "native": {
+          "eng": {
+            "common": "Pakistan",
+            "official": "Islamic Republic of Pakistan"
+          },
+          "urd": {
+            "common": "پاكستان",
+            "official": "اسلامی جمہوریۂ پاكستان"
+          }
+        },
+        "common": "Pakistan",
+        "official": "Islamic Republic of Pakistan"
+      },
+      "landlocked": false,
+      "subregion": "Southern Asia"
+    },
+    {
+      "altSpellings": [
+        "PH",
+        "Republic of the Philippines",
+        "Repúblika ng Pilipinas"
+      ],
+      "area": 342353,
+      "hdi": "0.682",
+      "demonym": "Filipino",
+      "gini": "18.2",
+      "latlng": [
+        13,
+        122
+      ],
+      "capital": "Manila",
+      "languages": {
+        "fil": "Filipino",
+        "eng": "English"
+      },
+      "currency": [
+        "PHP"
+      ],
+      "name": {
+        "native": {
+          "fil": {
+            "common": "Pilipinas",
+            "official": "Republic of the Philippines"
+          },
+          "eng": {
+            "common": "Philippines",
+            "official": "Republic of the Philippines"
+          }
+        },
+        "common": "Philippines",
+        "official": "Republic of the Philippines"
+      },
+      "landlocked": false,
+      "subregion": "South-Eastern Asia"
+    },
+    {
+      "altSpellings": [
+        "PS",
+        "Palestine, State of",
+        "State of Palestine",
+        "Dawlat Filasṭin"
+      ],
+      "area": 6220,
+      "hdi": "0.684",
+      "demonym": "Palestinian",
+      "gini": "15.1",
+      "latlng": [
+        31.9,
+        35.2
+      ],
+      "capital": "Ramallah",
+      "languages": {
+        "ara": "Arabic"
+      },
+      "currency": [
+        "ILS"
+      ],
+      "name": {
+        "native": {
+          "ara": {
+            "common": "فلسطين",
+            "official": "دولة فلسطين"
+          }
+        },
+        "common": "Palestine",
+        "official": "State of Palestine"
+      },
+      "landlocked": false,
+      "subregion": "Western Asia"
+    },
+    {
+      "altSpellings": [
+        "SY",
+        "Syrian Arab Republic",
+        "Al-Jumhūrīyah Al-ʻArabīyah As-Sūrīyah"
+      ],
+      "area": 185180,
+      "hdi": "0.536",
+      "demonym": "Syrian",
+      "gini": "21.4",
+      "latlng": [
+        35,
+        38
+      ],
+      "capital": "Damascus",
+      "languages": {
+        "ara": "Arabic"
+      },
+      "currency": [
+        "SYP"
+      ],
+      "name": {
+        "native": {
+          "ara": {
+            "common": "سوريا",
+            "official": "الجمهورية العربية السورية"
+          }
+        },
+        "common": "Syria",
+        "official": "Syrian Arab Republic"
+      },
+      "landlocked": false,
+      "subregion": "Western Asia"
+    },
+    {
+      "altSpellings": [
+        "TH",
+        "Prathet",
+        "Thai",
+        "Kingdom of Thailand",
+        "ราชอาณาจักรไทย",
+        "Ratcha Anachak Thai"
+      ],
+      "area": 513120,
+      "hdi": "0.74",
+      "demonym": "Thai",
+      "gini": "20.2",
+      "latlng": [
+        15,
+        100
+      ],
+      "capital": "Bangkok",
+      "languages": {
+        "tha": "Thai"
+      },
+      "currency": [
+        "THB"
+      ],
+      "name": {
+        "native": {
+          "tha": {
+            "common": "ประเทศไทย",
+            "official": "ราชอาณาจักรไทย"
+          }
+        },
+        "common": "Thailand",
+        "official": "Kingdom of Thailand"
+      },
+      "landlocked": false,
+      "subregion": "South-Eastern Asia"
+    },
+    {
+      "altSpellings": [
+        "TJ",
+        "Toçikiston",
+        "Republic of Tajikistan",
+        "Ҷумҳурии Тоҷикистон",
+        "Çumhuriyi Toçikiston"
+      ],
+      "area": 143100,
+      "hdi": "0.627",
+      "demonym": "Tadzhik",
+      "gini": "14.9",
+      "latlng": [
+        39,
+        71
+      ],
+      "capital": "Dushanbe",
+      "languages": {
+        "tgk": "Tajik",
+        "rus": "Russian"
+      },
+      "currency": [
+        "TJS"
+      ],
+      "name": {
+        "native": {
+          "tgk": {
+            "common": "Тоҷикистон",
+            "official": "Ҷумҳурии Тоҷикистон"
+          },
+          "rus": {
+            "common": "Таджикистан",
+            "official": "Республика Таджикистан"
+          }
+        },
+        "common": "Tajikistan",
+        "official": "Republic of Tajikistan"
+      },
+      "landlocked": true,
+      "subregion": "Central Asia"
+    },
+    {
+      "altSpellings": [
+        "TM"
+      ],
+      "area": 488100,
+      "hdi": "0.692",
+      "demonym": "Turkmen",
+      "gini": "25.5",
+      "latlng": [
+        40,
+        60
+      ],
+      "capital": "Ashgabat",
+      "languages": {
+        "tuk": "Turkmen",
+        "rus": "Russian"
+      },
+      "currency": [
+        "TMT"
+      ],
+      "name": {
+        "native": {
+          "tuk": {
+            "common": "Türkmenistan",
+            "official": "Türkmenistan"
+          },
+          "rus": {
+            "common": "Туркмения",
+            "official": "Туркменистан"
+          }
+        },
+        "common": "Turkmenistan",
+        "official": "Turkmenistan"
+      },
+      "landlocked": true,
+      "subregion": "Central Asia"
+    },
+    {
+      "altSpellings": [
+        "TL",
+        "East Timor",
+        "Democratic Republic of Timor-Leste",
+        "República Democrática de Timor-Leste",
+        "Repúblika Demokrátika Timór-Leste",
+        "Timór Lorosa'e",
+        "Timor Lorosae"
+      ],
+      "area": 14874,
+      "hdi": "0.606",
+      "demonym": "East Timorese",
+      "gini": "30",
+      "latlng": [
+        -8.83333333,
+        125.91666666
+      ],
+      "capital": "Dili",
+      "languages": {
+        "por": "Portuguese",
+        "tet": "Tetum"
+      },
+      "currency": [
+        "USD"
+      ],
+      "name": {
+        "native": {
+          "por": {
+            "common": "Timor-Leste",
+            "official": "República Democrática de Timor-Leste"
+          },
+          "tet": {
+            "common": "Timór-Leste",
+            "official": "Repúblika Demokrátika Timór-Leste"
+          }
+        },
+        "common": "Timor-Leste",
+        "official": "Democratic Republic of Timor-Leste"
+      },
+      "landlocked": false,
+      "subregion": "South-Eastern Asia"
+    },
+    {
+      "altSpellings": [
+        "TR",
+        "Turkiye",
+        "Republic of Turkey",
+        "Türkiye Cumhuriyeti"
+      ],
+      "area": 783562,
+      "hdi": "0.767",
+      "demonym": "Turkish",
+      "gini": "15.8",
+      "latlng": [
+        39,
+        35
+      ],
+      "capital": "Ankara",
+      "languages": {
+        "tur": "Turkish"
+      },
+      "currency": [
+        "TRY"
+      ],
+      "name": {
+        "native": {
+          "tur": {
+            "common": "Türkiye",
+            "official": "Türkiye Cumhuriyeti"
+          }
+        },
+        "common": "Turkey",
+        "official": "Republic of Turkey"
+      },
+      "landlocked": false,
+      "subregion": "Western Asia"
+    },
+    {
+      "altSpellings": [
+        "UZ",
+        "Republic of Uzbekistan",
+        "O‘zbekiston Respublikasi",
+        "Ўзбекистон Республикаси"
+      ],
+      "area": 447400,
+      "hdi": "0.701",
+      "demonym": "Uzbekistani",
+      "gini": "15.3",
+      "latlng": [
+        41,
+        64
+      ],
+      "capital": "Tashkent",
+      "languages": {
+        "uzb": "Uzbek",
+        "rus": "Russian"
+      },
+      "currency": [
+        "UZS"
+      ],
+      "name": {
+        "native": {
+          "uzb": {
+            "common": "O‘zbekiston",
+            "official": "O'zbekiston Respublikasi"
+          },
+          "rus": {
+            "common": "Узбекистан",
+            "official": "Республика Узбекистан"
+          }
+        },
+        "common": "Uzbekistan",
+        "official": "Republic of Uzbekistan"
+      },
+      "landlocked": true,
+      "subregion": "Central Asia"
+    },
+    {
+      "altSpellings": [
+        "YE",
+        "Yemeni Republic",
+        "al-Jumhūriyyah al-Yamaniyyah"
+      ],
+      "area": 527968,
+      "hdi": "0.482",
+      "demonym": "Yemeni",
+      "gini": "32.7",
+      "latlng": [
+        15,
+        48
+      ],
+      "capital": "Sana'a",
+      "languages": {
+        "ara": "Arabic"
+      },
+      "currency": [
+        "YER"
+      ],
+      "name": {
+        "native": {
+          "ara": {
+            "common": "اليَمَن",
+            "official": "الجمهورية اليمنية"
+          }
+        },
+        "common": "Yemen",
+        "official": "Republic of Yemen"
+      },
+      "landlocked": false,
+      "subregion": "Western Asia"
+    }
+  ],
+  "Europe": [
+    {
+      "altSpellings": [
+        "AL",
+        "Shqipëri",
+        "Shqipëria",
+        "Shqipnia"
+      ],
+      "area": 28748,
+      "hdi": "0.764",
+      "demonym": "Albanian",
+      "gini": "13.4",
+      "latlng": [
+        41,
+        20
+      ],
+      "capital": "Tirana",
+      "languages": {
+        "sqi": "Albanian"
+      },
+      "currency": [
+        "ALL"
+      ],
+      "name": {
+        "native": {
+          "sqi": {
+            "common": "Shqipëria",
+            "official": "Republika e Shqipërisë"
+          }
+        },
+        "common": "Albania",
+        "official": "Republic of Albania"
+      },
+      "landlocked": false,
+      "subregion": "Southern Europe"
+    },
+    {
+      "altSpellings": [
+        "AT",
+        "Osterreich",
+        "Oesterreich"
+      ],
+      "area": 83871,
+      "hdi": "0.893",
+      "demonym": "Austrian",
+      "gini": "8.5",
+      "latlng": [
+        47.33333333,
+        13.33333333
+      ],
+      "capital": "Vienna",
+      "languages": {
+        "bar": "Austro-Bavarian German"
+      },
+      "currency": [
+        "EUR"
+      ],
+      "name": {
+        "native": {
+          "bar": {
+            "common": "Österreich",
+            "official": "Republik Österreich"
+          }
+        },
+        "common": "Austria",
+        "official": "Republic of Austria"
+      },
+      "landlocked": true,
+      "subregion": "Western Europe"
+    },
+    {
+      "altSpellings": [
+        "BE",
+        "België",
+        "Belgie",
+        "Belgien",
+        "Belgique",
+        "Kingdom of Belgium",
+        "Koninkrijk België",
+        "Royaume de Belgique",
+        "Königreich Belgien"
+      ],
+      "area": 30528,
+      "hdi": "0.896",
+      "demonym": "Belgian",
+      "gini": "8.3",
+      "latlng": [
+        50.83333333,
+        4
+      ],
+      "capital": "Brussels",
+      "languages": {
+        "fra": "French",
+        "deu": "German",
+        "nld": "Dutch"
+      },
+      "currency": [
+        "EUR"
+      ],
+      "name": {
+        "native": {
+          "fra": {
+            "common": "Belgique",
+            "official": "Royaume de Belgique"
+          },
+          "deu": {
+            "common": "Belgien",
+            "official": "Königreich Belgien"
+          },
+          "nld": {
+            "common": "België",
+            "official": "Koninkrijk België"
+          }
+        },
+        "common": "Belgium",
+        "official": "Kingdom of Belgium"
+      },
+      "landlocked": false,
+      "subregion": "Western Europe"
+    },
+    {
+      "altSpellings": [
+        "BG",
+        "Republic of Bulgaria",
+        "Република България"
+      ],
+      "area": 110879,
+      "hdi": "0.794",
+      "demonym": "Bulgarian",
+      "gini": "10.5",
+      "latlng": [
+        43,
+        25
+      ],
+      "capital": "Sofia",
+      "languages": {
+        "bul": "Bulgarian"
+      },
+      "currency": [
+        "BGN"
+      ],
+      "name": {
+        "native": {
+          "bul": {
+            "common": "България",
+            "official": "Република България"
+          }
+        },
+        "common": "Bulgaria",
+        "official": "Republic of Bulgaria"
+      },
+      "landlocked": false,
+      "subregion": "Eastern Europe"
+    },
+    {
+      "altSpellings": [
+        "BA",
+        "Bosnia-Herzegovina",
+        "Босна и Херцеговина"
+      ],
+      "area": 51209,
+      "hdi": "0.75",
+      "demonym": "Bosnian, Herzegovinian",
+      "gini": "13.1",
+      "latlng": [
+        44,
+        18
+      ],
+      "capital": "Sarajevo",
+      "languages": {
+        "bos": "Bosnian",
+        "srp": "Serbian",
+        "hrv": "Croatian"
+      },
+      "currency": [
+        "BAM"
+      ],
+      "name": {
+        "native": {
+          "bos": {
+            "common": "Bosna i Hercegovina",
+            "official": "Bosna i Hercegovina"
+          },
+          "srp": {
+            "common": "Боснa и Херцеговина",
+            "official": "Боснa и Херцеговина"
+          },
+          "hrv": {
+            "common": "Bosna i Hercegovina",
+            "official": "Bosna i Hercegovina"
+          }
+        },
+        "common": "Bosnia and Herzegovina",
+        "official": "Bosnia and Herzegovina"
+      },
+      "landlocked": false,
+      "subregion": "Southern Europe"
+    },
+    {
+      "altSpellings": [
+        "BY",
+        "Bielaruś",
+        "Republic of Belarus",
+        "Белоруссия",
+        "Республика Белоруссия"
+      ],
+      "area": 207600,
+      "hdi": "0.796",
+      "demonym": "Belarusian",
+      "gini": "6.4",
+      "latlng": [
+        53,
+        28
+      ],
+      "capital": "Minsk",
+      "languages": {
+        "bel": "Belarusian",
+        "rus": "Russian"
+      },
+      "currency": [
+        "BYN"
+      ],
+      "name": {
+        "native": {
+          "bel": {
+            "common": "Белару́сь",
+            "official": "Рэспубліка Беларусь"
+          },
+          "rus": {
+            "common": "Беларусь",
+            "official": "Республика Беларусь"
+          }
+        },
+        "common": "Belarus",
+        "official": "Republic of Belarus"
+      },
+      "landlocked": true,
+      "subregion": "Eastern Europe"
+    },
+    {
+      "altSpellings": [
+        "CH",
+        "Swiss Confederation",
+        "Schweiz",
+        "Suisse",
+        "Svizzera",
+        "Svizra"
+      ],
+      "area": 41284,
+      "hdi": "0.939",
+      "demonym": "Swiss",
+      "gini": "8.4",
+      "latlng": [
+        47,
+        8
+      ],
+      "capital": "Bern",
+      "languages": {
+        "fra": "French",
+        "roh": "Romansh",
+        "ita": "Italian",
+        "gsw": "Swiss German"
+      },
+      "currency": [
+        "CHE",
+        "CHF",
+        "CHW"
+      ],
+      "name": {
+        "native": {
+          "fra": {
+            "common": "Suisse",
+            "official": "Confédération suisse"
+          },
+          "roh": {
+            "common": "Svizra",
+            "official": "Confederaziun svizra"
+          },
+          "ita": {
+            "common": "Svizzera",
+            "official": "Confederazione Svizzera"
+          },
+          "gsw": {
+            "common": "Schweiz",
+            "official": "Schweizerische Eidgenossenschaft"
+          }
+        },
+        "common": "Switzerland",
+        "official": "Swiss Confederation"
+      },
+      "landlocked": true,
+      "subregion": "Western Europe"
+    },
+    {
+      "altSpellings": [
+        "CY",
+        "Kýpros",
+        "Kıbrıs",
+        "Republic of Cyprus",
+        "Κυπριακή Δημοκρατία",
+        "Kıbrıs Cumhuriyeti"
+      ],
+      "area": 9251,
+      "hdi": "0.856",
+      "demonym": "Cypriot",
+      "gini": "10.8",
+      "latlng": [
+        35,
+        33
+      ],
+      "capital": "Nicosia",
+      "languages": {
+        "ell": "Greek",
+        "tur": "Turkish"
+      },
+      "currency": [
+        "EUR"
+      ],
+      "name": {
+        "native": {
+          "ell": {
+            "common": "Κύπρος",
+            "official": "Δημοκρατία της Κύπρος"
+          },
+          "tur": {
+            "common": "Kıbrıs",
+            "official": "Kıbrıs Cumhuriyeti"
+          }
+        },
+        "common": "Cyprus",
+        "official": "Republic of Cyprus"
+      },
+      "landlocked": false,
+      "subregion": "Eastern Europe"
+    },
+    {
+      "altSpellings": [
+        "DE",
+        "Federal Republic of Germany",
+        "Bundesrepublik Deutschland"
+      ],
+      "area": 357114,
+      "hdi": "0.926",
+      "demonym": "German",
+      "gini": "7",
+      "latlng": [
+        51,
+        9
+      ],
+      "capital": "Berlin",
+      "languages": {
+        "deu": "German"
+      },
+      "currency": [
+        "EUR"
+      ],
+      "name": {
+        "native": {
+          "deu": {
+            "common": "Deutschland",
+            "official": "Bundesrepublik Deutschland"
+          }
+        },
+        "common": "Germany",
+        "official": "Federal Republic of Germany"
+      },
+      "landlocked": false,
+      "subregion": "Western Europe"
+    },
+    {
+      "altSpellings": [
+        "DK",
+        "Danmark",
+        "Kingdom of Denmark",
+        "Kongeriget Danmark"
+      ],
+      "area": 43094,
+      "hdi": "0.925",
+      "demonym": "Danish",
+      "gini": "7",
+      "latlng": [
+        56,
+        10
+      ],
+      "capital": "Copenhagen",
+      "languages": {
+        "dan": "Danish"
+      },
+      "currency": [
+        "DKK"
+      ],
+      "name": {
+        "native": {
+          "dan": {
+            "common": "Danmark",
+            "official": "Kongeriget Danmark"
+          }
+        },
+        "common": "Denmark",
+        "official": "Kingdom of Denmark"
+      },
+      "landlocked": false,
+      "subregion": "Northern Europe"
+    },
+    {
+      "altSpellings": [
+        "ES",
+        "Kingdom of Spain",
+        "Reino de España"
+      ],
+      "area": 505992,
+      "hdi": "0.884",
+      "demonym": "Spanish",
+      "gini": "10.1",
+      "latlng": [
+        40,
+        -4
+      ],
+      "capital": "Madrid",
+      "languages": {
+        "glg": "Galician",
+        "cat": "Catalan",
+        "eus": "Basque",
+        "oci": "Occitan",
+        "spa": "Spanish"
+      },
+      "currency": [
+        "EUR"
+      ],
+      "name": {
+        "native": {
+          "glg": {
+            "common": "",
+            "official": "Reino de España"
+          },
+          "cat": {
+            "common": "Espanya",
+            "official": "Regne d'Espanya"
+          },
+          "eus": {
+            "common": "Espainia",
+            "official": "Espainiako Erresuma"
+          },
+          "oci": {
+            "common": "Espanha",
+            "official": "Reialme d'Espanha"
+          },
+          "spa": {
+            "common": "España",
+            "official": "Reino de España"
+          }
+        },
+        "common": "Spain",
+        "official": "Kingdom of Spain"
+      },
+      "landlocked": false,
+      "subregion": "Southern Europe"
+    },
+    {
+      "altSpellings": [
+        "EE",
+        "Eesti",
+        "Republic of Estonia",
+        "Eesti Vabariik"
+      ],
+      "area": 45227,
+      "hdi": "0.865",
+      "demonym": "Estonian",
+      "gini": "8.6",
+      "latlng": [
+        59,
+        26
+      ],
+      "capital": "Tallinn",
+      "languages": {
+        "est": "Estonian"
+      },
+      "currency": [
+        "EUR"
+      ],
+      "name": {
+        "native": {
+          "est": {
+            "common": "Eesti",
+            "official": "Eesti Vabariik"
+          }
+        },
+        "common": "Estonia",
+        "official": "Republic of Estonia"
+      },
+      "landlocked": false,
+      "subregion": "Northern Europe"
+    },
+    {
+      "altSpellings": [
+        "FI",
+        "Suomi",
+        "Republic of Finland",
+        "Suomen tasavalta",
+        "Republiken Finland"
+      ],
+      "area": 338424,
+      "hdi": "0.895",
+      "demonym": "Finnish",
+      "gini": "5.7",
+      "latlng": [
+        64,
+        26
+      ],
+      "capital": "Helsinki",
+      "languages": {
+        "fin": "Finnish",
+        "swe": "Swedish"
+      },
+      "currency": [
+        "EUR"
+      ],
+      "name": {
+        "native": {
+          "fin": {
+            "common": "Suomi",
+            "official": "Suomen tasavalta"
+          },
+          "swe": {
+            "common": "Finland",
+            "official": "Republiken Finland"
+          }
+        },
+        "common": "Finland",
+        "official": "Republic of Finland"
+      },
+      "landlocked": false,
+      "subregion": "Northern Europe"
+    },
+    {
+      "altSpellings": [
+        "FR",
+        "French Republic",
+        "République française"
+      ],
+      "area": 551695,
+      "hdi": "0.897",
+      "demonym": "French",
+      "gini": "9.3",
+      "latlng": [
+        46,
+        2
+      ],
+      "capital": "Paris",
+      "languages": {
+        "fra": "French"
+      },
+      "currency": [
+        "EUR"
+      ],
+      "name": {
+        "native": {
+          "fra": {
+            "common": "France",
+            "official": "République française"
+          }
+        },
+        "common": "France",
+        "official": "French Republic"
+      },
+      "landlocked": false,
+      "subregion": "Western Europe"
+    },
+    {
+      "altSpellings": [
+        "GB",
+        "UK",
+        "Great Britain"
+      ],
+      "area": 242900,
+      "hdi": "0.91",
+      "demonym": "British",
+      "gini": "7.8",
+      "latlng": [
+        54,
+        -2
+      ],
+      "capital": "London",
+      "languages": {
+        "eng": "English"
+      },
+      "currency": [
+        "GBP"
+      ],
+      "name": {
+        "native": {
+          "eng": {
+            "common": "United Kingdom",
+            "official": "United Kingdom of Great Britain and Northern Ireland"
+          }
+        },
+        "common": "United Kingdom",
+        "official": "United Kingdom of Great Britain and Northern Ireland"
+      },
+      "landlocked": false,
+      "subregion": "Northern Europe"
+    },
+    {
+      "altSpellings": [
+        "GR",
+        "Elláda",
+        "Hellenic Republic",
+        "Ελληνική Δημοκρατία"
+      ],
+      "area": 131990,
+      "hdi": "0.866",
+      "demonym": "Greek",
+      "gini": "12.1",
+      "latlng": [
+        39,
+        22
+      ],
+      "capital": "Athens",
+      "languages": {
+        "ell": "Greek"
+      },
+      "currency": [
+        "EUR"
+      ],
+      "name": {
+        "native": {
+          "ell": {
+            "common": "Ελλάδα",
+            "official": "Ελληνική Δημοκρατία"
+          }
+        },
+        "common": "Greece",
+        "official": "Hellenic Republic"
+      },
+      "landlocked": false,
+      "subregion": "Southern Europe"
+    },
+    {
+      "altSpellings": [
+        "HR",
+        "Hrvatska",
+        "Republic of Croatia",
+        "Republika Hrvatska"
+      ],
+      "area": 56594,
+      "hdi": "0.827",
+      "demonym": "Croatian",
+      "gini": "8.9",
+      "latlng": [
+        45.16666666,
+        15.5
+      ],
+      "capital": "Zagreb",
+      "languages": {
+        "hrv": "Croatian"
+      },
+      "currency": [
+        "HRK"
+      ],
+      "name": {
+        "native": {
+          "hrv": {
+            "common": "Hrvatska",
+            "official": "Republika Hrvatska"
+          }
+        },
+        "common": "Croatia",
+        "official": "Republic of Croatia"
+      },
+      "landlocked": false,
+      "subregion": "Southern Europe"
+    },
+    {
+      "altSpellings": [
+        "HU"
+      ],
+      "area": 93028,
+      "hdi": "0.836",
+      "demonym": "Hungarian",
+      "gini": "7.6",
+      "latlng": [
+        47,
+        20
+      ],
+      "capital": "Budapest",
+      "languages": {
+        "hun": "Hungarian"
+      },
+      "currency": [
+        "HUF"
+      ],
+      "name": {
+        "native": {
+          "hun": {
+            "common": "Magyarország",
+            "official": "Magyarország"
+          }
+        },
+        "common": "Hungary",
+        "official": "Hungary"
+      },
+      "landlocked": true,
+      "subregion": "Eastern Europe"
+    },
+    {
+      "altSpellings": [
+        "IE",
+        "Éire",
+        "Republic of Ireland",
+        "Poblacht na hÉireann"
+      ],
+      "area": 70273,
+      "hdi": "0.923",
+      "demonym": "Irish",
+      "gini": "7.7",
+      "latlng": [
+        53,
+        -8
+      ],
+      "capital": "Dublin",
+      "languages": {
+        "gle": "Irish",
+        "eng": "English"
+      },
+      "currency": [
+        "EUR"
+      ],
+      "name": {
+        "native": {
+          "gle": {
+            "common": "Éire",
+            "official": "Poblacht na hÉireann"
+          },
+          "eng": {
+            "common": "Ireland",
+            "official": "Republic of Ireland"
+          }
+        },
+        "common": "Ireland",
+        "official": "Republic of Ireland"
+      },
+      "landlocked": false,
+      "subregion": "Northern Europe"
+    },
+    {
+      "altSpellings": [
+        "IS",
+        "Island",
+        "Republic of Iceland",
+        "Lýðveldið Ísland"
+      ],
+      "area": 103000,
+      "hdi": "0.921",
+      "demonym": "Icelander",
+      "gini": "5.7",
+      "latlng": [
+        65,
+        -18
+      ],
+      "capital": "Reykjavik",
+      "languages": {
+        "isl": "Icelandic"
+      },
+      "currency": [
+        "ISK"
+      ],
+      "name": {
+        "native": {
+          "isl": {
+            "common": "Ísland",
+            "official": "Ísland"
+          }
+        },
+        "common": "Iceland",
+        "official": "Iceland"
+      },
+      "landlocked": false,
+      "subregion": "Northern Europe"
+    },
+    {
+      "altSpellings": [
+        "IT",
+        "Italian Republic",
+        "Repubblica italiana"
+      ],
+      "area": 301336,
+      "hdi": "0.887",
+      "demonym": "Italian",
+      "gini": "11.2",
+      "latlng": [
+        42.83333333,
+        12.83333333
+      ],
+      "capital": "Rome",
+      "languages": {
+        "bar": "Austro-Bavarian German",
+        "srd": "Sardinian",
+        "ita": "Italian"
+      },
+      "currency": [
+        "EUR"
+      ],
+      "name": {
+        "native": {
+          "bar": {
+            "common": "Italien",
+            "official": "Italienische Republik"
+          },
+          "srd": {
+            "common": "Italia",
+            "official": "Repubbricanu Italia"
+          },
+          "ita": {
+            "common": "Italia",
+            "official": "Repubblica italiana"
+          }
+        },
+        "common": "Italy",
+        "official": "Italian Republic"
+      },
+      "landlocked": false,
+      "subregion": "Southern Europe"
+    },
+    {
+      "altSpellings": [
+        "LT",
+        "Republic of Lithuania",
+        "Lietuvos Respublika"
+      ],
+      "area": 65300,
+      "hdi": "0.848",
+      "demonym": "Lithuanian",
+      "gini": "10.2",
+      "latlng": [
+        56,
+        24
+      ],
+      "capital": "Vilnius",
+      "languages": {
+        "lit": "Lithuanian"
+      },
+      "currency": [
+        "EUR"
+      ],
+      "name": {
+        "native": {
+          "lit": {
+            "common": "Lietuva",
+            "official": "Lietuvos Respublikos"
+          }
+        },
+        "common": "Lithuania",
+        "official": "Republic of Lithuania"
+      },
+      "landlocked": false,
+      "subregion": "Northern Europe"
+    },
+    {
+      "altSpellings": [
+        "LU",
+        "Grand Duchy of Luxembourg",
+        "Grand-Duché de Luxembourg",
+        "Großherzogtum Luxemburg",
+        "Groussherzogtum Lëtzebuerg"
+      ],
+      "area": 2586,
+      "hdi": "0.898",
+      "demonym": "Luxembourger",
+      "gini": "7.8",
+      "latlng": [
+        49.75,
+        6.16666666
+      ],
+      "capital": "Luxembourg",
+      "languages": {
+        "fra": "French",
+        "deu": "German",
+        "ltz": "Luxembourgish"
+      },
+      "currency": [
+        "EUR"
+      ],
+      "name": {
+        "native": {
+          "fra": {
+            "common": "Luxembourg",
+            "official": "Grand-Duché de Luxembourg"
+          },
+          "deu": {
+            "common": "Luxemburg",
+            "official": "Großherzogtum Luxemburg"
+          },
+          "ltz": {
+            "common": "Lëtzebuerg",
+            "official": "Groussherzogtum Lëtzebuerg"
+          }
+        },
+        "common": "Luxembourg",
+        "official": "Grand Duchy of Luxembourg"
+      },
+      "landlocked": true,
+      "subregion": "Western Europe"
+    },
+    {
+      "altSpellings": [
+        "LV",
+        "Republic of Latvia",
+        "Latvijas Republika"
+      ],
+      "area": 64559,
+      "hdi": "0.83",
+      "demonym": "Latvian",
+      "gini": "10.3",
+      "latlng": [
+        57,
+        25
+      ],
+      "capital": "Riga",
+      "languages": {
+        "lav": "Latvian"
+      },
+      "currency": [
+        "EUR"
+      ],
+      "name": {
+        "native": {
+          "lav": {
+            "common": "Latvija",
+            "official": "Latvijas Republikas"
+          }
+        },
+        "common": "Latvia",
+        "official": "Republic of Latvia"
+      },
+      "landlocked": false,
+      "subregion": "Northern Europe"
+    },
+    {
+      "altSpellings": [
+        "MD",
+        "Moldova, Republic of",
+        "Republic of Moldova",
+        "Republica Moldova"
+      ],
+      "area": 33846,
+      "hdi": "0.699",
+      "demonym": "Moldovan",
+      "gini": "10.1",
+      "latlng": [
+        47,
+        29
+      ],
+      "capital": "Chișinău",
+      "languages": {
+        "ron": "Moldavian"
+      },
+      "currency": [
+        "MDL"
+      ],
+      "name": {
+        "native": {
+          "ron": {
+            "common": "Moldova",
+            "official": "Republica Moldova"
+          }
+        },
+        "common": "Moldova",
+        "official": "Republic of Moldova"
+      },
+      "landlocked": true,
+      "subregion": "Eastern Europe"
+    },
+    {
+      "altSpellings": [
+        "MK",
+        "Macedonia, the Former Yugoslav Republic of",
+        "Republic of Macedonia",
+        "Република Македонија"
+      ],
+      "area": 25713,
+      "hdi": "0.748",
+      "demonym": "Macedonian",
+      "gini": "16.1",
+      "latlng": [
+        41.83333333,
+        22
+      ],
+      "capital": "Skopje",
+      "languages": {
+        "mkd": "Macedonian"
+      },
+      "currency": [
+        "MKD"
+      ],
+      "name": {
+        "native": {
+          "mkd": {
+            "common": "Македонија",
+            "official": "Република Македонија"
+          }
+        },
+        "common": "Macedonia",
+        "official": "Republic of Macedonia"
+      },
+      "landlocked": true,
+      "subregion": "Southern Europe"
+    },
+    {
+      "altSpellings": [
+        "MT",
+        "Republic of Malta",
+        "Repubblika ta' Malta"
+      ],
+      "area": 316,
+      "hdi": "0.856",
+      "demonym": "Maltese",
+      "gini": "8",
+      "latlng": [
+        35.83333333,
+        14.58333333
+      ],
+      "capital": "Valletta",
+      "languages": {
+        "mlt": "Maltese",
+        "eng": "English"
+      },
+      "currency": [
+        "EUR"
+      ],
+      "name": {
+        "native": {
+          "mlt": {
+            "common": "Malta",
+            "official": "Repubblika ta ' Malta"
+          },
+          "eng": {
+            "common": "Malta",
+            "official": "Republic of Malta"
+          }
+        },
+        "common": "Malta",
+        "official": "Republic of Malta"
+      },
+      "landlocked": false,
+      "subregion": "Southern Europe"
+    },
+    {
+      "altSpellings": [
+        "ME",
+        "Crna Gora"
+      ],
+      "area": 13812,
+      "hdi": "0.807",
+      "demonym": "Montenegrin",
+      "gini": "8.7",
+      "latlng": [
+        42.5,
+        19.3
+      ],
+      "capital": "Podgorica",
+      "languages": {
+        "srp": "Montenegrin"
+      },
+      "currency": [
+        "EUR"
+      ],
+      "name": {
+        "native": {
+          "srp": {
+            "common": "Црна Гора",
+            "official": "Црна Гора"
+          }
+        },
+        "common": "Montenegro",
+        "official": "Montenegro"
+      },
+      "landlocked": false,
+      "subregion": "Southern Europe"
+    },
+    {
+      "altSpellings": [
+        "NL",
+        "Holland",
+        "Nederland"
+      ],
+      "area": 41850,
+      "hdi": "0.924",
+      "demonym": "Dutch",
+      "gini": "6.8",
+      "latlng": [
+        52.5,
+        5.75
+      ],
+      "capital": "Amsterdam",
+      "languages": {
+        "nld": "Dutch"
+      },
+      "currency": [
+        "EUR"
+      ],
+      "name": {
+        "native": {
+          "nld": {
+            "common": "Nederland",
+            "official": "Nederland"
+          }
+        },
+        "common": "Netherlands",
+        "official": "Netherlands"
+      },
+      "landlocked": false,
+      "subregion": "Western Europe"
+    },
+    {
+      "altSpellings": [
+        "NO",
+        "Norge",
+        "Noreg",
+        "Kingdom of Norway",
+        "Kongeriket Norge",
+        "Kongeriket Noreg"
+      ],
+      "area": 323802,
+      "hdi": "0.949",
+      "demonym": "Norwegian",
+      "gini": "5.4",
+      "latlng": [
+        62,
+        10
+      ],
+      "capital": "Oslo",
+      "languages": {
+        "smi": "Sami",
+        "nob": "Norwegian Bokmål",
+        "nno": "Norwegian Nynorsk"
+      },
+      "currency": [
+        "NOK"
+      ],
+      "name": {
+        "native": {
+          "smi": {
+            "common": "Norgga",
+            "official": "Norgga gonagasriika"
+          },
+          "nob": {
+            "common": "Norge",
+            "official": "Kongeriket Norge"
+          },
+          "nno": {
+            "common": "Noreg",
+            "official": "Kongeriket Noreg"
+          }
+        },
+        "common": "Norway",
+        "official": "Kingdom of Norway"
+      },
+      "landlocked": false,
+      "subregion": "Northern Europe"
+    },
+    {
+      "altSpellings": [
+        "PL",
+        "Republic of Poland",
+        "Rzeczpospolita Polska"
+      ],
+      "area": 312679,
+      "hdi": "0.855",
+      "demonym": "Polish",
+      "gini": "9.3",
+      "latlng": [
+        52,
+        20
+      ],
+      "capital": "Warsaw",
+      "languages": {
+        "pol": "Polish"
+      },
+      "currency": [
+        "PLN"
+      ],
+      "name": {
+        "native": {
+          "pol": {
+            "common": "Polska",
+            "official": "Rzeczpospolita Polska"
+          }
+        },
+        "common": "Poland",
+        "official": "Republic of Poland"
+      },
+      "landlocked": false,
+      "subregion": "Eastern Europe"
+    },
+    {
+      "altSpellings": [
+        "PT",
+        "Portuguesa",
+        "Portuguese Republic",
+        "República Portuguesa"
+      ],
+      "area": 92090,
+      "hdi": "0.843",
+      "demonym": "Portuguese",
+      "gini": "10.1",
+      "latlng": [
+        39.5,
+        -8
+      ],
+      "capital": "Lisbon",
+      "languages": {
+        "por": "Portuguese"
+      },
+      "currency": [
+        "EUR"
+      ],
+      "name": {
+        "native": {
+          "por": {
+            "common": "Portugal",
+            "official": "República português"
+          }
+        },
+        "common": "Portugal",
+        "official": "Portuguese Republic"
+      },
+      "landlocked": false,
+      "subregion": "Southern Europe"
+    },
+    {
+      "altSpellings": [
+        "RO",
+        "Rumania",
+        "Roumania",
+        "România"
+      ],
+      "area": 238391,
+      "hdi": "0.802",
+      "demonym": "Romanian",
+      "gini": "10.8",
+      "latlng": [
+        46,
+        25
+      ],
+      "capital": "Bucharest",
+      "languages": {
+        "ron": "Romanian"
+      },
+      "currency": [
+        "RON"
+      ],
+      "name": {
+        "native": {
+          "ron": {
+            "common": "România",
+            "official": "România"
+          }
+        },
+        "common": "Romania",
+        "official": "Romania"
+      },
+      "landlocked": false,
+      "subregion": "Eastern Europe"
+    },
+    {
+      "altSpellings": [
+        "RU",
+        "Rossiya",
+        "Russian Federation",
+        "Российская Федерация",
+        "Rossiyskaya Federatsiya"
+      ],
+      "area": 17098242,
+      "hdi": "0.804",
+      "demonym": "Russian",
+      "gini": "9.6",
+      "latlng": [
+        60,
+        100
+      ],
+      "capital": "Moscow",
+      "languages": {
+        "rus": "Russian"
+      },
+      "currency": [
+        "RUB"
+      ],
+      "name": {
+        "native": {
+          "rus": {
+            "common": "Россия",
+            "official": "Российская Федерация"
+          }
+        },
+        "common": "Russia",
+        "official": "Russian Federation"
+      },
+      "landlocked": false,
+      "subregion": "Eastern Europe"
+    },
+    {
+      "altSpellings": [
+        "RS",
+        "Srbija",
+        "Republic of Serbia",
+        "Република Србија",
+        "Republika Srbija"
+      ],
+      "area": 88361,
+      "hdi": "0.776",
+      "demonym": "Serbian",
+      "gini": "11.1",
+      "latlng": [
+        44,
+        21
+      ],
+      "capital": "Belgrade",
+      "languages": {
+        "srp": "Serbian"
+      },
+      "currency": [
+        "RSD"
+      ],
+      "name": {
+        "native": {
+          "srp": {
+            "common": "Србија",
+            "official": "Република Србија"
+          }
+        },
+        "common": "Serbia",
+        "official": "Republic of Serbia"
+      },
+      "landlocked": true,
+      "subregion": "Southern Europe"
+    },
+    {
+      "altSpellings": [
+        "SK",
+        "Slovak Republic",
+        "Slovenská republika"
+      ],
+      "area": 49037,
+      "hdi": "0.845",
+      "demonym": "Slovak",
+      "gini": "6",
+      "latlng": [
+        48.66666666,
+        19.5
+      ],
+      "capital": "Bratislava",
+      "languages": {
+        "slk": "Slovak"
+      },
+      "currency": [
+        "EUR"
+      ],
+      "name": {
+        "native": {
+          "slk": {
+            "common": "Slovensko",
+            "official": "Slovenská republika"
+          }
+        },
+        "common": "Slovakia",
+        "official": "Slovak Republic"
+      },
+      "landlocked": true,
+      "subregion": "Central Europe"
+    },
+    {
+      "altSpellings": [
+        "SI",
+        "Republic of Slovenia",
+        "Republika Slovenija"
+      ],
+      "area": 20273,
+      "hdi": "0.89",
+      "demonym": "Slovene",
+      "gini": "5.8",
+      "latlng": [
+        46.11666666,
+        14.81666666
+      ],
+      "capital": "Ljubljana",
+      "languages": {
+        "slv": "Slovene"
+      },
+      "currency": [
+        "EUR"
+      ],
+      "name": {
+        "native": {
+          "slv": {
+            "common": "Slovenija",
+            "official": "Republika Slovenija"
+          }
+        },
+        "common": "Slovenia",
+        "official": "Republic of Slovenia"
+      },
+      "landlocked": false,
+      "subregion": "Southern Europe"
+    },
+    {
+      "altSpellings": [
+        "SE",
+        "Kingdom of Sweden",
+        "Konungariket Sverige"
+      ],
+      "area": 450295,
+      "hdi": "0.913",
+      "demonym": "Swedish",
+      "gini": "6.6",
+      "latlng": [
+        62,
+        15
+      ],
+      "capital": "Stockholm",
+      "languages": {
+        "swe": "Swedish"
+      },
+      "currency": [
+        "SEK"
+      ],
+      "name": {
+        "native": {
+          "swe": {
+            "common": "Sverige",
+            "official": "Konungariket Sverige"
+          }
+        },
+        "common": "Sweden",
+        "official": "Kingdom of Sweden"
+      },
+      "landlocked": false,
+      "subregion": "Northern Europe"
+    },
+    {
+      "altSpellings": [
+        "UA",
+        "Ukrayina"
+      ],
+      "area": 603500,
+      "hdi": "0.743",
+      "demonym": "Ukrainian",
+      "gini": "7.2",
+      "latlng": [
+        49,
+        32
+      ],
+      "capital": "Kiev",
+      "languages": {
+        "ukr": "Ukrainian",
+        "rus": "Russian"
+      },
+      "currency": [
+        "UAH"
+      ],
+      "name": {
+        "native": {
+          "ukr": {
+            "common": "Україна",
+            "official": "Україна"
+          },
+          "rus": {
+            "common": "Украина",
+            "official": "Украина"
+          }
+        },
+        "common": "Ukraine",
+        "official": "Ukraine"
+      },
+      "landlocked": false,
+      "subregion": "Eastern Europe"
+    }
+  ],
+  "Oceania": [
+    {
+      "altSpellings": [
+        "AU"
+      ],
+      "area": 7692024,
+      "hdi": "0.939",
+      "demonym": "Australian",
+      "gini": "8",
+      "latlng": [
+        -27,
+        133
+      ],
+      "capital": "Canberra",
+      "languages": {
+        "eng": "English"
+      },
+      "currency": [
+        "AUD"
+      ],
+      "name": {
+        "native": {
+          "eng": {
+            "common": "Australia",
+            "official": "Commonwealth of Australia"
+          }
+        },
+        "common": "Australia",
+        "official": "Commonwealth of Australia"
+      },
+      "landlocked": false,
+      "subregion": "Australia and New Zealand"
+    },
+    {
+      "altSpellings": [
+        "FJ",
+        "Viti",
+        "Republic of Fiji",
+        "Matanitu ko Viti",
+        "Fijī Gaṇarājya"
+      ],
+      "area": 18272,
+      "hdi": "0.736",
+      "demonym": "Fijian",
+      "gini": "15.1",
+      "latlng": [
+        -18,
+        175
+      ],
+      "capital": "Suva",
+      "languages": {
+        "fij": "Fijian",
+        "eng": "English",
+        "hif": "Fiji Hindi"
+      },
+      "currency": [
+        "FJD"
+      ],
+      "name": {
+        "native": {
+          "fij": {
+            "common": "Viti",
+            "official": "Matanitu Tugalala o Viti"
+          },
+          "eng": {
+            "common": "Fiji",
+            "official": "Republic of Fiji"
+          },
+          "hif": {
+            "common": "फिजी",
+            "official": "रिपब्लिक ऑफ फीजी"
+          }
+        },
+        "common": "Fiji",
+        "official": "Republic of Fiji"
+      },
+      "landlocked": false,
+      "subregion": "Melanesia"
+    },
+    {
+      "altSpellings": [
+        "FM",
+        "Federated States of Micronesia",
+        "Micronesia, Federated States of"
+      ],
+      "area": 702,
+      "hdi": "0.638",
+      "demonym": "Micronesian",
+      "gini": "34.9",
+      "latlng": [
+        6.91666666,
+        158.25
+      ],
+      "capital": "Palikir",
+      "languages": {
+        "eng": "English"
+      },
+      "currency": [
+        "USD"
+      ],
+      "name": {
+        "native": {
+          "eng": {
+            "common": "Micronesia",
+            "official": "Federated States of Micronesia"
+          }
+        },
+        "common": "Micronesia",
+        "official": "Federated States of Micronesia"
+      },
+      "landlocked": false,
+      "subregion": "Micronesia"
+    },
+    {
+      "altSpellings": [
+        "KI",
+        "Republic of Kiribati",
+        "Ribaberiki Kiribati"
+      ],
+      "area": 811,
+      "hdi": "0.588",
+      "demonym": "I-Kiribati",
+      "gini": "32",
+      "latlng": [
+        1.41666666,
+        173
+      ],
+      "capital": "South Tarawa",
+      "languages": {
+        "gil": "Gilbertese",
+        "eng": "English"
+      },
+      "currency": [
+        "AUD"
+      ],
+      "name": {
+        "native": {
+          "gil": {
+            "common": "Kiribati",
+            "official": "Ribaberiki Kiribati"
+          },
+          "eng": {
+            "common": "Kiribati",
+            "official": "Independent and Sovereign Republic of Kiribati"
+          }
+        },
+        "common": "Kiribati",
+        "official": "Independent and Sovereign Republic of Kiribati"
+      },
+      "landlocked": false,
+      "subregion": "Micronesia"
+    },
+    {
+      "altSpellings": [
+        "SB"
+      ],
+      "area": 28896,
+      "hdi": "0.515",
+      "demonym": "Solomon Islander",
+      "gini": "23.8",
+      "latlng": [
+        -8,
+        159
+      ],
+      "capital": "Honiara",
+      "languages": {
+        "eng": "English"
+      },
+      "currency": [
+        "SBD"
+      ],
+      "name": {
+        "native": {
+          "eng": {
+            "common": "Solomon Islands",
+            "official": "Solomon Islands"
+          }
+        },
+        "common": "Solomon Islands",
+        "official": "Solomon Islands"
+      },
+      "landlocked": false,
+      "subregion": "Melanesia"
+    },
+    {
+      "altSpellings": [
+        "VU",
+        "Republic of Vanuatu",
+        "Ripablik blong Vanuatu",
+        "République de Vanuatu"
+      ],
+      "area": 12189,
+      "hdi": "0.597",
+      "demonym": "Ni-Vanuatu",
+      "gini": "17.2",
+      "latlng": [
+        -16,
+        167
+      ],
+      "capital": "Port Vila",
+      "languages": {
+        "fra": "French",
+        "bis": "Bislama",
+        "eng": "English"
+      },
+      "currency": [
+        "VUV"
+      ],
+      "name": {
+        "native": {
+          "fra": {
+            "common": "Vanuatu",
+            "official": "République de Vanuatu"
+          },
+          "bis": {
+            "common": "Vanuatu",
+            "official": "Ripablik blong Vanuatu"
+          },
+          "eng": {
+            "common": "Vanuatu",
+            "official": "Republic of Vanuatu"
+          }
+        },
+        "common": "Vanuatu",
+        "official": "Republic of Vanuatu"
+      },
+      "landlocked": false,
+      "subregion": "Melanesia"
+    }
+  ],
+  "Americas": [
+    {
+      "altSpellings": [
+        "AR",
+        "Argentine Republic",
+        "República Argentina"
+      ],
+      "area": 2780400,
+      "hdi": "0.827",
+      "demonym": "Argentine",
+      "gini": "15.2",
+      "latlng": [
+        -34,
+        -64
+      ],
+      "capital": "Buenos Aires",
+      "languages": {
+        "grn": "Guaraní",
+        "spa": "Spanish"
+      },
+      "currency": [
+        "ARS"
+      ],
+      "name": {
+        "native": {
+          "grn": {
+            "common": "Argentina",
+            "official": "Argentine Republic"
+          },
+          "spa": {
+            "common": "Argentina",
+            "official": "República Argentina"
+          }
+        },
+        "common": "Argentina",
+        "official": "Argentine Republic"
+      },
+      "landlocked": false,
+      "subregion": "South America"
+    },
+    {
+      "altSpellings": [
+        "BS",
+        "Commonwealth of the Bahamas"
+      ],
+      "area": 13943,
+      "hdi": "0.792",
+      "demonym": "Bahamian",
+      "gini": "14",
+      "latlng": [
+        24.25,
+        -76
+      ],
+      "capital": "Nassau",
+      "languages": {
+        "eng": "English"
+      },
+      "currency": [
+        "BSD"
+      ],
+      "name": {
+        "native": {
+          "eng": {
+            "common": "Bahamas",
+            "official": "Commonwealth of the Bahamas"
+          }
+        },
+        "common": "Bahamas",
+        "official": "Commonwealth of the Bahamas"
+      },
+      "landlocked": false,
+      "subregion": "Caribbean"
+    },
+    {
+      "altSpellings": [
+        "BZ"
+      ],
+      "area": 22966,
+      "hdi": "0.706",
+      "demonym": "Belizean",
+      "gini": "21.8",
+      "latlng": [
+        17.25,
+        -88.75
+      ],
+      "capital": "Belmopan",
+      "languages": {
+        "bjz": "Belizean Creole",
+        "eng": "English",
+        "spa": "Spanish"
+      },
+      "currency": [
+        "BZD"
+      ],
+      "name": {
+        "native": {
+          "bjz": {
+            "common": "Belize",
+            "official": "Belize"
+          },
+          "eng": {
+            "common": "Belize",
+            "official": "Belize"
+          },
+          "spa": {
+            "common": "Belice",
+            "official": "Belice"
+          }
+        },
+        "common": "Belize",
+        "official": "Belize"
+      },
+      "landlocked": false,
+      "subregion": "Central America"
+    },
+    {
+      "altSpellings": [
+        "BO",
+        "Buliwya",
+        "Wuliwya",
+        "Bolivia, Plurinational State of",
+        "Plurinational State of Bolivia",
+        "Estado Plurinacional de Bolivia",
+        "Buliwya Mamallaqta",
+        "Wuliwya Suyu",
+        "Tetã Volívia"
+      ],
+      "area": 1098581,
+      "hdi": "0.674",
+      "demonym": "Bolivian",
+      "gini": "28.8",
+      "latlng": [
+        -17,
+        -65
+      ],
+      "capital": "Sucre",
+      "languages": {
+        "grn": "Guaraní",
+        "que": "Quechua",
+        "spa": "Spanish",
+        "aym": "Aymara"
+      },
+      "currency": [
+        "BOB",
+        "BOV"
+      ],
+      "name": {
+        "native": {
+          "grn": {
+            "common": "Volívia",
+            "official": "Tetã Volívia"
+          },
+          "que": {
+            "common": "Buliwya",
+            "official": "Buliwya Mamallaqta"
+          },
+          "spa": {
+            "common": "Bolivia",
+            "official": "Estado Plurinacional de Bolivia"
+          },
+          "aym": {
+            "common": "Wuliwya",
+            "official": "Wuliwya Suyu"
+          }
+        },
+        "common": "Bolivia",
+        "official": "Plurinational State of Bolivia"
+      },
+      "landlocked": true,
+      "subregion": "South America"
+    },
+    {
+      "altSpellings": [
+        "BR",
+        "Brasil",
+        "Federative Republic of Brazil",
+        "República Federativa do Brasil"
+      ],
+      "area": 8515767,
+      "hdi": "0.754",
+      "demonym": "Brazilian",
+      "gini": "25",
+      "latlng": [
+        -10,
+        -55
+      ],
+      "capital": "Brasília",
+      "languages": {
+        "por": "Portuguese"
+      },
+      "currency": [
+        "BRL"
+      ],
+      "name": {
+        "native": {
+          "por": {
+            "common": "Brasil",
+            "official": "República Federativa do Brasil"
+          }
+        },
+        "common": "Brazil",
+        "official": "Federative Republic of Brazil"
+      },
+      "landlocked": false,
+      "subregion": "South America"
+    },
+    {
+      "altSpellings": [
+        "CA"
+      ],
+      "area": 9984670,
+      "hdi": "0.92",
+      "demonym": "Canadian",
+      "gini": "8.7",
+      "latlng": [
+        60,
+        -95
+      ],
+      "capital": "Ottawa",
+      "languages": {
+        "fra": "French",
+        "eng": "English"
+      },
+      "currency": [
+        "CAD"
+      ],
+      "name": {
+        "native": {
+          "fra": {
+            "common": "Canada",
+            "official": "Canada"
+          },
+          "eng": {
+            "common": "Canada",
+            "official": "Canada"
+          }
+        },
+        "common": "Canada",
+        "official": "Canada"
+      },
+      "landlocked": false,
+      "subregion": "Northern America"
+    },
+    {
+      "altSpellings": [
+        "CL",
+        "Republic of Chile",
+        "República de Chile"
+      ],
+      "area": 756102,
+      "hdi": "0.847",
+      "demonym": "Chilean",
+      "gini": "17.1",
+      "latlng": [
+        -30,
+        -71
+      ],
+      "capital": "Santiago",
+      "languages": {
+        "spa": "Spanish"
+      },
+      "currency": [
+        "CLF",
+        "CLP"
+      ],
+      "name": {
+        "native": {
+          "spa": {
+            "common": "Chile",
+            "official": "República de Chile"
+          }
+        },
+        "common": "Chile",
+        "official": "Republic of Chile"
+      },
+      "landlocked": false,
+      "subregion": "South America"
+    },
+    {
+      "altSpellings": [
+        "CO",
+        "Republic of Colombia",
+        "República de Colombia"
+      ],
+      "area": 1141748,
+      "hdi": "0.727",
+      "demonym": "Colombian",
+      "gini": "23.7",
+      "latlng": [
+        4,
+        -72
+      ],
+      "capital": "Bogotá",
+      "languages": {
+        "spa": "Spanish"
+      },
+      "currency": [
+        "COP"
+      ],
+      "name": {
+        "native": {
+          "spa": {
+            "common": "Colombia",
+            "official": "República de Colombia"
+          }
+        },
+        "common": "Colombia",
+        "official": "Republic of Colombia"
+      },
+      "landlocked": false,
+      "subregion": "South America"
+    },
+    {
+      "altSpellings": [
+        "CR",
+        "Republic of Costa Rica",
+        "República de Costa Rica"
+      ],
+      "area": 51100,
+      "hdi": "0.776",
+      "demonym": "Costa Rican",
+      "gini": "18.2",
+      "latlng": [
+        10,
+        -84
+      ],
+      "capital": "San José",
+      "languages": {
+        "spa": "Spanish"
+      },
+      "currency": [
+        "CRC"
+      ],
+      "name": {
+        "native": {
+          "spa": {
+            "common": "Costa Rica",
+            "official": "República de Costa Rica"
+          }
+        },
+        "common": "Costa Rica",
+        "official": "Republic of Costa Rica"
+      },
+      "landlocked": false,
+      "subregion": "Central America"
+    },
+    {
+      "altSpellings": [
+        "DM",
+        "Dominique",
+        "Wai‘tu kubuli",
+        "Commonwealth of Dominica"
+      ],
+      "area": 751,
+      "hdi": "0.726",
+      "demonym": "Dominican",
+      "gini": "21.6",
+      "latlng": [
+        15.41666666,
+        -61.33333333
+      ],
+      "capital": "Roseau",
+      "languages": {
+        "eng": "English"
+      },
+      "currency": [
+        "XCD"
+      ],
+      "name": {
+        "native": {
+          "eng": {
+            "common": "Dominica",
+            "official": "Commonwealth of Dominica"
+          }
+        },
+        "common": "Dominica",
+        "official": "Commonwealth of Dominica"
+      },
+      "landlocked": false,
+      "subregion": "Caribbean"
+    },
+    {
+      "altSpellings": [
+        "DO"
+      ],
+      "area": 48671,
+      "hdi": "0.722",
+      "demonym": "Dominican",
+      "gini": "21.6",
+      "latlng": [
+        19,
+        -70.66666666
+      ],
+      "capital": "Santo Domingo",
+      "languages": {
+        "spa": "Spanish"
+      },
+      "currency": [
+        "DOP"
+      ],
+      "name": {
+        "native": {
+          "spa": {
+            "common": "República Dominicana",
+            "official": "República Dominicana"
+          }
+        },
+        "common": "Dominican Republic",
+        "official": "Dominican Republic"
+      },
+      "landlocked": false,
+      "subregion": "Caribbean"
+    },
+    {
+      "altSpellings": [
+        "EC",
+        "Republic of Ecuador",
+        "República del Ecuador"
+      ],
+      "area": 276841,
+      "hdi": "0.739",
+      "demonym": "Ecuadorean",
+      "gini": "20.2",
+      "latlng": [
+        -2,
+        -77.5
+      ],
+      "capital": "Quito",
+      "languages": {
+        "spa": "Spanish"
+      },
+      "currency": [
+        "USD"
+      ],
+      "name": {
+        "native": {
+          "spa": {
+            "common": "Ecuador",
+            "official": "República del Ecuador"
+          }
+        },
+        "common": "Ecuador",
+        "official": "Republic of Ecuador"
+      },
+      "landlocked": false,
+      "subregion": "South America"
+    },
+    {
+      "altSpellings": [
+        "GT"
+      ],
+      "area": 108889,
+      "hdi": "0.64",
+      "demonym": "Guatemalan",
+      "gini": "29.1",
+      "latlng": [
+        15.5,
+        -90.25
+      ],
+      "capital": "Guatemala City",
+      "languages": {
+        "spa": "Spanish"
+      },
+      "currency": [
+        "GTQ"
+      ],
+      "name": {
+        "native": {
+          "spa": {
+            "common": "Guatemala",
+            "official": "República de Guatemala"
+          }
+        },
+        "common": "Guatemala",
+        "official": "Republic of Guatemala"
+      },
+      "landlocked": false,
+      "subregion": "Central America"
+    },
+    {
+      "altSpellings": [
+        "GY",
+        "Co-operative Republic of Guyana"
+      ],
+      "area": 214969,
+      "hdi": "0.638",
+      "demonym": "Guyanese",
+      "gini": "18.5",
+      "latlng": [
+        5,
+        -59
+      ],
+      "capital": "Georgetown",
+      "languages": {
+        "eng": "English"
+      },
+      "currency": [
+        "GYD"
+      ],
+      "name": {
+        "native": {
+          "eng": {
+            "common": "Guyana",
+            "official": "Co-operative Republic of Guyana"
+          }
+        },
+        "common": "Guyana",
+        "official": "Co-operative Republic of Guyana"
+      },
+      "landlocked": false,
+      "subregion": "South America"
+    },
+    {
+      "altSpellings": [
+        "HN",
+        "Republic of Honduras",
+        "República de Honduras"
+      ],
+      "area": 112492,
+      "hdi": "0.625",
+      "demonym": "Honduran",
+      "gini": "28.5",
+      "latlng": [
+        15,
+        -86.5
+      ],
+      "capital": "Tegucigalpa",
+      "languages": {
+        "spa": "Spanish"
+      },
+      "currency": [
+        "HNL"
+      ],
+      "name": {
+        "native": {
+          "spa": {
+            "common": "Honduras",
+            "official": "República de Honduras"
+          }
+        },
+        "common": "Honduras",
+        "official": "Republic of Honduras"
+      },
+      "landlocked": false,
+      "subregion": "Central America"
+    },
+    {
+      "altSpellings": [
+        "HT",
+        "Republic of Haiti",
+        "République d'Haïti",
+        "Repiblik Ayiti"
+      ],
+      "area": 27750,
+      "hdi": "0.493",
+      "demonym": "Haitian",
+      "gini": "39.2",
+      "latlng": [
+        19,
+        -72.41666666
+      ],
+      "capital": "Port-au-Prince",
+      "languages": {
+        "fra": "French",
+        "hat": "Haitian Creole"
+      },
+      "currency": [
+        "HTG",
+        "USD"
+      ],
+      "name": {
+        "native": {
+          "fra": {
+            "common": "Haïti",
+            "official": "République d'Haïti"
+          },
+          "hat": {
+            "common": "Ayiti",
+            "official": "Repiblik Ayiti"
+          }
+        },
+        "common": "Haiti",
+        "official": "Republic of Haiti"
+      },
+      "landlocked": false,
+      "subregion": "Caribbean"
+    },
+    {
+      "altSpellings": [
+        "JM"
+      ],
+      "area": 10991,
+      "hdi": "0.73",
+      "demonym": "Jamaican",
+      "gini": "15.9",
+      "latlng": [
+        18.25,
+        -77.5
+      ],
+      "capital": "Kingston",
+      "languages": {
+        "eng": "English",
+        "jam": "Jamaican Patois"
+      },
+      "currency": [
+        "JMD"
+      ],
+      "name": {
+        "native": {
+          "eng": {
+            "common": "Jamaica",
+            "official": "Jamaica"
+          },
+          "jam": {
+            "common": "Jamaica",
+            "official": "Jamaica"
+          }
+        },
+        "common": "Jamaica",
+        "official": "Jamaica"
+      },
+      "landlocked": false,
+      "subregion": "Caribbean"
+    },
+    {
+      "altSpellings": [
+        "LC"
+      ],
+      "area": 616,
+      "hdi": "0.735",
+      "demonym": "Saint Lucian",
+      "gini": "15.6",
+      "latlng": [
+        13.88333333,
+        -60.96666666
+      ],
+      "capital": "Castries",
+      "languages": {
+        "eng": "English"
+      },
+      "currency": [
+        "XCD"
+      ],
+      "name": {
+        "native": {
+          "eng": {
+            "common": "Saint Lucia",
+            "official": "Saint Lucia"
+          }
+        },
+        "common": "Saint Lucia",
+        "official": "Saint Lucia"
+      },
+      "landlocked": false,
+      "subregion": "Caribbean"
+    },
+    {
+      "altSpellings": [
+        "MX",
+        "Mexicanos",
+        "United Mexican States",
+        "Estados Unidos Mexicanos"
+      ],
+      "area": 1964375,
+      "hdi": "0.762",
+      "demonym": "Mexican",
+      "gini": "22.4",
+      "latlng": [
+        23,
+        -102
+      ],
+      "capital": "Mexico City",
+      "languages": {
+        "spa": "Spanish"
+      },
+      "currency": [
+        "MXN"
+      ],
+      "name": {
+        "native": {
+          "spa": {
+            "common": "México",
+            "official": "Estados Unidos Mexicanos"
+          }
+        },
+        "common": "Mexico",
+        "official": "United Mexican States"
+      },
+      "landlocked": false,
+      "subregion": "Northern America"
+    },
+    {
+      "altSpellings": [
+        "NI",
+        "Republic of Nicaragua",
+        "República de Nicaragua"
+      ],
+      "area": 130373,
+      "hdi": "0.645",
+      "demonym": "Nicaraguan",
+      "gini": "25.4",
+      "latlng": [
+        13,
+        -85
+      ],
+      "capital": "Managua",
+      "languages": {
+        "spa": "Spanish"
+      },
+      "currency": [
+        "NIO"
+      ],
+      "name": {
+        "native": {
+          "spa": {
+            "common": "Nicaragua",
+            "official": "República de Nicaragua"
+          }
+        },
+        "common": "Nicaragua",
+        "official": "Republic of Nicaragua"
+      },
+      "landlocked": false,
+      "subregion": "Central America"
+    },
+    {
+      "altSpellings": [
+        "PA",
+        "Republic of Panama",
+        "República de Panamá"
+      ],
+      "area": 75417,
+      "hdi": "0.788",
+      "demonym": "Panamanian",
+      "gini": "21",
+      "latlng": [
+        9,
+        -80
+      ],
+      "capital": "Panama City",
+      "languages": {
+        "spa": "Spanish"
+      },
+      "currency": [
+        "PAB",
+        "USD"
+      ],
+      "name": {
+        "native": {
+          "spa": {
+            "common": "Panamá",
+            "official": "República de Panamá"
+          }
+        },
+        "common": "Panama",
+        "official": "Republic of Panama"
+      },
+      "landlocked": false,
+      "subregion": "Central America"
+    },
+    {
+      "altSpellings": [
+        "PE",
+        "Republic of Peru",
+        "República del Perú"
+      ],
+      "area": 1285216,
+      "hdi": "0.74",
+      "demonym": "Peruvian",
+      "gini": "21.4",
+      "latlng": [
+        -10,
+        -76
+      ],
+      "capital": "Lima",
+      "languages": {
+        "que": "Quechua",
+        "spa": "Spanish",
+        "aym": "Aymara"
+      },
+      "currency": [
+        "PEN"
+      ],
+      "name": {
+        "native": {
+          "que": {
+            "common": "Piruw",
+            "official": "Piruw Ripuwlika"
+          },
+          "spa": {
+            "common": "Perú",
+            "official": "República del Perú"
+          },
+          "aym": {
+            "common": "Piruw",
+            "official": "Piruw Suyu"
+          }
+        },
+        "common": "Peru",
+        "official": "Republic of Peru"
+      },
+      "landlocked": false,
+      "subregion": "South America"
+    },
+    {
+      "altSpellings": [
+        "PY",
+        "Republic of Paraguay",
+        "República del Paraguay",
+        "Tetã Paraguái"
+      ],
+      "area": 406752,
+      "hdi": "0.693",
+      "demonym": "Paraguayan",
+      "gini": "23.5",
+      "latlng": [
+        -23,
+        -58
+      ],
+      "capital": "Asunción",
+      "languages": {
+        "grn": "Guaraní",
+        "spa": "Spanish"
+      },
+      "currency": [
+        "PYG"
+      ],
+      "name": {
+        "native": {
+          "grn": {
+            "common": "Paraguái",
+            "official": "Tetã Paraguái"
+          },
+          "spa": {
+            "common": "Paraguay",
+            "official": "República de Paraguay"
+          }
+        },
+        "common": "Paraguay",
+        "official": "Republic of Paraguay"
+      },
+      "landlocked": true,
+      "subregion": "South America"
+    },
+    {
+      "altSpellings": [
+        "SV",
+        "Republic of El Salvador",
+        "República de El Salvador"
+      ],
+      "area": 21041,
+      "hdi": "0.68",
+      "demonym": "Salvadoran",
+      "gini": "22",
+      "latlng": [
+        13.83333333,
+        -88.91666666
+      ],
+      "capital": "San Salvador",
+      "languages": {
+        "spa": "Spanish"
+      },
+      "currency": [
+        "SVC",
+        "USD"
+      ],
+      "name": {
+        "native": {
+          "spa": {
+            "common": "El Salvador",
+            "official": "República de El Salvador"
+          }
+        },
+        "common": "El Salvador",
+        "official": "Republic of El Salvador"
+      },
+      "landlocked": false,
+      "subregion": "Central America"
+    },
+    {
+      "altSpellings": [
+        "SR",
+        "Sarnam",
+        "Sranangron",
+        "Republic of Suriname",
+        "Republiek Suriname"
+      ],
+      "area": 163820,
+      "hdi": "0.725",
+      "demonym": "Surinamer",
+      "gini": "23.3",
+      "latlng": [
+        4,
+        -56
+      ],
+      "capital": "Paramaribo",
+      "languages": {
+        "nld": "Dutch"
+      },
+      "currency": [
+        "SRD"
+      ],
+      "name": {
+        "native": {
+          "nld": {
+            "common": "Suriname",
+            "official": "Republiek Suriname"
+          }
+        },
+        "common": "Suriname",
+        "official": "Republic of Suriname"
+      },
+      "landlocked": false,
+      "subregion": "South America"
+    },
+    {
+      "altSpellings": [
+        "TT",
+        "Republic of Trinidad and Tobago"
+      ],
+      "area": 5130,
+      "hdi": "0.78",
+      "demonym": "Trinidadian",
+      "gini": "15.1",
+      "latlng": [
+        11,
+        -61
+      ],
+      "capital": "Port of Spain",
+      "languages": {
+        "eng": "English"
+      },
+      "currency": [
+        "TTD"
+      ],
+      "name": {
+        "native": {
+          "eng": {
+            "common": "Trinidad and Tobago",
+            "official": "Republic of Trinidad and Tobago"
+          }
+        },
+        "common": "Trinidad and Tobago",
+        "official": "Republic of Trinidad and Tobago"
+      },
+      "landlocked": false,
+      "subregion": "Caribbean"
+    },
+    {
+      "altSpellings": [
+        "UY",
+        "Oriental Republic of Uruguay",
+        "República Oriental del Uruguay"
+      ],
+      "area": 181034,
+      "hdi": "0.795",
+      "demonym": "Uruguayan",
+      "gini": "15.4",
+      "latlng": [
+        -33,
+        -56
+      ],
+      "capital": "Montevideo",
+      "languages": {
+        "spa": "Spanish"
+      },
+      "currency": [
+        "UYI",
+        "UYU"
+      ],
+      "name": {
+        "native": {
+          "spa": {
+            "common": "Uruguay",
+            "official": "República Oriental del Uruguay"
+          }
+        },
+        "common": "Uruguay",
+        "official": "Oriental Republic of Uruguay"
+      },
+      "landlocked": false,
+      "subregion": "South America"
+    },
+    {
+      "altSpellings": [
+        "US",
+        "USA",
+        "United States of America"
+      ],
+      "area": 9372610,
+      "hdi": "0.92",
+      "demonym": "American",
+      "gini": "12.9",
+      "latlng": [
+        38,
+        -97
+      ],
+      "capital": "Washington D.C.",
+      "languages": {
+        "eng": "English"
+      },
+      "currency": [
+        "USD",
+        "USN",
+        "USS"
+      ],
+      "name": {
+        "native": {
+          "eng": {
+            "common": "United States",
+            "official": "United States of America"
+          }
+        },
+        "common": "United States",
+        "official": "United States of America"
+      },
+      "landlocked": false,
+      "subregion": "Northern America"
+    },
+    {
+      "altSpellings": [
+        "VE",
+        "Bolivarian Republic of Venezuela",
+        "Venezuela, Bolivarian Republic of",
+        "República Bolivariana de Venezuela"
+      ],
+      "area": 916445,
+      "hdi": "0.767",
+      "demonym": "Venezuelan",
+      "gini": "19.1",
+      "latlng": [
+        8,
+        -66
+      ],
+      "capital": "Caracas",
+      "languages": {
+        "spa": "Spanish"
+      },
+      "currency": [
+        "VEF"
+      ],
+      "name": {
+        "native": {
+          "spa": {
+            "common": "Venezuela",
+            "official": "República Bolivariana de Venezuela"
+          }
+        },
+        "common": "Venezuela",
+        "official": "Bolivarian Republic of Venezuela"
+      },
+      "landlocked": false,
+      "subregion": "South America"
+    }
+  ]
+}
