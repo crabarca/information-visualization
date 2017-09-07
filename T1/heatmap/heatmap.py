@@ -86,7 +86,7 @@ def drawHeatmap(canvas, data):
         x_start += x_offset
 
 if __name__ == "__main__":
-    data = parseData(os.path.join(rootDir, 'data/heatmap.json'))
+    data = parseData(os.path.join(rootDir, 'processed_data/heatmap.json'))
     drw = svgwrite.Drawing(outfile, size=(canvas_width, canvas_height))
     print(data)
     # Creamos los ejes 
