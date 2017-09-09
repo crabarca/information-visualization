@@ -44,50 +44,28 @@ def draw_axis_y(canvas, data):
         # eje correspondiente a gini
     yAxis = [(120, 700), (120, 190)]
     
-    xStartLabel = 70
+    xStartLabel = 45
     yStartLabel = 650
 
-    yLabelOffset = 50
+    yLabelOffset = 60
 
     # gini = sort_by_value(data, 'gini')
     # gini = [i[1] for i in gini]
-    
+    pop = [10**8, 2*10**8, 3*10**8, 4*10**8,5*10**8, 6*10**8, 7*10**8]
     canvas.add(canvas.line(start = yAxis[0], end = yAxis[1], stroke= 'black', stroke_width = 2))
 
-    # scale = round((max(gini) - min(gini)) / 8, 2)
+    scale = round((max(pop) - min(pop)) / 6, 2)
     
     # guardo posicion de los labels y la posicion inicial para poder localizar los circulos  
-    # label_position = [(scale,yStartLabel), yAxis[0]]
-    # for i in range(1, 11):
-    #     canvas.add(canvas.text(text=round(scale * i, 2), insert = (xStartLabel, yStartLabel)))
-    #     yStartLabel -= yLabelOffset
+    label_position = [(scale,yStartLabel), yAxis[0]]
+    for i in range(7):
+        canvas.add(canvas.text(text=pop[i], insert = (xStartLabel, yStartLabel)))
+        yStartLabel -= yLabelOffset
 
-    canvas.add(canvas.text(text = 'Gini', insert = (100, 180)))
+    canvas.add(canvas.text(text = 'Population', insert = (100, 180)))
     
     return label_position
 
-
-def draw_title(canvas, text, x, y):
-    canvas.add(canvas.text(text=text , insert=(x, y), style="font-size:30"))
-
-def draw_simbology(canvas, data, tipo):
-    pass
-
-# FUNCIONES AUXILIARES PARA OBTENER CARACTERISTICAS A DIBUJAR
-def get_coordinates(xLabels, yLabels, x, y):
-    # retorna la posicion en pixeles donde va a estar x,y (hdi, gini) en funcion de los labels del canvas
-    # se calcula la posicion definiendo dos ecuaciones de la recta  
-    pendienteX = (xLabels[0][1] - xLabels[1][0]) / xLabels[0][0]
-    pendienteY = (yLabels[0][1] - yLabels[1][1]) / yLabels[0][0]
-
-    xPixel = pendienteX * x + xLabels[1][0]
-    yPixel = pendienteY * y + yLabels[1][1]
-
-    return xPixel, yPixel
-
-def get_color(data, tipo, valor):
-    pass
-       
 
 def make_stacked_area(data, continente):
     # stackear una religion encima de otra de manera de poder saber el alto total del stack 
@@ -113,34 +91,47 @@ def make_stacked_area(data, continente):
     print(stacked_points)
     return stacked_points
 
-def draw_stacked_graph(canvas, data, continente):
-    graphHeight = 600
-    pop_scale = 2500000
-    xStart = 150
-    yStart = 600
-    xOffset = 50
-    stacked_coords = make_stacked_area(canvas, data, continente)
+def draw_stacked_graph(canvas, data, continente, xlabels, ylabels):
+    stacked_coords = make_stacked_area(data, continente)
     colors = ['red', 'green', 'blue', 'black']
     color = 0
     for religion in stacked_coords:
         lines = canvas.add(canvas.g(id='line', fill = colors[color]))
         line = lines.add(canvas.polyline())
-        line.points.append((xStart, graphHeight))
+        line.points.append((120, 700))
         for point in religion:
-            print(year_scale(point[0]), population_scale(point[1]))
-            line.points.append((year_scale(point[0]), 
-                                graphHeight - population_scale(point[1]))) 
-        line.points.append((year_scale(2017), graphHeight))
+            x, y = get_coordinates(xlabels, ylabels, point[0], point[1])
+            print(x, y)
+            line.points.append((x,y))
+        line.points.append((1000, 700))
         print(colors[color])
         color += 1
 
-def year_scale(year):
-    y = 10 * year - 19300
-    return y
 
-def population_scale(pop):
-    y = (600 - 200)/((10**8) - (10**9)) * pop + 5800/9
-    return y
+def draw_title(canvas, text, x, y):
+    canvas.add(canvas.text(text=text , insert=(x, y), style="font-size:30"))
+
+def draw_simbology(canvas, data, tipo):
+    pass
+
+# FUNCIONES AUXILIARES PARA OBTENER CARACTERISTICAS A DIBUJAR
+def get_coordinates(xLabels, yLabels, x, y):
+    # retorna la posicion en pixeles donde va a estar x,y (hdi, gini) en funcion de los labels del canvas
+    # se calcula la posicion definiendo dos ecuaciones de la recta  
+    pendienteX = (xLabels[0][1] - xLabels[1][0]) / xLabels[0][0]
+    pendienteY = (yLabels[0][1] - yLabels[1][1]) / yLabels[0][0]
+
+    xPixel = pendienteX * x + xLabels[1][0] - 16000
+    yPixel = pendienteY * y + yLabels[1][1]
+
+    return xPixel, yPixel
+# def year_scale(year):
+#     y = 10 * year - 19300
+#     return y
+
+# def population_scale(pop):
+#     y = (600 - 200)/((10**8) - (10**9)) * pop + 5800/9
+#     return y
 
 
 if __name__ == "__main__":
@@ -149,14 +140,12 @@ if __name__ == "__main__":
     
     # STACKED CONTINENTAL 
     drw = svgwrite.Drawing(outfile1, size=(canvas_width, canvas_height))
-    # print(data)
-    draw_axis_x(drw, data)
-    draw_axis_y(drw, data)
-    
-    # draw_stacked_graph(data, 'america')
 
+    xLabels = draw_axis_x(drw, data)
+    yLabels = draw_axis_y(drw, data)
 
-#  BUBBLECHART RELIGIOSO
+    draw_stacked_graph(drw, data, 'america', xLabels, yLabels)
+    print(xLabels, yLabels)
 
     drw.save()
     

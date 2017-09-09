@@ -5,7 +5,7 @@ import os
 rootDir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 input_file = ''
-outfile = os.path.join(rootDir, 'heatmap/heatmap.svg')
+outfile = os.path.join(rootDir, 'images/heatmap.svg')
 canvas_height = '600px'
 canvas_width = '1200px'
 

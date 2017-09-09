@@ -24,22 +24,50 @@
     </p>
     <p>
       Parte de las desiciones importantes que tome y que tuvo importancia en todos los análisis, es 
-      la no utilización del dataset 
+      la no utilización del dataset <em>WRP_global.csv</em> debido a que no se detalla que paises se considera dentro de 
+      cada continente. Por lo tanto, al realizar los distintos gráficos podria haber incurrir en errores al hacer el cruce con los paises
+      que se encuentran en el <em>dataset_countries.json</em>
     <h2> Heatmap </h2>
-    <embed type="image/svg+xml" src="example.svg" />
-    <h2> SVG via iframe </h2>
-    <iframe src="example.svg">
-      Your browser does not support iframes
-    </iframe>
-    <h2> SVG inline </h2>
-    <h2> SVG via img </h2>
-    <h2> SVG como fondo </h2>
-    <h2> SVG como fondo </h2>
-    <h2> SVG como fondo </h2>
-    <h2> SVG como fondo </h2>
-    <h2> SVG como fondo </h2>
-    <h2> SVG como fondo </h2>
-    <h2> SVG como fondo </h2>
+    <p>
+      En este gráfico es posible visualizar la proporción de prácticantes de las religiones más numerosas al año 2010 con respecto a la población total 
+      del continente en este mismo año. 
+    </p>
+    <p>
+      Solamente consideré el año 2010, porque asumí que esta es posiblemente la información más completa comparada con la de años anteriores. 
+      A pesar de esto al hacer el cruce de información entre los paises del <em>dataset_countries.json</em> y <em>WRP_national.csv</em>, descubrí que habian 4 paises 
+      en el archivo .json que no se encontraban en el archivo .csv y viceversa existian 46 paises que están en el .csv pero no en el .json. 
+    </p>
+    </p>
+    Debido a lo anterior, decidi revisar si efectivamente estos 46 paises de diferencia representaban una variación significativa de la cantidad total de población.
+    Al realizar los cálculos, que mi selección de paises (con los 46 paises de diferencia con el archivo <em>WRP_national.csv</em>) deja fuera un total de 
+    424030871 personas, lo que equivale a un 6.21% de la población total según  <em>WRP_national.csv</em>.
+    </p>
+
+    <p>
+      Otra consideración importante es que de las 16 familias religiosas mayores (incluyendo a los no religiosos y otros) escogí las 10 familias más numerosas para 
+      realizar las proporciones. A pesar de que los no-religiosos no son una religión, al ser un grupo tan numeroso es necesario representarlos para dar cuenta que a pesar
+      de tener religiones muy numerosas, el numero de no-religiosos tambien representa un porcentaje importante.
+    </p>
+    <embed type="image/svg+xml" src="images/heatmap.svg" />
+    <h2> Bubblecharts </h2>
+    <p>
+      En esta visualización, se utilizó la misma selección de paises que para el caso del Heatmap. 
+      Una consideración importante que realicé al momento de generar esta visualización fue dibujar en primer lugar los paises con más área, representado con círculos más
+      grandes. Esto debido a que si generaba en cualquier orden los circulos, iba a pasar que paises con más área iban a tapar a los de menor área dejandolos invisibles 
+      al momento de ver la visualización completa. 
+      En esta visualización es posible ver que los paises africanos en su mayoria tienen un bajo indice de desarrollo humano comparado con los demás continentes, lo que nos indica,
+      lamentablemente que la visualización se encuentra bien realizada en cuanto a escalas. 
+    </p>
+    <embed type="image/svg+xml" src="images/bubblechart1.svg" />
+    <p>
+      En este segundo Bubblechart, al hacer el filtro por la religión más popular de los paises, me encontré con que solamente son 8 las religiones más populares en todos 
+      los paises de la selección. Se puede notar que los paises con una mayor área, tienen a la religión Cristiana como la predominante. Otro dato interesante, es que 
+      se puede distinguir claramente a ciertos paises aún sin la necesidad de poner los nombres respectivos. Por ejemplo, la India es claramente el circulo verde grande ubicado en 
+      entremedio de los demás circulos. 
+    </p>
+    <embed type="image/svg+xml" src="images/bubblechart2.svg" />
+    <h2> Stacked area graphs </h2>
+    No alcancé a implementarlos ,pero logré realizar el procesamiento de data necesarios.
 
   </div>
 </body>

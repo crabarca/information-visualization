@@ -7,8 +7,8 @@ import math
 
 rootDir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 input_file = ''
-outfile1 = os.path.join(rootDir, 'bubblecharts/bubblechart1.svg')
-outfile2 = os.path.join(rootDir, 'bubblecharts/bubblechart2.svg')
+outfile1 = os.path.join(rootDir, 'images/bubblechart1.svg')
+outfile2 = os.path.join(rootDir, 'images/bubblechart2.svg')
 canvas_height = '800px'
 canvas_width = '1300px'
 
@@ -60,6 +60,7 @@ def draw_axis_y(canvas, data):
     canvas.add(canvas.line(start = yAxis[0], end = yAxis[1], stroke= 'black', stroke_width = 2))
 
     scale = round((max(gini) - min(gini)) / 8, 2)
+    print(scale)
     
     # guardo posicion de los labels y la posicion inicial para poder localizar los circulos  
     label_position = [(scale,yStartLabel), yAxis[0]]
@@ -129,7 +130,8 @@ def get_color(data, tipo, valor):
                   'Christianity': 'rgb(222,177,89)',
                   'Judaism': 'rgb(222,89,139)', 'Hindu':'rgb(43,135,88)' ,  
                   'Shinto': 'rgb(43,135,134)',
-                  'Buddhism': 'rgb(77,77,77)', 'Animist': 'rgb(201,222,89)'}
+                  'Buddhism': 'rgb(77,77,77)', 'Animist': 'rgb(201,222,89)',
+                 'Non. Religious':'rgb(151, 191, 4)'}
 
         return colors[valor]
        
