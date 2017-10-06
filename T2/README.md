@@ -1,3 +1,5 @@
-### Repositorio para las actividades y tareas para el curso IIC2026 Visualizacion de Información
-Las tareas se encuentran en las carpetas que tienen por nombre TX siendo X el número de la tarea correspondiente
+### Tarea 2
+En esta carpeta se puede encontrar todo el desarrollo de la tarea 2.
 
+
+El informe se encuentra en Index.html

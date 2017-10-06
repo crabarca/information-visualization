@@ -128,11 +128,11 @@ aside,
 }
 
 h1,
-#chart {
+.chart {
   width: 960px;
 }
 
-#chart {
+.chart {
   border: solid 1px #eee;
   border-bottom: solid 1px #ccc;
 }

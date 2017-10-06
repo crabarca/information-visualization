@@ -12,13 +12,16 @@
   <link rel="icon" href="/favicon.png">
   <link rel="canonical" href="https://bl.ocks.org/mbostock/83c0be21dba7602ee14982b020b12f51">
   <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" href="text/css" href="heatmap.css">
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.10.2/d3.js' charset='utf-8'></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js" charset='utf-8'></script>
 
 </head>
 
 <body>
   <header>
     <div class="column">
-      <a class="user" href="/mbostock"><img class="avatar" src="https://avatars2.githubusercontent.com/u/230541?v=4&amp;s=60" width="30" height="30">Informe Tarea 2</a> disponible en <a class="gist gist-id self" title="View Gist on GitHub." href="https://gist.github.com/mbostock/83c0be21dba7602ee14982b020b12f51">83c0be21dba7602ee14982b020b12f51</a>
+      <a class="user" href="/mbostock"><img class="avatar" src="https://avatars2.githubusercontent.com/u/230541?v=4&amp;s=60" width="30" height="30">Informe Tarea 2</a> disponible en <a class="gist gist-id self" title="View Gist on GitHub." href="https://github.com/PUC-Infovis/crabarca-IIC2026/tree/master/T2">crabarca-IIC2026</a>
       <div class="date">Updated June 25, 2017</div>
     </div>
   </header>
@@ -26,114 +29,29 @@
   <div class="column">
     <h1>Heatmap Religiones</h1>
     <div class="index">
-      <div id="chart">
-        <script src='script-heatmap.js' charset='utf-8'></script>
+      <div class="chart">
       </div>
     </div>
     <div class="gist-readme" data-key="README.md">
       <p>An example of d3-contour, reprojecting contours computed from a GeoTIFF.</p>
     </div>
 
-    <div class="gist-license">
-      <h2>LICENSE<a name="license" class="anchor" href="#license">#</a></h2> Released under the <a target="_blank" href="https://opensource.org/licenses/GPL-3.0">GNU General Public License, version 3</a>.
+  </br>
+  </br>
+    <h1>Bubblechart</h1>
+    <div class="index">
+      <div class="chart">
+      </div>
     </div>
+    <div class="gist-readme" data-key="README.md">
+      <p>An example of d3-contour, reprojecting contours computed from a GeoTIFF.</p>
+    </div>
+
   </div>
 
-  <script src="//d3js.org/d3.v3.min.js"></script>
-  <script src="/highlight.min.js"></script>
+  <script src="script-heatmap.js" charset='utf-8'></script>
 
-  <script>
-    var gist = {
-      "public": true,
-      "protocol": "https",
-      "sha": "bd783284f8d7811b90bcd5f2ba6d61f7a1900bb2",
-      "files": {
-        ".block": {
-          "language": null,
-          "type": "text/plain",
-          "filename": ".block",
-          "size": 28,
-          "sha": "826cdfa1963e41e5fb6aa5d70180ff5a3045b6f0"
-        },
-        "README.md": {
-          "language": "Markdown",
-          "type": "text/plain",
-          "filename": "README.md",
-          "size": 155,
-          "sha": "f3a5d03030ff2e84740a0d8dee2e3f998afa7763"
-        },
-        "index.html": {
-          "language": "HTML",
-          "type": "text/html",
-          "filename": "index.html",
-          "size": 3305,
-          "sha": "c5a55c29f4fc698dc438b66bf5a1ba455add37b4"
-        },
-        "preview.jpg": {
-          "language": null,
-          "type": "image/jpeg",
-          "filename": "preview.jpg",
-          "size": 68496,
-          "sha": "0a4a0139dea3bdac7a7a02a77a840efa5eeaaeb1"
-        },
-        "sfctmp.tiff": {
-          "language": null,
-          "type": "image/tiff",
-          "filename": "sfctmp.tiff",
-          "size": 2083493,
-          "sha": "5e864a2cbe8ee72aab12c303a4e33b888ec13e54"
-        },
-        "thumbnail.png": {
-          "language": null,
-          "type": "image/png",
-          "filename": "thumbnail.png",
-          "size": 38101,
-          "sha": "625f700f41bb1e390ccdb4ad8bc33a6397e7c41e"
-        }
-      },
-      "created_at": "2017-04-07T18:06:33Z",
-      "updated_at": "2017-06-25T15:33:31Z",
-      "description": "GeoTIFF Contours II",
-      "owner": {
-        "login": "mbostock"
-      },
-      "id": "83c0be21dba7602ee14982b020b12f51"
-    };
 
-    var files = d3.values(gist.files);
-
-    d3.select(".gist-readme")
-      .data(files, function(d) {
-        return d ? d.filename : this.getAttribute("data-key");
-      })
-      .each(function(d) {
-        var readme = d3.select(this);
-        d3.text("/mbostock/raw/83c0be21dba7602ee14982b020b12f51/bd783284f8d7811b90bcd5f2ba6d61f7a1900bb2/" + d.filename, function(error, content) {
-          if (error) content = "Sorry, an error occurred.";
-          readme.html(new Showdown.converter().makeHtml(content));
-          readme.selectAll("code").each(function() {
-            hljs.highlightBlock(this);
-          });
-        });
-      });
-
-    d3.selectAll(".gist-source")
-      .data(files, function(d) {
-        return d ? d.filename : this.getAttribute("data-key");
-      })
-      .select("code")
-      .attr("class", function(d) {
-        return d.language && (d.language === "JSON" ? "javascript" : d.language.toLowerCase());
-      })
-      .each(function(d) {
-        var code = d3.select(this);
-        d3.text("/mbostock/raw/83c0be21dba7602ee14982b020b12f51/bd783284f8d7811b90bcd5f2ba6d61f7a1900bb2/" + (d.filename === "index.html" ? "" : d.filename), function(error, content) {
-          if (error) content = "Sorry, an error occurred.";
-          code.text(content);
-          hljs.highlightBlock(code.node());
-        });
-      });
-  </script>
 </body>
 
 </html>
