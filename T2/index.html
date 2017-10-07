@@ -2,31 +2,57 @@
 <html>
 
 <head>
-  <meta charset='utf-8'>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1000">
+  <meta property="og:url" content="https://bl.ocks.org/mbostock/83c0be21dba7602ee14982b020b12f51">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="https://bl.ocks.org/mbostock/raw/83c0be21dba7602ee14982b020b12f51/bd783284f8d7811b90bcd5f2ba6d61f7a1900bb2/preview.jpg">
   <title>Tarea 2</title>
-  <style media='screen'></style>
-  <link rel="stylesheet" type="text/css"  href="index.css">
-  <link rel="stylesheet" type="text/css"  href="heatmap.css">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="https://bl.ocks.org/mbostock/83c0be21dba7602ee14982b020b12f51">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" href="text/css" href="heatmap.css">
   <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.10.2/d3.js' charset='utf-8'></script>
   <script src="https://d3js.org/d3-scale-chromatic.v1.min.js" charset='utf-8'></script>
+
 </head>
-
-
 
 <body>
   <header>
     <div class="column">
-      <div class="navigation">
-        <a href="/">Popular</a>
-        / <a href="/-/about">About</a>
-      </div>
-      <a class="user" href="/mbostock"><img class="avatar" src="https://avatars2.githubusercontent.com/u/230541?v=4&amp;s=60" width="30" height="30">Mike Bostock</a>’s
-      Block <a class="gist gist-id self" title="View Gist on GitHub." href="https://gist.github.com/mbostock/83c0be21dba7602ee14982b020b12f51">83c0be21dba7602ee14982b020b12f51</a>    <div class="date">Updated June 25, 2017</div>
+      <a class="user" href="/mbostock"><img class="avatar" src="https://avatars2.githubusercontent.com/u/230541?v=4&amp;s=60" width="30" height="30">Informe Tarea 2</a> disponible en <a class="gist gist-id self" title="View Gist on GitHub." href="https://github.com/PUC-Infovis/crabarca-IIC2026/tree/master/T2">crabarca-IIC2026</a>
+      <div class="date">Updated October 05, 2017</div>
     </div>
   </header>
 
-  <div class="chart"></div>
-  <script src='script-heatmap.js' charset='utf-8'></script>
+  <div class="column">
+    <h1>Heatmap Religiones</h1>
+    <div class="index">
+      <div class="container1">
+            <input id='go-button' type='button' value="Go!">
+      </div>
+    </div>
+    <div class="gist-readme" data-key="README.md">
+      <p>Información de las religiones más practicadas según continentes.</p>
+    </div>
+
+  </br>
+  </br>
+    <h1>Bubblechart</h1>
+    <div class="index">
+      <div class="container2">
+      </div>
+    </div>
+    <div class="gist-readme" data-key="README.md">
+      <p>An example of d3-contour, reprojecting contours computed from a GeoTIFF.</p>
+    </div>
+  </div>
+
+  <script src="heatmap.js" charset='utf-8'></script>
+  <script src="bubblechart.js" charset = 'utf-8'></script>
+
+
 
 </body>
 
