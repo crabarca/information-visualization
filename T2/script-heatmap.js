@@ -8,9 +8,11 @@ const margin = { top: 50, right: 30, bottom: 100, left: 30 },
           width = 960 - margin.left - margin.right,
           height = 430 - margin.top - margin.bottom,
           gridSize = Math.floor(width / 24),
+          cellHeight = Math.floor(width / 21),
+          cellWidth = Math.floor(width / 13) + 5,
           legendElementWidth = gridSize*2,
           buckets = 10,
-          colors = d3.schemeYlOrRd[6]
+          colors = d3.schemeGnBu[8]
 
           regions = ['Asia', 'Europe', 'América', 'Africa', 'Oceanía']
           religions = ['Cristianismo', 'Islamismo', 'Hinduismo', 'Sin religion', 'Sincretismo', 'Budismo', 'Animismo', 'Sintoismo', 'Otra', 'Sijismo']
@@ -23,50 +25,30 @@ const margin = { top: 50, right: 30, bottom: 100, left: 30 },
           .append("g")
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-      const regionLabels = container.selectAll(".regionLabel")
-          .data(regions)
-          .enter().append("text")
-            .text(function (d) { return d; })
-            .attr("x", 0)
-            .attr("y", (d, i) => i * (gridSize + 5))
-            .style("text-anchor", "end")
-            .attr("transform", "translate(20," + gridSize / 1.5 + ")")
-            .attr("class", (d, i) => ((i >= 0 && i <= 4) ? "regionLabel mono axis axis-workweek" : "regionLabel mono axis"));
-
-      const religionLabels = container.selectAll(".religionLabel")
-          .data(religions)
-          .enter().append("text")
-            .text((d) => d)
-            .attr("x", (d, i) => i * 100  )
-            .attr("y", 0)
-            .style("text-anchor", "middle")
-            .attr("transform", "translate(" + gridSize / 2 + ", -6)")
-            .attr("class", (d, i) => ((i >= 7 && i <= 16) ? "religionLabel mono axis axis-worktime" : "religionLabel mono axis"));
-
       const heatmapChart = function(csvFile) {
            d3.csv(csvFile, dataset => {
-             var dataCells = []
+            var dataCells = []
+            // MANIPULACIÓN DE LOS DATOS
+            var tmp = dataset.map(row => {
+               var region = row.region;
+               for (col in row) {
+                   var newCell = {};
+                   if (col === 'region' || col == 'pop') {
+                       continue;
+                   }
+                   newCell.value = (row[col]);
+                   newCell.region = region;
+                   newCell.religion = col;
+                   dataCells.push(newCell);
+               }
+            });
 
-             var tmp = dataset.map(row => {
-                 var region = row.region;
-                 for (col in row) {
-                     var newCell = {};
-                     if (col === 'region' || col == 'pop') {
-                         continue;
-                     }
-                     newCell.value = (row[col]);
-                     newCell.region = region;
-                     newCell.religion = col;
-                     dataCells.push(newCell);
-                 }
-             });
-            console.log(dataCells);
-             var popData = dataset.map(row => {
-                 var newItem = {};
-                 newItem.region = row.region;
-                 newItem.pop = row.pop;
-                 return newItem
-             });
+            var popData = dataset.map(row => {
+                var newItem = {};
+                newItem.region = row.region;
+                newItem.pop = row.pop;
+                return newItem
+            });
 
             function getPop(region) {
               for (item in popData) {
@@ -76,63 +58,76 @@ const margin = { top: 50, right: 30, bottom: 100, left: 30 },
                 }
               };
 
-              var x_elements = d3.set(dataCells.map(cell => {return cell.religion;})).values(),
-                  y_elements = d3.set(dataCells.map(cell => {return cell.region;})).values();
+            // ESCALAS DE LOS EJES Y RECTANGULOS
+            var x_elements = d3.set(dataCells.map(cell => {return cell.religion;})).values(),
+                y_elements = d3.set(dataCells.map(cell => {return cell.region;})).values();
 
-              var xScale = d3.scaleOrdinal()
-                             .domain(x_elements)
-                             .range(d3.range(0, 450, gridSize + 5))
+            var xScale = d3.scaleOrdinal()
+                           .domain(x_elements)
+                           .range(d3.range(0, 750, cellWidth + 2)),
 
                   yScale = d3.scaleOrdinal()
                              .domain(y_elements)
-                             .range(d3.range(0, 200, gridSize + 5));
+                             .range(d3.range(0, 200, cellHeight + 2));
 
-              const colorScale = d3.scaleQuantile()
-               .domain([0, buckets - 1, d3.max(dataCells, (d) => d.value)])
-               .range(colors);
-
-              const popToColor = d3.scaleLinear()
-                                   .domain(d3.extent(dataCells, d => parseInt(d.value)))
+            const colorScale = d3.scaleQuantile()
+                                   .domain([0, buckets - 1, d3.max(dataCells, (d) => d.value)])
                                    .range(colors);
-                                   console.log(colors);
 
-              const cards = container.selectAll(".hour")
-                 .data(dataCells);
+            const popToColor = d3.scaleQuantile()
+                                  .domain(d3.extent(dataCells, d => +d.value))
+                                  .range(colors);
 
-             cards.append("title");
+            const axisTop = d3.axisTop(xScale).tickPadding(10),
+                  axisLeft = d3.axisLeft(yScale).tickPadding(10);
 
-             cards.enter()
+            const cards = container.selectAll(".hour")
+                .data(dataCells);
+
+            cards.append("title");
+
+            cards.enter()
                   .append("rect")
-                    .attr("x", (d) => xScale(d.religion))
+                    .attr("x", (d) => xScale(d.religion) + 50)
                     .attr("y", (d) => yScale(d.region))
                     .attr("class", "hour bordered")
-                    .attr("width", gridSize)
-                    .attr("height", gridSize)
-                    .style("fill", d => popToColor(d))
+                    .attr("width", cellWidth)
+                    .attr("height", cellHeight )
+                    .style("fill", d => popToColor(d.value))
                   .append("title")
                     .text(d => Math.round(+d.value * getPop(d.region)))
-             cards.exit().remove();
+            cards.exit().remove();
 
-             const legend = container.selectAll(".legend")
-                 .data(colors);
+            const legend = container.selectAll(".legend")
+                 .data([0].concat(popToColor.quantiles()), (d) =>d);
 
-             const legend_g = legend.enter().append("g")
+            const legend_g = legend.enter().append("g")
                  .attr("class", "legend");
 
-             legend_g.append("rect")
+            legend_g.append("rect")
                .attr("x", (d, i) => legendElementWidth * i)
                .attr("y", height)
                .attr("width", legendElementWidth)
                .attr("height", gridSize / 2)
                .style("fill", (d, i) => colors[i]);
 
-             legend_g.append("text")
+            legend_g.append("text")
                .attr("class", "mono")
-               .text((d) => "≥ " + Math.round(d))
+               .text((d) => "≥ " + Math.round(d *100) + "%")
                .attr("x", (d, i) => legendElementWidth * i)
                .attr("y", height + gridSize);
 
-               legend.exit().remove();
+            legend.exit().remove();
+
+            const xAxis = container.append('g')
+                    .attr('transform', `translate(85, -5)`)
+                    .style('font-size', '9pt');
+
+            const yAxis = container.append('g')
+                          .attr('transform', `translate(40, 15)`)
+                          .style('font-size', '9pt');
+            xAxis.call(axisTop)
+            yAxis.call(axisLeft)
       });
     };
 
