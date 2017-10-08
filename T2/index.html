@@ -16,6 +16,7 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.10.2/d3.js' charset='utf-8'></script>
   <script src="https://d3js.org/d3-scale-chromatic.v1.min.js" charset='utf-8'></script>
 
+
 </head>
 
 <body>
@@ -33,7 +34,20 @@
       </div>
     </div>
     <div class="gist-readme" data-key="README.md">
-      <p>Información de las religiones más practicadas según continentes.</p>
+      <p>El Heatmap fue construido en base a los datos en <i>heatmap_dataset.csv</i>. El eje superior representa las religiones mas númerosas a nivel global, mientras que en el izquierdo
+      se encuentran los continentes. El color de cada rectángulo esta dado por el porcentaje relativo de practicantes por religión según la población total del continentes.
+      La escala de colores utilizada es secuencial que va del naranjo al rojo. Los rectángulos con colores más saturados representan un alto porcentaje relativo de practicantes.
+      Contrariamente, los colores menos saturados representan un porcentaje relativo menor de practicantes de esa religión particular.</p>
+      <p>Se utilizarón 7 segmentos de la escala antes mencionada, esta decisión se tomó luego de probar distintas configuraciones. La decisión final de tomar 7 segmentos se debe a que
+      con esta cantidad de colores se puede apreciar de mejor forma la informació, en especial para los porcentajes relativos menores. </p>
+      <p>Al utilizar menos segmentos ocurre que los porcentajes relativos de las religiones menos practicadas tienden a juntarse bajo un mismo color. Por ejemplo, para el caso de Asía
+      hubiesen sido indistinguibles los porcentajes de practicantes Islamicos, Hinduistas , Sin religion, Sincreticos y Budistas, pero al utilizar más segmentos es posible notar
+    la diferencia entre el Hinduismo y las demás religiones antes mencionadas.</p>
+    <p>La razón porque no se utilizarón más colores es simplemente porque sobre 8 segmentos distintos se vuelve muy difícil la distinción de tonos entre un rectángulo y otro lo
+    que dificulta la percepción de los porcentajes relativos. </p>
+    <p>Finalmente, otra carácteristica relevante es la aplicación del concepto <i>"Overview first, details on demand"</i>,al pasar el mouse sobre un rectángulo en particular
+    se resalta este elemento y muestra la cantidad total de practicantes de esa religión en ese continente, de esta manera se puede comparar magnitudes absolutas de practicantes entre un continente
+  y otro para la misma religión.</p>
     </div>
 
   </br>
