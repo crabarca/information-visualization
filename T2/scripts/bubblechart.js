@@ -11,8 +11,8 @@ const width2 = WIDTH2 - MARGIN2.RIGHT - MARGIN2.LEFT;
 const height2 = HEIGHT2 - MARGIN2.TOP - MARGIN2.BOTTOM;
 
 
-const colorsContfull = d3.schemeAccent;
-const colorsCont = colorsContfull.slice(3,8);
+const colorsContfull = d3.schemeDark2;
+const colorsCont = colorsContfull.slice(1,6);
 const colorsRelig = d3.schemeSet1;
 
 var buttonPressed = 0;

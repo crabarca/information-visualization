@@ -78,8 +78,15 @@
 
     </div>
     <div class="gist-readme" data-key="README.md">
-      <p>Stacked area chart con datos de <i>stacked_dataset.csv</i>. Cada área coloreada representa una región diferente, además se agrego la población total encima de los demás segmentos.
-      </p>
+      <p>Stacked area chart con datos de <i>stacked_dataset.csv</i>. Cada área coloreada representa una región diferente, además se agrego la población total encima de los demás segmentos
+        correspondientes a cada religión. Se utilizó una escala de colores categórica <a href="https://github.com/d3/d3-scale-chromatic">(schemeSet1)</a>, de esta manera se marca la diferencia entre las distintas áreas.
+      Se utilizó la misma escala de colores que la utilizada para las religiones en el <b>Bubblechart</b> con el fín de generar consistencia en cuanto a las escalas de colores usadas.</p>
+      <p>La cantidad de personas que indica cada área se expresa en el orden de millones, en el eje <i>y</i> se encuentran un rango entre 500 y 6500. Se escogió este rango de valores debido a que es más simple
+      dimensionar la cantidad de personas y contribuye a no extender ni colapsar el largo de los ejes con numeros de un orden muy inferior a millones de personas.</p>
+      <p>Al apretar el botón <i>Update!</i> se actualiza el gráfico según el continente que se encuentre en el selector. La latencia de la actualización es imperceptible. </p>
+
+      <p><b>Nota:</b> Para este gráfico me concentré en desarrollar una visualización efectiva de las distintas áreas, en la proxima iteración es necesario generar una simbología adecuada
+      que no entorpezca la información presentada.</p>
     </div>
 
   </div>

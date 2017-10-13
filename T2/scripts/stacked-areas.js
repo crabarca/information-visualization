@@ -104,7 +104,7 @@ const updateStacked = (dataset, value) => {
     d3.selectAll('.legend-y').remove()
     d3.selectAll('.x-axis3').remove()
     d3.selectAll('.y-axis3').remove()
-    
+
     var chart3 = container3.selectAll('.chart3')
                             .data(stack(filteredData))
                             .enter()
@@ -119,7 +119,7 @@ const updateStacked = (dataset, value) => {
 
                             chart3.append('text')
                             .datum( d=> {return d; })
-                            .attr('transform', d => { return 'translate(' + (xScale3(data[13].year) - 20) + ',' + (yScale3(d[13][1]) - 10) + ')'; })
+                            .attr('transform', d => { return 'translate(' + (xScale3(data[13].year) - 20) + ',' + (yScale3(d[13][1]) + 15) + ')'; })
                             .attr('x', -6)
                             .attr('dy', '.35em')
                             .attr('class', 'legend-x')
