@@ -3,15 +3,17 @@
 
 const WIDTH2 = 960;
 const HEIGHT2 = 680;
-const MARGIN2 = { TOP: 40, BOTTOM: 100, LEFT: 50, RIGHT: 50 };
+const MARGIN2 = { TOP: 40, BOTTOM: 80, LEFT: 50, RIGHT: 50 };
 const PADDING2 = 30;
 const MAX_RADIUS2 = 50;
 
 const width2 = WIDTH2 - MARGIN2.RIGHT - MARGIN2.LEFT;
 const height2 = HEIGHT2 - MARGIN2.TOP - MARGIN2.BOTTOM;
 
-const colorsCont = d3.schemePRGn[5];
-const colorsRelig = d3.schemeOrRd[9];
+
+const colorsContfull = d3.schemeAccent;
+const colorsCont = colorsContfull.slice(3,8);
+const colorsRelig = d3.schemeSet1;
 
 var buttonPressed = 0;
 
@@ -32,14 +34,6 @@ chart.append('rect')
            .attr('width', width2)
            .attr('height', height2)
            .attr('fill', '#efe6e6');
-
-
-const zoom = d3.zoom()
-               .scaleExtent([1, 3])
-               .translateExtent([[0, -100], [WIDTH2, HEIGHT2 - 100]])
-               .on('zoom', zoomed);
-
-container2.call(zoom);
 
 let currentTransform = d3.zoomIdentity;
 
@@ -138,11 +132,16 @@ const render = function(csvFile) {
 
                   divTooltip.transition()
                   .duration(200)
-                  .style("opacity", .9);
+                  .style("opacity", .9)
+                  .style("position", "relative");
 
-                  divTooltip.html('hola' + "<br/>" + d.religion)
-                  .style("left", xscale(d.gini) + "px")
-                  .style("top", yscale(d.hdi) + "px");
+                  divTooltip.html(d.country + "<br/>"
+                                + d3.format(",.5r")(d.pop)+ "<br/>"
+                                + d.religion + "<br/>" + "<b>Gini: </b>"
+                                + d.gini + "<br/>" + "<b>IDH: </b>"
+                                + d.hdi)
+                  .style("left", xscale(d.gini)+ 10  + "px")
+                  .style("top", yscale(d.hdi) - 620+   "px");
 
               })
               .on('mouseout', (d, i, nodes) => {
@@ -155,41 +154,43 @@ const render = function(csvFile) {
 
                   d3.selectAll('circle')
                     .style('fill-opacity', 1);
-                })
-               .append('title')
-               .text(d => `${d.country} ${d.continent} (${d.pop}) ${d.religion}`);
+                });
 
     d3.select('#go-button').on('click', () =>{
+                          var contLegend = d3.set(dataBubbles.map(country => {return country.continent;})).values();
+                          var religLegend = d3.set(dataBubbles.map(country => {return country.religion;})).values();
+
                           if (buttonPressed === 0){
                             d3.selectAll('circle')
                               .attr('fill', d => religToColor(d.religion));
                               buttonPressed = 1;
                             d3.select('#go-button')
                               .text('Mostrar continentes')
-                            container2.select(".legend").remove();
-                              //  Simbologia de los colores
-                               const legend2 = container2.selectAll(".legend")
+
+                            d3.selectAll(".legend2").remove();
+
+                              //  Simbologia colores religiones
+                               var legend3 = container2.selectAll(".legend3")
                                     .data(colorsRelig);
-                                    var contLegend = d3.set(dataBubbles.map(country => {return country.continent;})).values()
 
-                               const legend_g2 = legend2.enter().append("g")
-                                    .attr("class", "legend")
-                                    .attr("transform", `translate(200, 50)`);
+                               var legend_g3 = legend3.enter().append("g")
+                                    .attr("class", "legend3")
+                                    .attr("transform", `translate(-20, 50)`);
 
-                               legend_g2.append("rect")
-                                  .attr("x", (d, i) => 80 * i)
+                               legend_g3.append("rect")
+                                  .attr("x", (d, i) => 100 * i)
                                   .attr("y", height2)
-                                  .attr("width", 70)
+                                  .attr("width", 90)
                                   .attr("height", 20 / 2)
-                                  .style("fill", (d, i) => colorsCont[i]);
+                                  .style("fill", (d, i) => colorsRelig[i]);
 
-                               legend_g2.append("text")
+                               legend_g3.append("text")
                                   .attr("class", "mono")
-                                  .text((d, i) => contLegend[i])
-                                  .attr("x", (d, i) => 80 * i)
+                                  .text((d, i) => religLegend[i])
+                                  .attr("x", (d, i) => 100 * i)
                                   .attr("y", height2 + 30);
 
-                              legend2.exit().remove();
+                              legend3.exit().remove();
 
                           } else {
 
@@ -199,13 +200,14 @@ const render = function(csvFile) {
                             d3.select('#go-button')
                               .text('Mostrar religiones')
 
-                              //  Simbologia de los colores
-                               const legend2 = container2.selectAll(".legend")
-                                    .data(colorsCont);
-                                    var contLegend = d3.set(dataBubbles.map(country => {return country.continent;})).values()
+                              d3.selectAll(".legend3").remove();
 
-                               const legend_g2 = legend2.enter().append("g")
-                                    .attr("class", "legend")
+                              //  Simbologia colores continentes
+                               var legend2 = container2.selectAll(".legend2")
+                                    .data(colorsCont);
+
+                               var legend_g2 = legend2.enter().append("g")
+                                    .attr("class", "legend2")
                                     .attr("transform", `translate(200, 50)`);
 
                                legend_g2.append("rect")
@@ -232,12 +234,12 @@ const render = function(csvFile) {
         .remove();
 
         //  Simbologia de los colores
-         const legend2 = container2.selectAll(".legend")
+         var legend2 = container2.selectAll(".legend2")
               .data(colorsCont);
               var contLegend = d3.set(dataBubbles.map(country => {return country.continent;})).values()
 
-         const legend_g2 = legend2.enter().append("g")
-              .attr("class", "legend")
+         var legend_g2 = legend2.enter().append("g")
+              .attr("class", "legend2")
               .attr("transform", `translate(200, 50)`);
 
          legend_g2.append("rect")

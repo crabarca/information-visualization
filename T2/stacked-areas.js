@@ -1,5 +1,5 @@
-
-
+// referencia del script: https://bl.ocks.org/greencracker/e08d5e789737e91d6e73d7dcc34969bf
+// Adaptado por Cristobal Abarca
 
 const WIDTH3 = 960;
 const HEIGHT3 = 680;
@@ -10,71 +10,141 @@ const MAX_RADIUS3 = 50;
 const width3 = WIDTH3 - MARGIN3.RIGHT - MARGIN3.LEFT;
 const height3 = HEIGHT3 - MARGIN3.TOP - MARGIN3.BOTTOM;
 
-const colors3 = [];
+const colors3 = d3.schemeSet2;
 
 const container3 = d3.select(".container3").append("svg")
-    .attr("width", width + MARGIN3.left + MARGIN3.right)
-    .attr("height", height + MARGIN3.top + MARGIN3.bottom)
+    .attr("width", width3 + MARGIN3.LEFT + MARGIN3.RIGHT)
+    .attr("height", height3 + MARGIN3.TOP + MARGIN3.BOTTOM)
     .append("g")
-    .attr("transform", "translate(" + MARGIN3.left + "," + MARGIN3.top + ")");
+    .attr("transform", "translate(" + MARGIN3.LEFT + "," + MARGIN3.TOP + ")");
 
 
-var parseDate = d3.timeParse("%Y %b %d");
+var parseDate = d3.timeParse('%Y');
 
-var x = d3.scaleTime().range([0, width3]),
-    y = d3.scaleLinear().range([height3, 0]),
-    z = d3.scaleOrdinal(d3.schemeCategory10);
+var formatSi = d3.format(".3s");
 
-var stack = d3.stack();
+var formatNumber = d3.format(".1f"),
+    formatBillion = function(x) { return formatNumber(x / 1e6); };
+
+var xScale3 = d3.scaleTime()
+    .range([PADDING3, width3 - PADDING3]);
+
+var yScale3 = d3.scaleLinear()
+    .range([height3 - PADDING3, PADDING3]);
+
+var color3 = d3.scaleOrdinal()
+              .range(colors3);
+
+var xAxis3 = d3.axisBottom()
+    .scale(xScale3);
+
+var yAxis3 = d3.axisLeft()
+    .scale(yScale3)
+    .tickFormat(formatBillion);
 
 var area = d3.area()
-    .x(function(d, i) { return x(d.data.date); })
-    .y0(function(d) { return y(d[0]); })
-    .y1(function(d) { return y(d[1]); });
+    .x(function(d) {
+      return xScale3(d.data.year); })
+    .y0(function(d) { return yScale3(d[0]); })
+    .y1(function(d) { return yScale3(d[1]); });
 
-var g = svg.append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+var stack = d3.stack()
 
-d3.tsv("data.tsv", type, function(error, data) {
-  if (error) throw error;
+const updateStacked = (dataset, value) => {
+  d3.csv(dataset, function(d) {
+    return {
+      year : parseDate(d['year']),
+      region : d.region,
+      pop : +d.pop - +d.chrstgen - +d.islmgen - +d.hindgen - +d.nonrelig - +d.syncgen,
+      chrstgen : +d.chrstgen,
+      islmgen : +d.islmgen,
+      hindgen : +d.hindgen,
+      nonrelig : +d.nonrelig,
+      syncgen : +d.syncgen
+    };
+  }, function(data) {
+    var filteredData = data.filter(d => {
+      if (d['region'] == value){
+        return d
+      };
+      }
+    )
+    console.log(filteredData);
 
-  var keys = data.columns.slice(1);
+    var keys = ['islmgen','chrstgen', 'hindgen', 'nonrelig', 'syncgen', 'pop']
 
-  x.domain(d3.extent(data, function(d) { return d.date; }));
-  z.domain(keys);
-  stack.keys(keys);
+    color3.domain(keys);
 
-  var layer = g.selectAll(".layer")
-    .data(stack(data))
-    .enter().append("g")
-      .attr("class", "layer");
+    // Max population
+    var maxPop = d3.max(filteredData, function(d){
+      var vals = d3.keys(d).map(function(key){ return key !== 'year' ? d[key] : 0 });
+      return d3.sum(vals);
+    });
 
-  layer.append("path")
-      .attr("class", "area")
-      .style("fill", function(d) { return z(d.key); })
-      .attr("d", area);
+    // Set domains for axes
+    xScale3.domain(d3.extent(filteredData, function(d) { return d.year; }));
+    yScale3.domain([0, maxPop])
 
-  layer.filter(function(d) { return d[d.length - 1][1] - d[d.length - 1][0] > 0.01; })
-    .append("text")
-      .attr("x", width - 6)
-      .attr("y", function(d) { return y((d[d.length - 1][0] + d[d.length - 1][1]) / 2); })
-      .attr("dy", ".35em")
-      .style("font", "10px sans-serif")
-      .style("text-anchor", "end")
-      .text(function(d) { return d.key; });
+    stack.keys(keys);
 
-  g.append("g")
-      .attr("class", "axis axis--x")
-      .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x));
+    stack.order(d3.stackOrderNone);
+    stack.offset(d3.stackOffsetNone);
 
-  g.append("g")
-      .attr("class", "axis axis--y")
-      .call(d3.axisLeft(y).ticks(10, "%"));
-});
+    console.log(stack(filteredData));
+    keyTraductions = {'chrstgen' : 'Cristianos', 'islmgen': 'Musulmanes',
+                      'hindgen' : 'Hinduistas', 'nonrelig': 'No religiosos',
+                      'syncgen': 'Sincreticos', 'pop': 'Total'};
 
-function type(d, i, columns) {
-  d.date = parseDate(d.date);
-  for (var i = 1, n = columns.length; i < n; ++i) d[columns[i]] = d[columns[i]] / 100;
-  return d;
-}
+    d3.selectAll('.chart').remove()
+    d3.selectAll('path').remove()
+    d3.selectAll('.legend_text').remove()
+    d3.selectAll('.x-axis3').remove()
+    d3.selectAll('.y-axis3').remove()
+    var chart = container3.selectAll('.chart')
+                            .data(stack(filteredData))
+                            .enter()
+                            .append('g')
+                            .attr('class', d => { return 'chart ' + d.key; })
+                            .attr('fill-opacity', 0.5);
+
+                            chart.append('path')
+                            .attr('class', 'area')
+                            .attr('d', area)
+                            .style('fill', function(d) { return color3(d.key); });
+
+                            chart.append('text')
+                            .datum( d=> {return d; })
+                            .attr('transform', d => { return 'translate(' + xScale3(data[13].year) + ',' + yScale3(d[13][1]) + ')'; })
+                            .attr('x', -6)
+                            .attr('dy', '.35em')
+                            .attr('class', 'legend_text')
+                            .style("text-anchor", "start")
+                            .text( d=> { return keyTraductions[d.key]; })
+                            .attr('fill-opacity', 1);
+
+                            container3.append('g')
+                            .attr('class', 'x-axis3')
+                            .attr('transform', 'translate(0,' + height3 + ')')
+                            .call(xAxis3);
+
+                            container3.append('g')
+                            .attr('class', 'y-axis3')
+                            .call(yAxis3);
+
+                            container3.append("text")
+                            .attr("x", 0-margin.left)
+                            .atrr('class', '')
+                            .text("Millions of People")
+
+                          })};
+
+const filePathStacked = 'datasets/stacked_dataset.csv'
+var value = undefined;
+
+updateStacked(filePathStacked, 'Global')
+let dataset = undefined;
+
+d3.select('#stacked-selector-button').on('click', () => {
+    var value = d3.select(`#stacked-selector`).property('value');
+    updateStacked(filePathStacked, value);
+    });

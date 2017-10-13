@@ -12,7 +12,6 @@
   <link rel="icon" href="/favicon.png">
   <link rel="canonical" href="https://bl.ocks.org/mbostock/83c0be21dba7602ee14982b020b12f51">
   <link rel="stylesheet" type="text/css" href="index.css">
-  <link rel="stylesheet" href="text/css" href="heatmap.css">
   <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.10.2/d3.js' charset='utf-8'></script>
   <script src="https://d3js.org/d3-scale-chromatic.v1.min.js" charset='utf-8'></script>
 
@@ -22,8 +21,8 @@
 <body>
   <header>
     <div class="column">
-      <a class="user" href="/mbostock"><img class="avatar" src="https://avatars2.githubusercontent.com/u/230541?v=4&amp;s=60" width="30" height="30">Informe Tarea 2</a> disponible en <a class="gist gist-id self" title="View Gist on GitHub." href="https://github.com/PUC-Infovis/crabarca-IIC2026/tree/master/T2">crabarca-IIC2026</a>
-      <div class="date">Updated October 05, 2017</div>
+      <a class="user" href="#">Informe Tarea 2</a> disponible en <a class="gist gist-id self" title="View Gist on GitHub." href="https://github.com/PUC-Infovis/crabarca-IIC2026/tree/master/T2">crabarca-IIC2026</a>
+      <div class="date">Entrega 08 de Octure 2017</div>
     </div>
   </header>
 
@@ -34,24 +33,20 @@
       </div>
     </div>
     <div class="gist-readme" data-key="README.md">
-      <p>El Heatmap fue construido en base a los datos en <i>heatmap_dataset.csv</i>. El eje superior representa las religiones mas númerosas a nivel global, mientras que en el izquierdo
-      se encuentran los continentes. El color de cada rectángulo esta dado por el porcentaje relativo de practicantes por religión según la población total del continentes.
-      La escala de colores utilizada es secuencial que va del naranjo al rojo. Los rectángulos con colores más saturados representan un alto porcentaje relativo de practicantes.
-      Contrariamente, los colores menos saturados representan un porcentaje relativo menor de practicantes de esa religión particular.</p>
-      <p>Se utilizarón 7 segmentos de la escala antes mencionada, esta decisión se tomó luego de probar distintas configuraciones. La decisión final de tomar 7 segmentos se debe a que
-      con esta cantidad de colores se puede apreciar de mejor forma la informació, en especial para los porcentajes relativos menores. </p>
-      <p>Al utilizar menos segmentos ocurre que los porcentajes relativos de las religiones menos practicadas tienden a juntarse bajo un mismo color. Por ejemplo, para el caso de Asía
-      hubiesen sido indistinguibles los porcentajes de practicantes Islamicos, Hinduistas , Sin religion, Sincreticos y Budistas, pero al utilizar más segmentos es posible notar
-    la diferencia entre el Hinduismo y las demás religiones antes mencionadas.</p>
-    <p>La razón porque no se utilizarón más colores es simplemente porque sobre 8 segmentos distintos se vuelve muy difícil la distinción de tonos entre un rectángulo y otro lo
-    que dificulta la percepción de los porcentajes relativos. </p>
-    <p>Finalmente, otra carácteristica relevante es la aplicación del concepto <i>"Overview first, details on demand"</i>,al pasar el mouse sobre un rectángulo en particular
-    se resalta este elemento y muestra la cantidad total de practicantes de esa religión en ese continente, de esta manera se puede comparar magnitudes absolutas de practicantes entre un continente
-  y otro para la misma religión.</p>
+      <p>El Heatmap fue construido en base a los datos en <i>heatmap_dataset.csv</i>. El eje superior representa las religiones mas númerosas a nivel global, mientras que en el izquierdo se encuentran los continentes. El color de cada rectángulo esta dado
+        por el porcentaje relativo de practicantes por religión según la población total del continentes. La escala de colores utilizada es secuencial que va del naranjo al rojo (<a href="https://github.com/d3/d3-scale-chromatic">schemeOrRd</a>). Los
+        rectángulos con colores más saturados representan un alto porcentaje relativo de practicantes. Contrariamente, los colores menos saturados representan un porcentaje relativo menor de practicantes de esa religión particular.</p>
+      <p>Se utilizarón 7 segmentos de la escala antes mencionada, esta decisión se tomó luego de probar distintas configuraciones. La decisión final de tomar 7 segmentos se debe a que con esta cantidad de colores se puede apreciar de mejor forma la informació,
+        en especial para los porcentajes relativos menores. </p>
+      <p>Al utilizar menos segmentos ocurre que los porcentajes relativos de las religiones menos practicadas tienden a juntarse bajo un mismo color. Por ejemplo, para el caso de Asía hubiesen sido indistinguibles los porcentajes de practicantes Islamicos,
+        Hinduistas , Sin religion, Sincreticos y Budistas, pero al utilizar más segmentos es posible notar la diferencia entre el Hinduismo y las demás religiones antes mencionadas.</p>
+      <p>La razón porque no se utilizarón más colores es simplemente porque sobre 8 segmentos distintos se vuelve muy difícil la distinción de tonos entre un rectángulo y otro lo que dificulta la percepción de los porcentajes relativos. </p>
+      <p>Finalmente, otra carácteristica relevante es la aplicación del concepto <i>"Overview first, details on demand"</i>,al pasar el mouse sobre un rectángulo en particular se resalta este elemento y muestra la cantidad total de practicantes de esa religión
+        en ese continente, de esta manera se puede comparar magnitudes absolutas de practicantes entre un continente y otro para la misma religión.</p>
     </div>
 
-  </br>
-  </br>
+    </br>
+    </br>
     <h1>Bubblechart</h1>
     <div class="index">
       <div class="container2">
@@ -59,22 +54,42 @@
       <button id='go-button' type="button" name="button">Mostrar religiones</button>
     </div>
     <div class="gist-readme" data-key="README.md">
-      <p>Cada circulo representa un país, su posición en el eje x e y, se encuentra definida respectivamente por el coeficiente Gini y HDI</p>
+      <p>El gráfico anterior se construyó con los datos en <i>bubble_dataset.csv</i>. Cada círculo representa a un país distinto. El eje inferior y lateral izquierdo representan respectivamente el coeficiente gini y el indice de desarrollo humano. La posición
+        de cada círculo se encuentra determinado por estas carácteristicas. El tamaño del círculo se encuentra determinado según la población total del país mediante una escala exponencial.</p> <p>
+        <p>Se utilizaron dos escalas de colores distintas para representar
+        el continente y la religión más practicada en ese país. Ambas escalas son categóricas <a href="https://github.com/d3/d3-scale-chromatic">(schemeAccent y schemeSet1)</a> , la escala de los continentes se encuentra dividida en 5 segmentos distintos
+        mientras que para las religiones esta división alcanza los 9 segmentos. Se decidio usar este tipo de escala debido a que es necesario
+      marcar la diferencia entre cada continente y religión, lo que no se hubiese podido lograr con una escala divergente o secuencial. Estos tipos de escalas hubiesen
+    dado a entender que un continente o región es más que otro por usar un color más claro u oscuro, lo cual no sería correcto. </p>
+      <p>Al presionar el botón ubicado en la parte inferior izquierda, se modifican los colores interiores de los círculos para representar al continente al que pertenecen o la religión más profesada. Debido a que son muchos circulos es necesario resaltar
+        un país en particulas </p>
     </div>
 
     <h1>Stacked area chart</h1>
     <div class="index">
       <div class="container3">
-
       </div>
+      <select id="stacked-selector">
+        <option value="Global">Global</option>
+          <option value="África">Africa</option>
+          <option value="Asia">Asia</option>
+          <option value="Europa">Europa</option>
+          <option value="America">América</option>
+          <option value="Oceanía">Oceania</option>
+        </select>
+      <button id='stacked-selector-button' type="button" name="button">Update!</button>
+
     </div>
     <div class="gist-readme" data-key="README.md">
       <p>Stacked area chart con datos de stacked_dataset.csv</p>
     </div>
+
   </div>
 
   <script src="heatmap.js" charset='utf-8'></script>
-  <script src="bubblechart.js" charset = 'utf-8'></script>
+  <script src="bubblechart.js" charset='utf-8'></script>
+  <script src="utils.js" type="text/javascript"></script>
+  <script src="stacked-areas.js" charset='utf-8'></script>
 
 
 
