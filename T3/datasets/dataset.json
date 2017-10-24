@@ -1,0 +1,725 @@
+{
+    "nodes": [{
+            "name": "d3-time-format",
+            "forks": 27,
+            "stars": 86
+        },
+        {
+            "name": "d3-hierarchy",
+            "forks": 77,
+            "stars": 180
+        },
+        {
+            "name": "d3-array",
+            "forks": 66,
+            "stars": 97
+        },
+        {
+            "name": "d3-geo",
+            "forks": 70,
+            "stars": 227
+        },
+        {
+            "name": "d3-geo-polygon",
+            "forks": 66,
+            "stars": 97
+        },
+        {
+            "name": "d3",
+            "forks": 17956,
+            "stars": 69058
+        },
+        {
+            "name": "d3-zoom",
+            "forks": 40,
+            "stars": 99
+        },
+        {
+            "name": "d3-drag",
+            "forks": 16,
+            "stars": 96
+        },
+        {
+            "name": "d3-geo-projection",
+            "forks": 122,
+            "stars": 555
+        },
+        {
+            "name": "d3-force",
+            "forks": 104,
+            "stars": 265
+        },
+        {
+            "name": "d3-selection",
+            "forks": 132,
+            "stars": 174
+        },
+        {
+            "name": "d3-require",
+            "forks": 3,
+            "stars": 20
+        },
+        {
+            "name": "d3-interpolate",
+            "forks": 24,
+            "stars": 139
+        },
+        {
+            "name": "d3-timer",
+            "forks": 23,
+            "stars": 68
+        },
+        {
+            "name": "d3-tile",
+            "forks": 7,
+            "stars": 34
+        },
+        {
+            "name": "d3-request",
+            "forks": 33,
+            "stars": 70
+        },
+        {
+            "name": "d3-dsv",
+            "forks": 27,
+            "stars": 143
+        },
+        {
+            "name": "d3-scale-chromatic",
+            "forks": 12,
+            "stars": 166
+        },
+        {
+            "name": "d3-axis",
+            "forks": 57,
+            "stars": 54
+        },
+        {
+            "name": "d3-collection",
+            "forks": 20,
+            "stars": 62
+        },
+        {
+            "name": "d3-scale",
+            "forks": 136,
+            "stars": 857
+        },
+        {
+            "name": "d3-time",
+            "forks": 21,
+            "stars": 108
+        },
+        {
+            "name": "d3-sankey",
+            "forks": 67,
+            "stars": 146
+        },
+        {
+            "name": "d3-transition",
+            "forks": 24,
+            "stars": 79
+        },
+        {
+            "name": "d3-brush",
+            "forks": 17,
+            "stars": 38
+        },
+        {
+            "name": "d3-contour",
+            "forks": 12,
+            "stars": 129
+        },
+        {
+            "name": "d3-shape",
+            "forks": 132,
+            "stars": 1475
+        },
+        {
+            "name": "d3-random",
+            "forks": 15,
+            "stars": 32
+        },
+        {
+            "name": "d3-queue",
+            "forks": 129,
+            "stars": 1331
+        },
+        {
+            "name": "d3-selection-multi",
+            "forks": 9,
+            "stars": 37
+        },
+        {
+            "name": "d3-format",
+            "forks": 31,
+            "stars": 185
+        },
+        {
+            "name": "d3-hsv",
+            "forks": 3,
+            "stars": 8
+        },
+        {
+            "name": "d3-chord",
+            "forks": 16,
+            "stars": 41
+        },
+        {
+            "name": "d3-hexbin",
+            "forks": 12,
+            "stars": 65
+        },
+        {
+            "name": "d3-voronoi",
+            "forks": 23,
+            "stars": 128
+        },
+        {
+            "name": "d3-color",
+            "forks": 29,
+            "stars": 136
+        },
+        {
+            "name": "d3-dispatch",
+            "forks": 6,
+            "stars": 36
+        },
+        {
+            "name": "d3-ease",
+            "forks": 25,
+            "stars": 276
+        },
+        {
+            "name": "d3-path",
+            "forks": 14,
+            "stars": 79
+        },
+        {
+            "name": "d3-polygon",
+            "forks": 9,
+            "stars": 33
+        },
+        {
+            "name": "d3-quadtree",
+            "forks": 14,
+            "stars": 66
+        },
+        {
+            "name": "d3-hcg",
+            "forks": 3,
+            "stars": 9
+        },
+        {
+            "name": "d3-fetch",
+            "forks": 2,
+            "stars": 53
+        }
+    ],
+    "links": [
+        {
+            "source": "d3-time",
+            "target": "d3-time-format",
+            "dev": false
+        },
+        {
+            "source": "d3-queue",
+            "target": "d3-time-format",
+            "dev": true
+        },
+        {
+            "source": "d3-queue",
+            "target": "d3-hierarchy",
+            "dev": true
+        },
+        {
+            "source": "d3-array",
+            "target": "d3-hierarchy",
+            "dev": true
+        },
+        {
+            "source": "d3-dsv",
+            "target": "d3-hierarchy",
+            "dev": true
+        },
+        {
+            "source": "d3-random",
+            "target": "d3-hierarchy",
+            "dev": true
+        },
+        {
+            "source": "d3-array",
+            "target": "d3-geo",
+            "dev": false
+        },
+        {
+            "source": "d3-format",
+            "target": "d3-geo",
+            "dev": true
+        },
+        {
+            "source": "d3-array",
+            "target": "d3-geo-polygon",
+            "dev": false
+        },
+        {
+            "source": "d3-geo",
+            "target": "d3-geo-polygon",
+            "dev": true
+        },
+        {
+            "source": "d3-array",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-axis",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-brush",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-chord",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-collection",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-color",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-dispatch",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-drag",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-dsv",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-ease",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-force",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-format",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-geo",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-hierarchy",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-interpolate",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-path",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-polygon",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-quadtree",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-queue",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-random",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-request",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-scale",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-selection",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-shape",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-time",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-time-format",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-timer",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-transition",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-voronoi",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-zoom",
+            "target": "d3",
+            "dev": false
+        },
+        {
+            "source": "d3-dispatch",
+            "target": "d3-zoom",
+            "dev": false
+        },
+        {
+            "source": "d3-drag",
+            "target": "d3-zoom",
+            "dev": false
+        },
+        {
+            "source": "d3-interpolate",
+            "target": "d3-zoom",
+            "dev": false
+        },
+        {
+            "source": "d3-selection",
+            "target": "d3-zoom",
+            "dev": false
+        },
+        {
+            "source": "d3-transition",
+            "target": "d3-zoom",
+            "dev": false
+        },
+        {
+            "source": "d3-dispatch",
+            "target": "d3-drag",
+            "dev": false
+        },
+        {
+            "source": "d3-selection",
+            "target": "d3-drag",
+            "dev": false
+        },
+        {
+            "source": "d3-geo",
+            "target": "d3-geo-projection",
+            "dev": false
+        },
+        {
+            "source": "d3-array",
+            "target": "d3-geo-projection",
+            "dev": false
+        },
+        {
+            "source": "d3-format",
+            "target": "d3-geo-projection",
+            "dev": true
+        },
+        {
+            "source": "d3-collection",
+            "target": "d3-force",
+            "dev": false
+        },
+        {
+            "source": "d3-dispatch",
+            "target": "d3-force",
+            "dev": false
+        },
+        {
+            "source": "d3-quadtree",
+            "target": "d3-force",
+            "dev": false
+        },
+        {
+            "source": "d3-timer",
+            "target": "d3-force",
+            "dev": false
+        },
+        {
+            "source": "d3-color",
+            "target": "d3-interpolate",
+            "dev": false
+        },
+        {
+            "source": "d3-timer",
+            "target": "d3-force",
+            "dev": false
+        },
+        {
+            "source": "d3-array",
+            "target": "d3-tile",
+            "dev": false
+        },
+        {
+            "source": "d3-collection",
+            "target": "d3-request",
+            "dev": false
+        },
+        {
+            "source": "d3-dispatch",
+            "target": "d3-request",
+            "dev": false
+        },
+        {
+            "source": "d3-dsv",
+            "target": "d3-request",
+            "dev": false
+        },
+        {
+            "source": "d3-interpolate",
+            "target": "d3-scale-chromatic",
+            "dev": false
+        },
+        {
+            "source": "d3-dsv",
+            "target": "d3-request",
+            "dev": false
+        },
+        {
+            "source": "d3-selection",
+            "target": "d3-axis",
+            "dev": true
+        },
+        {
+            "source": "d3-scale",
+            "target": "d3-axis",
+            "dev": true
+        },
+        {
+            "source": "d3-array",
+            "target": "d3-collection",
+            "dev": true
+        },
+        {
+            "source": "d3-scale",
+            "target": "d3-axis",
+            "dev": true
+        },
+        {
+            "source": "d3-array",
+            "target": "d3-scale",
+            "dev": false
+        },
+        {
+            "source": "d3-collection",
+            "target": "d3-scale",
+            "dev": false
+        },
+        {
+            "source": "d3-color",
+            "target": "d3-scale",
+            "dev": false
+        },
+        {
+            "source": "d3-format",
+            "target": "d3-scale",
+            "dev": false
+        },
+        {
+            "source": "d3-interpolate",
+            "target": "d3-scale",
+            "dev": false
+        },
+        {
+            "source": "d3-time",
+            "target": "d3-scale",
+            "dev": false
+        },
+        {
+            "source": "d3-time-format",
+            "target": "d3-scale",
+            "dev": false
+        },
+        {
+            "source": "d3-array",
+            "target": "d3-sankey",
+            "dev": false
+        },
+        {
+            "source": "d3-collection",
+            "target": "d3-sankey",
+            "dev": false
+        },
+        {
+            "source": "d3-shape",
+            "target": "d3-sankey",
+            "dev": false
+        },
+        {
+            "source": "d3-color",
+            "target": "d3-transition",
+            "dev": false
+        },
+        {
+            "source": "d3-dispatch",
+            "target": "d3-transition",
+            "dev": false
+        },
+        {
+            "source": "d3-ease",
+            "target": "d3-transition",
+            "dev": false
+        },
+        {
+            "source": "d3-interpolate",
+            "target": "d3-transition",
+            "dev": false
+        },
+        {
+            "source": "d3-selection",
+            "target": "d3-transition",
+            "dev": false
+        },
+        {
+            "source": "d3-timer",
+            "target": "d3-transition",
+            "dev": false
+        },
+        {
+            "source": "d3-dispatch",
+            "target": "d3-brush",
+            "dev": false
+        },
+        {
+            "source": "d3-drag",
+            "target": "d3-brush",
+            "dev": false
+        },
+        {
+            "source": "d3-interpolate",
+            "target": "d3-brush",
+            "dev": false
+        },
+        {
+            "source": "d3-selection",
+            "target": "d3-brush",
+            "dev": false
+        },
+        {
+            "source": "d3-transition",
+            "target": "d3-brush",
+            "dev": false
+        },
+        {
+            "source": "d3-array",
+            "target": "d3-contour",
+            "dev": false
+        },
+        {
+            "source": "d3-path",
+            "target": "d3-shape",
+            "dev": false
+        },
+        {
+            "source": "d3-polygon",
+            "target": "d3-shape",
+            "dev": true
+        },
+        {
+            "source": "d3-array",
+            "target": "d3-random",
+            "dev": true
+        },
+        {
+            "source": "d3-selection",
+            "target": "d3-selection-multi",
+            "dev": false
+        },
+        {
+            "source": "d3-transition",
+            "target": "d3-selection-multi",
+            "dev": false
+        },
+        {
+            "source": "d3-queue",
+            "target": "d3-format",
+            "dev": true
+        },
+        {
+            "source": "d3-color",
+            "target": "d3-hsv",
+            "dev": false
+        },
+        {
+            "source": "d3-array",
+            "target": "d3-chord",
+            "dev": false
+        },
+        {
+            "source": "d3-path",
+            "target": "d3-chord",
+            "dev": false
+        },
+        {
+            "source": "d3-path",
+            "target": "d3-chord",
+            "dev": false
+        },
+        {
+            "source": "d3-array",
+            "target": "d3-quadtree",
+            "dev": true
+        },
+        {
+            "source": "d3-color",
+            "target": "d3-hcg",
+            "dev": false
+        },
+        {
+            "source": "d3-dsv",
+            "target": "d3-fetch",
+            "dev": false
+        }
+    ]
+}
