@@ -12,8 +12,8 @@ const radius = 20;
 
 const MAX_RADIUS = 50;
 
-const forkColors0 = d3.schemeGreens[7].reverse();
-const forkColors = forkColors0.slice(0,6);
+const forkColors0 = d3.schemeYlOrRd[7];
+const forkColors = forkColors0.slice(1, 8);
 const container = d3.select('#container1')
   .append('svg')
     .attr('width', WIDTH)
@@ -38,7 +38,8 @@ const simulation = d3.forceSimulation()
 const rscale = d3.scalePow().exponent(0.2)
                   .range([0, MAX_RADIUS]);
 
-const forkScale = d3.scaleOrdinal().range(forkColors);
+const forkScale = d3.scaleQuantile()
+                    .range(forkColors0);
 
 //Tooltip
 var divTooltip = d3.select("#container1").append("div")
@@ -54,10 +55,16 @@ d3.json(FILEPATH, dataset => {
               .links(dataset.links)
               .distance(MAX_RADIUS + 20);
 
+    var sorted_forks = dataset.nodes.sort(function(a, b) {return parseInt(a.forks) - parseInt(b.forks)}).map(node => node.forks);
 
     // Rangos de escala
-    rscale.domain([0, d3.max(dataset.nodes, d => parseInt(d.stars))])
-    forkScale.domain([d3.max(dataset.nodes, d =>parseInt(d.forks)), 0])
+    rscale.domain([0, d3.max(dataset.nodes, d => parseInt(d.stars))]);
+    // forkScale.domain([d3.max(dataset.nodes, d=> parseInt(d.forks)), 0]);
+
+    forkScale.domain([d3.quantile(sorted_forks, 0), d3.quantile(sorted_forks, 0.2),
+                     d3.quantile(sorted_forks, 0.4), d3.quantile(sorted_forks, 0.6),
+                     d3.quantile(sorted_forks, 0.8), d3.quantile(sorted_forks, 1)]);
+
 
     // Flechas para los links
     container.append("svg:defs")
@@ -117,8 +124,9 @@ d3.json(FILEPATH, dataset => {
     nodes.on('mouseover',(d, i, node) => {
           // d3.select(nodes[i])
           console.log(d);
+
             d3.select(nodes[i]).style("opacity", function(o) {
-              return neighboring(d, o) ? 1 : 0.7;
+              return neighboring(d, o) ? 1 : 0;
               });
 
             d3.selectAll('circle')
@@ -172,7 +180,7 @@ d3.json(FILEPATH, dataset => {
 // Helper functions
 const linkColor = link_type => {
   if (link_type){
-    return '#ef8a62';
+    return 'black';
   }
   else {
     return '#bdbdbd';

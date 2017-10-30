@@ -40,11 +40,24 @@
     <div class="gist-readme" data-key="README.md">
       <p>En el grafo se pueden ver las relaciones de dependencia entre los distintos módulos de D3.
          Cada módulo esta representado por un circulo dentro del grafo, si la flecha apunta a un módulo indica que este módulo apuntado depende
-         del módulo que lo apunta. Por ejemplo, <i>d3-request</i> depende de <i>d3-collection, d3-dispatch</i>  y <i>d3-dsv</i>
+         del módulo que lo apunta. Por ejemplo, <i>d3-request</i> depende de <i>d3-collection, d3-dispatch</i>  y <i>d3-dsv</i>. Además de la
+         flecha el color negro de la linea indica si es una <i>dev-dependencie</i>.
         </p>
         <p>La cantidad de <i>stars</i> que tiene un módulo
-          esta determinada por el área que ocupa cada circulo, notoriamente el módulo con más estrellas es <i>d3</i>. En cuanto a la
-        cantidad de forks, esta se representa utilizando una secuencia de colores  </p>
+          esta determinada por el área que ocupa cada circulo, notoriamente el módulo con más estrellas es <i>d3</i>. La cantidad de <i>forks</i>
+        son representados según la escala de colores <a href="https://github.com/d3/d3-scale-chromatic">schemeYlOrRd</a>, donde el
+      donde los nodos con más <i>forks</i>son de colores cercanos al extremo rojo y lo con menos <i>forks</i> cercanos al extremo amarillo. </p>
+      <p>Al momento de pasar el mouse por alguno de los nodos, en el costado derecho se genera un cuadro con la información del módulo correspondiente
+      , la decisión de dejar fuera del grafo esta información es evitar que este rectangulo bloquee visualmente otros nodos que pueden estar cerca
+    del nodo seleccionado. Al dejar afuera esta información no se obstaculiza la observación de ningún nodo. </p>
+
+
+    <h2>Agradecimientos:</h2>
+    <p>De los siguientes blocks logré obtener ideas de implementaciones y usos de distintos elementos de d3.</p>
+      <p> <a href="https://bl.ocks.org/mbostock/1129492">Bound force layout</a> by mbostock</p>
+      <p><a href="https://bl.ocks.org/puzzler10/2531c035e8d514f125c4d15433f79d74">Bound boxing</a> by puzzler10</p>
+      <p><a href="http://bl.ocks.org/d3noob/5141278">Basic Directional Force Layout Diagram</a> by d3noob</p>
+      <p><a href="http://bl.ocks.org/norrs/2883411">Node fixed drag</a> by noors</p>
     </div>
 
     </br>
