@@ -29,8 +29,8 @@ const infoBox = container.append('text');
 const simulation = d3.forceSimulation()
                      .force('center', d3.forceCenter(width/2, height/2))
                      .force('collision', d3.forceCollide()
-                                           .radius([40]))
-                     .force('charge', d3.forceManyBody().strength(-600))
+                                           .radius([30]))
+                     .force('charge', d3.forceManyBody().strength(-500))
                      .force('link', d3.forceLink().id(node => node.name)
                                                   .distance(100));
 
